@@ -1,0 +1,1009 @@
+\documentclass[useAMS, usenatbib]{mn2e}
+\pdfoutput=1
+
+\bibliographystyle{apj}
+
+%\usepackage{times}
+
+\usepackage{deluxetable}
+\usepackage{epsfig} 
+\usepackage{subfigure}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{lscape}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+%\usepackage{hyperref}
+
+%for mac only
+\topmargin -1.5cm
+
+%%% Journals
+\newcommand{\apj}{ApJ}
+\newcommand{\aap}{A\&A}
+\newcommand{\apjl}{ApJL}
+\newcommand{\apjs}{ApJS}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\aj}{AJ}
+\newcommand{\araa}{ARA\&A}
+\newcommand{\apss}{Ap\&SS}
+\newcommand{\nat}{Nature}
+\newcommand{\pasj}{PASJ}
+\newcommand{\gca}{GeCoA}
+
+\newcommand{\Lam}{\Lambda}
+\newcommand{\lam}{\lambda}
+\newcommand{\Del}{\Delta}
+\newcommand{\del}{\delta}
+\newcommand{\mpc}{{\rm Mpc}}
+\newcommand{\kpc}{{\rm kpc}}
+\newcommand{\pc}{{\rm pc}}
+\newcommand{\cm}{\rm cm}
+\newcommand{\Msun}{M_{\odot}}
+\newcommand{\Lsun}{L_{\odot}}
+\newcommand{\Zsun}{Z_{\odot}}
+\newcommand{\hinv}{h^{-1}}
+\newcommand{\himpc}{\hinv{\rm\,Mpc}}
+\newcommand{\hikpc}{\hinv{\rm\,kpc}}
+\newcommand{\himsun}{\,\hinv{\Msun}}
+\newcommand{\etal}{et~al.}
+\newcommand{\ie}{{\frenchspacing i.e.}}
+\newcommand{\eg}{{\frenchspacing e.g.}}
+\newcommand{\ltsim}{\lesssim}
+\newcommand{\gtsim}{\gtrsim}
+\newcommand{\beq}{\begin{eqnarray}}
+\newcommand{\eeq}{\end{eqnarray}}
+\newcommand{\dd}{{\rm d}}
+\newcommand{\degree}{\ensuremath{^\circ}}
+\newcommand{\hsev}{h_{70}}
+\newcommand{\hsevkpc}{h_{70}^{-1}\,{\rm kpc}}
+\newcommand{\Om}{\Omega_{\rm m}}
+\newcommand{\Ol}{\Omega_{\Lam}}
+\newcommand{\Ob}{\Omega_{\rm b}}
+\newcommand{\Lbox}{L_{\rm box}}
+\newcommand{\Mhalo}{M_{\rm halo}}
+\newcommand{\vonetwo}{v_{12}}
+\newcommand{\lcdm}{\Lambda\rm{CDM}}
+\newcommand{\kms}{\,\rm{km}\,\rm{s}^{-1}}
+
+\newcommand{\RS}{{\sc Rockstar}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[The Bullet Cluster in $\Lambda$ Cold Dark Matter simulations]{The rise and fall of a challenger: the Bullet Cluster in {\boldmath $\Lambda$} Cold Dark Matter simulations}
+
+\author[Thompson, Dav{\'e}, \& Nagamine]{Robert Thompson$^{1}$,  Romeel Dav{\'e}$^{1,2,3}$, Kentaro Nagamine$^{4,5}$\\%$\thanks{Email: rthompson@physics.unlv.edu}\\
+$^1$ University of the Western Cape, Bellville, Cape Town 7535, South Africa\\
+$^2$ South African Astronomical Observatory, Observatory, Cape Town 7925, South Africa\\
+$^3$ African Institute for Mathematical Sciences, Muizenberg, Cape Town 7945, South Africa\\
+%$^2$ Astronomy Department, University of Arizona, Tucson, AZ 85721, USA\\
+$^4$ Department of Earth and Space Science, Graduate School of Science, Osaka University, \\
+1-1 Machikaneyama-cho, Toyonaka, Osaka 560-0043, Japan \\
+$^5$ Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 S. Maryland Pkwy, Las Vegas, NV 89154-4002, USA
+}
+
+\begin{document}
+
+\maketitle 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \begin{abstract}
+The Bullet Cluster has provided some of the best evidence for the $\Lambda$ Cold Dark Matter ($\lcdm$) model
+via direct empirical proof of the existence of collisionless dark matter, while posing a serious challenge owing 
+to the unusually high inferred pairwise velocities of its progenitor
+clusters.  Here we investigate the probability of finding such a
+high-velocity pair in large-volume N-body simulations, particularly focusing on
+differences between halo finding algorithms.  We find that algorithms
+that do not account for the kinematics of infalling groups yield
+vastly different statistics and probabilities.  When employing the
+\RS\ halo finder that considers particle velocities, we find
+numerous Bullet-like pair candidates that closely match not only
+the high pairwise velocity, 
+but also the mass, mass ratio,
+separation distance, and collision angle of the initial conditions
+that have been shown to produce the Bullet Cluster in non-cosmological
+hydrodynamic simulations.  
+The probability of finding a massive, high pairwise velocity pair
+among halos with $M_{\rm halo}\geq10^{14} M_\odot$ is $4.6\times 10^{-4}$
+using \RS, while it is $\approx 45\times$ lower using a
+friends-of-friends (FOF) based approach as in previous studies.
+This is because the typical spatial extent of Bullet progenitors is
+such that FOF tends to group them
+into a single halo despite clearly distinct kinematics.
+Further requiring an appropriately high average mass among the two
+progenitors, we find the number density of Bullet-like candidates to
+be $3.2\times 10^{-10}$ $h^3$Mpc$^{-3}$.
+Our findings suggest that $\lcdm$ straightforwardly produces massive,
+high relative velocity halo pairs analogous to Bullet Cluster
+progenitors, and hence the Bullet Cluster does not present a challenge
+to the $\lcdm$ model.
+
+\end{abstract}
+
+
+\begin{keywords}
+method : N-body simulations --- galaxies : evolution --- galaxies : formation --- galaxies: clusters --- cosmology : theory --- cosmology : dark matter
+\end{keywords}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+ \label{sec:intro}
+Observations of merging massive clusters such as the Bullet Cluster (1E0657-56)
+provide a unique opportunity to test the $\lcdm$ paradigm.  This
+particular object consists of two massive clusters that have recently
+passed through one another and are separated by $\simeq0.72\rm{Mpc}$
+on the sky at an observed redshift of $z=0.296$
+\citep{Clowe04,Clowe06,Bradac06}.  This system is relatively unique
+due to the collision trajectory being almost perpendicular to our
+line of sight.  Both clusters are also quite massive and hence rare, with
+M$_{\rm{parent}}\simeq1.5\times10^{15}\Msun$ \&
+M$_{\rm{bullet}}\simeq1.5\times10^{14}\Msun$.
+{\it Chandra} X-ray observations revealed that the primary
+baryonic component has been stripped away from the primary mass
+component (identified via weak lensing) in the collision, and resides 
+between the two massive
+clusters in the form of hot X-ray emitting gas \citep{Mark06}.  This
+evidence provided direct empirical proof for the existence of 
+collisionless and mass-dominant dark matter \citep{Clowe06}.
+
+Shock features in the gas have been used to infer the velocity of
+the bow shock preceding the `bullet'
+\citep[$v_{\rm{shock}}=4740^{+710}_{-550}\kms$;][]{Mark06}, which
+was initially assumed to be approximately the infall velocity of the 
+`bullet' itself.  Through the use of non-cosmological hydrodynamic
+simulations, several groups have shown that this is not necessarily
+the case \citep{Milo07,Springel07,Mast08,Lage14}.  Initial halo
+configurations varied, with separation distances ($d_{12}$) ranging
+from $\sim 3.4 - 5$\,Mpc and pairwise velocities ($\vonetwo$) ranging
+from $2057-3980\kms$ at $z \simeq 0.5$.  The most recent works set
+the initial halo requirements to be $\vonetwo\simeq3000\kms$ at a
+separation distance of $d_{12}\simeq 5$\,Mpc \citep{Mast08,Lage14b}.
+
+Reproducing such a massive, close, and high-$\vonetwo$ merging pair
+in large N-body cosmological simulations has proven to be very
+challenging \citep{Hayashi06,Lee10,Thompson12,Bouillot14}, potentially
+suggesting that the canonical
+$\lcdm$ model with Gaussian perturbations is inconsistent with
+the observed Bullet Cluster.  Improving upon the work of \citet{Lee10},
+\citet{Thompson12} calculated the probability of finding a halo pair (indicated by the subscript `$12$')
+with $\vonetwo\geq3000\kms$ among all halo pairs with
+$\rm{M}_{12}\geq10^{14}\Msun$ and $d_{12}\leq10\,\rm{Mpc}$ to be $\rm{P}=2.8\times10^{-8}$.
+Extrapolating their cumulative $\vonetwo$ curve,
+they estimated that one would need a box size of at least
+$\simeq(4.5\hinv\rm{Gpc})^3$ to produce one Bullet-like pair.
+
+\citet{Bouillot14} argue that the simulations of \citet{Lee10} and \citet{Thompson12}
+were too limited in volume (($3\hinv\rm{Gpc})^3$ \& ($2\hinv\rm{Gpc})^3$
+respectively) to properly characterise the tail of the $\vonetwo$ distribution.
+They estimated the probability of finding a Bullet-like cluster in
+a ($21\hinv\rm{Gpc})^3$ simulation to be
+P($\vonetwo>3000\kms$)$=6.4\times10^{-6}$, which is two orders of
+magnitude larger than estimates by \citet{Thompson12}.  However,
+even with an improved probability in such a large volume,
+\citet{Bouillot14} did not find any halo pairs matching the initial
+configurations required to reproduce the observed properties of
+1E0657-56 \citep{Mast08,Lage14b} .
+
+The simulations analysed by \citet{Lee10},\citet{Thompson12}, and \citet{Bouillot14}
+have one crucial aspect in common: each group used a variant of the
+friends-of-friends (FOF) algorithm \citep[e.g.,][]{Davis85} to identify and
+group their dark matter particles into halos.  It is known that FOF
+tends to `over-group' the dark matter halos when the resolution of
+the simulation is not adequate.  It is often the case that a trace
+amount of particles bridge the two halos, resulting in them being
+identified as a single dumbbell-shaped group.  When the overlap between
+the two halos is more significant, FOF has no way of separating
+them into two components.  
+
+In this paper, we demonstrate that in the context of searching for
+a close, massive, high-$\vonetwo$ pair, one cannot accurately identify halos
+based solely on the spatial distribution of particles, as FOF does.
+To properly separate and identify substructures, we must also
+consider the particle velocities.  The recently developed \RS\
+halo finder~\citep{ROCKSTAR} provides a way to do so.  We use
+\RS\ to calculate more robust statistics and probabilities for
+finding a Bullet-like pair in a large cosmological N-body simulation.
+We find much greater numbers of such Bullet candidates than in
+previous works, and moreover they reasonably match the required
+initial configurations of \citet{Mast08} and \citet{Lage14b} in mass, mass
+ratio, $d_{12}$, collision angle, and $\vonetwo$.
+
+This paper is organized as follows: in Section~\ref{sec:simulations}
+we detail our simulations.  Section~\ref{sec:halofinders} details
+the halo finding algorithms.  We present our results in
+Section~\ref{sec:results}.   Section~\ref{sec:conclusions} contains
+concluding remarks and discussion.
+
+\section{Simulations}
+ \label{sec:simulations}
+For our simulations we use the {\small GADGET-3} code \citep{Springel05},
+which simulates large N-body systems by means of calculating
+gravitational interactions with a hierarchical multipole expansion.
+It uses a particle-mesh method for long-range forces and a tree
+method for short-range forces.
+
+Initial conditions are initialized at $z=99$ using {\small N-GenIC}\footnote{\url{http://www.mpa-garching.mpg.de/gadget/}}.
+We assume cosmological parameters
+consistent with constraints from the WMAP \citep{WMAP9} \& Planck
+\citep{Planck13} results, namely $\Omega_{m}=0.3,
+\Omega_{\Lambda}=0.7,H_0=70,\sigma_8=0.8,n_s=0.96$.  Our largest
+simulation employs $1600^3$ collision-less dark matter (DM) particles
+in a $(4.5\hinv\rm{Gpc})^{3}$ volume with an effective force
+resolution of $\epsilon=112.5\,h^{-1}\rm{kpc}$ (i.e., comoving
+gravitational softening length).  Two simulations with smaller
+volumes ($2.250\,\&\,1.125\, \hinv\rm{Gpc})^3$ and particle counts
+($800^3$ \& $400^3$) were ran with the same force resolution to
+test how the simulation volume affects our results.  A summary of
+the simulations used in this study can be found in Table~\ref{table:sims}.
+
+%% TABLE 1 %%
+\begin{deluxetable}{ccrcc}
+\tablecolumns{5}
+\tablewidth{0pc}
+\tablecaption{Simulations \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \, \,  \, \, \, \, \, \, \, \, \, \, \, \, \, }
+\tablehead{\multicolumn{1}{c}{Run} &
+	\colhead{Box Size} & 
+	\colhead{Particle } &
+	\colhead{M$_{dm}$} &
+	\colhead{$\epsilon$} \\
+	\colhead{Name} &
+	\colhead{[$\hinv$Mpc]} &
+	\colhead{ Count } &
+	\colhead{[$\hinv$$\Msun$]} &
+	\colhead{[$\hinv$kpc]}
+	}
+\startdata
+L4500 & 4500 & $1600^3$ & $1.85\times10^{12}$ & 112.5 \\
+L2250 & 2250 & $800^3$  & $1.85\times10^{12}$ & 112.5 \\
+L1125 & 1125 & $400^3$ & $1.85\times10^{12}$   & 112.5 \\
+\enddata
+\vspace{-0.5cm}
+\label{table:sims}
+\tablecomments{Summary of simulations used in this paper.  M$_{dm}$ is the mass of each dark matter particle, and $\epsilon$ is the comoving gravitational softening length.}
+\end{deluxetable}
+%%%%%%%%%%%
+
+
+\section{Halo Finders}
+ \label{sec:halofinders}
+Identifying dark matter halos as groups of particles within simulation data
+is a challenging affair, and there are numerous codes
+with different feature sets employing different algorithms.
+\citet{MAD11} compared a number of halo finders in both cosmological
+and idealized scenarios.  Overall, they found most to be in agreement
+with one another, with only subtle variations among the results.
+But in detail and for specific types of systems, the differences
+can be substantial.
+Here we employ two popular group finding algorithms to group
+dark matter particles into halos: a friends-of-friends algorithm,
+and a six-dimensional phase-space halo finder.
+
+The FOF algorithm used in this study is a simplified version of the
+parallel friends-of-friends group finder {\small SUBFIND}
+\citep{Springel01}.  The code groups the particles into DM halos
+if their positions lie within a specified linking length.  This
+linking length is a fraction of the initial mean inter-particle
+separation, for which we adopt a standard value of $b=0.15$
+\citep{More11}.  Additional groupings with $b=0.20$ were performed,
+whose results are briefly discussed in Section~\ref{sec:pdf}.
+
+We also use a six-dimensional phase-space algorithm called 
+\RS\ \citep[hereafter RS;][]{ROCKSTAR}, which is based on an
+adaptive hierarchal refinement of friends-of-friends groups in both
+positional and velocity space.  This allows RS to more accurately
+identify substructure while maintaining accurate recovery of halo
+properties \citep[see][for further details]{MAD11}.
+
+For most situations, FOF determines halo properties to $10\%$
+accuracy \citep{MAD11}.  The algorithm however, is not without
+weaknesses.  In major mergers or when sub-halos lie close to the
+centers of their host halos, the density contrast is not strong
+enough to distinguish which particles belong to which halo.  If the
+two halos have some relative motion, six-dimensional halo finders
+(such as RS) can additionally use particle velocity information to
+determine halo membership \citep{ROCKSTAR}.
+
+
+\section{Results}
+\label{sec:results}
+
+To search for Bullet Cluster-like halo pair progenitors, 
+we examine our simulations at $z=0.489$ 
+to identify systems with the required initial configurations.
+
+\subsection{Halo Mass Function}
+ \label{sec:massfunc}
+
+To check the validity of our DM halo identification,  we examine
+the DM halo mass function in Figure~\ref{fig:massfunc}.  The mass
+functions of the two halo finders match remarkably well.  This
+agreement is not surprising, because the virial masses calculated
+by RS include all substructure and should be comparable to the FOF
+halo masses.  We truncate the FOF halo mass function at 32 particles,
+but we show the RS mass function below this in order to visualize
+the level of incompleteness owing to poor numerical resolution at
+low halo masses; we will only be concerned with halos 
+$\geq10^{14}M_\odot$, above which the mass function is not limited by
+our resolution, and in this regime there is little difference in
+the mass function between the two codes.
+
+The black dashed line in Figure~\ref{fig:massfunc} is the \citet{ST99}
+DM halo mass function at $z=0.489$.  Our simulations with both
+groupings slightly underpredict with regards to analytic theory at
+the low-mass end, and slightly over predict at the high-mass end.
+Many studies have shown that theoretical models such as \citet{ST99}
+do not always agree with simulations since they do not capture the
+entire complexity of halo formation \citep[i.e.
+][]{Jenkins01,Tinker08,Robertson09,Courtin11}.  The important point
+here however, is that both halo identification codes agree well
+with each other at M$_{\rm halo}\geq1\times10^{14}\Msun$, which
+corresponds to a halo with approximately 40 DM particles.
+
+%% FIGURE 1 %%
+\begin{figure}
+\includegraphics[scale=0.45]{figure1.pdf}
+\caption{DM halo mass function at $z=0.489$ for RS \& FOF groupings.  The vertical black dotted lines represent the mass of the bullet and parent respectively.  The dashed line represents the theoretical DM halo mass function from \citet{ST99}.}
+\label{fig:massfunc}
+\end{figure}
+%%%%%%%%%%
+
+\subsection{Average pair mass and pairwise velocities}
+ \label{sec:v12}
+We calculate pairwise velocities ($\vonetwo = |\vec{v}_1 - \vec{v}_2|$)
+for all halo pairs with $d_{12}\leq10\,\rm{Mpc}$.  To examine how
+$\vonetwo$ relates to the mass of the halo pair, we plot the average
+halo pair mass ($\langle M_{12} \rangle \equiv (\rm{M}_{1}+\rm{M}_{2})/2$)
+as a function of $\vonetwo$ in Figure~\ref{fig:v12}, for FOF \& RS
+groupings in all three box sizes.  RS clearly has a broader
+distribution along $\vonetwo$ in every case, a direct result of the
+code identifying more velocity-space substructure.  The dashed lines denote
+the average mass of the two components of the Bullet Cluster 
+\citep[$8.25\times10^{14}\Msun$;][]{Clowe04,Clowe06,Bradac06},
+along with their pairwise velocity
+of $\vonetwo=3000\kms$.  We note that, in our larger volumes, 
+RS identifies numerous potential
+Bullet progenitor candidates (in and around the upper right quadrant 
+of each panel), whereas FOF identifies none.
+
+%% FIGURE 2 %%
+\begin{figure}
+\includegraphics[scale=0.33]{figure2.png}
+\caption{Average halo pair mass as a function of halo pairwise velocity ($\vonetwo$).  Colors correspond to a logarithmic number density within a hexagonal bin.
+The vertical dashed line represents the initial infall velocity of $\vonetwo=3000\kms$ required by \citet{Mast08} and \citet{Lage14} to reproduce the 1E0657-56 observables.
+Horizontal dashed line represents the average mass of the observed Bullet Cluster ($8.25\times10^{14}\Msun$).
+}
+\label{fig:v12}
+\end{figure}
+%%%%%%%%%%
+
+\subsection{Pairwise velocity probability distribution function}
+ \label{sec:pdf}
+To estimate the probability of finding a Bullet Cluster candidate,
+the usual approach is to identify halo pairs with high relative velocities ($\vonetwo\geq3000\kms$)
+from among all halo pairs above a given mass threshold (M$_{12}\geq10^{14}\Msun$) and separated by $d_{12}\leq10\rm{Mpc}$ .
+The Bullet Cluster, however, has a considerably higher mass, with the main cluster having a mass in excess of $10^{15}\Msun$.  
+Given that the usual criteria may not select pairs with mass ratios similar to the Bullet-Cluster, we refer to these as {\it massive, high-$\vonetwo$} pairs.
+To more accurately sample {\it Bullet-like} candidates, we will additionally restrict our sample to pairs whose average mass is greater than $8.25\times10^{14}\Msun$.
+In this section we discuss the general pairwise velocity probability distribution function (PDF) of both {\it massive, high-$\vonetwo$} pairs \& {\it Bullet-like} candidates before discussing the number density of these objects in the following section.
+
+Previous works have determined
+the probability of finding a {\it massive, high-$\vonetwo$} pair to be on the order of P($\geq3000\kms)\simeq10^{-8}-10^{-9}$
+\citep{Lee10,Thompson12}.  Recently \citet{Bouillot14} argued for
+a value two orders of magnitude larger (P$\simeq10^{-6}$) through
+the examination of a simulation with a much larger volume ($21\hinv
+\rm{Gpc})^{3}$.  As we show in Section~\ref{sec:v12} however,
+identifying halos with an FOF algorithm can lead to substantially
+lower values of $\vonetwo$ (Figure~\ref{fig:v12}) due to its inability
+to distinguish between substructure in merging systems like the
+Bullet.  These lower values of $\vonetwo$ will have a direct impact
+on the resulting probabilities.
+
+Figure~\ref{fig:PDF} shows the PDF and fit from our largest simulation
+for both FOF \& RS groupings of massive (M$_{12}\geq10^{14}\Msun,d_{12}\leq10\rm{Mpc}$) pairs.  The overall distribution is
+Gaussian-like, with a peak at $\vonetwo\approx 600\kms$.  This is
+comparable to the Hubble velocity for halos separated by 6.5~Mpc.
+The {\it massive, high-$\vonetwo$} candidates lie in the extreme tail of the distribution
+at $\vonetwo\geq 3000\kms$.  Hence such high velocities are only
+likely to arise in systems that are merging towards each other.
+
+The probability for a {\it massive, high-$\vonetwo$} candidate is the area under this
+curve above the velocity threshold, divided by the total area under
+the curve.  Because this high-$\vonetwo$ tail is sampled by a small
+number of halos owing to the limited simulation volume, it may not
+be a fair representation of the true statistics to simply count
+halos above this threshold.  One approach to mitigate this is to
+fit the PDF with an analytic function and integrate this function
+out to infinity.  Previous works have used a Gaussian for this
+purpose \citep{Lee10,Thompson12}, but \citet{Bouillot14} argues for
+the use of ``Extreme Value Statistics"
+\citep{Frechet27,Fisher28,Gumbel35,Gnedenko43} since the extreme
+tail of the PDF can deviate significantly from a Gaussian.
+
+Here we instead follow the approach of fitting a skewed Gaussian,
+but we force the fit to be very good particularly for the PDF above
+$3000\kms$.  This is accomplished by allowing large fitting errors
+at $\vonetwo<3000\kms$, and small ones at $\vonetwo\geq3000\kms$.
+A least-square-fit then obtains a very good fit at high velocities,
+at the expense of a poorer fit at lower velocities.  However, we
+do not need to use the fit at lower velocities, since there we can
+directly count halos within a large and representative sample.
+We then calculate the probability of finding a {\it massive, high-$\vonetwo$} pair
+with desired statistics by integrating our best-fit skewed Gaussian
+to infinity.  
+
+We also show the skewed Gaussian fits (dashed lines) in Figure~\ref{fig:PDF} .  
+At $\vonetwo<3000\kms$ the fit is not good, but as shown by the inset
+in the upper left, the fit is much better at $\vonetwo\geq3000\kms$.  
+By integrating the fitting function from $3000\kms$ to infinity we obtain
+probabilities of P$_{\rm{RS}}=4.58\times10^{-4}$ \&
+P$_{\rm{FOF}}=9.95\times10^{-6}$.  Again, this is the probability
+of finding a halo pair with $\vonetwo\geq3000\kms$ among all halo pairs with 
+$d_{12}\leq10\rm{Mpc}$ and M$_{12}\geq10^{14}\Msun$
+at $z=0.489$.
+
+Our P$_{\rm{FOF}}$ is slightly larger than the value calculated by
+\citet{Bouillot14} which may be due to our simplified approach.  If
+we run the same analysis on FOF groupings with $b=0.20$ as opposed
+to $b=0.15$, we find P$_{{\rm FOF},b=0.20}=3.51\times10^{-6}$, which
+is slightly smaller than the value of P$=6.4\times10^{-6}$ that
+\citet{Bouillot14} obtained using $b=0.15$ for their FOF groupings.
+Regardless of this difference, P$_{\rm{RS}}$ remains almost two
+orders of magnitude higher than previous estimates using FOF.
+
+Repeating the same exercise on the smaller boxes results in similar
+probabilities.  For the L2250 run, we find P$_{\rm{FOF}}=4.48\times10^{-6}$
+and P$_{\rm{RS}}=5.64\times10^{-4}$.  And P$_{\rm{FOF}}=3.37\times10^{-6}$
+and P$_{\rm{RS}}=2.46\times10^{-4}$ for the L1125 run.  Note that
+the distribution gets noisier with decreasing box size, hence the
+probabilities become more unreliable.  Even so, the probabilities
+remain roughly similar in order of magnitude, showing that this approach
+is stable against reasonable box size variations.
+
+In Figure~\ref{fig:PDFdiff}, we show the ratio between the RS and
+FOF PDFs in our three simulation volumes.  The PDFs are very similar
+for $\vonetwo\la 1000\kms$, but above this value the RS probability
+increases markedly relative to FOF, such that by $\vonetwo\sim
+3000\kms$ it is two orders of magnitude higher.  The ratio of FOF
+\& RS PDFs in the L2250 and L1125 runs have the same trend as the
+L4500 run, suggesting that the statistical relation between massive
+FOF \& RS velocity pairs does not vary drastically even in volumes
+as small as $(1125\,\hinv {\rm Mpc})^3$.
+
+Using the methods described above, we impose an additional mass criteria of $\left<\rm{M}_{12}\right>\geq8.25\times10^{14}\Msun$ and calculate the probability of finding a {\it Bullet-like} halo pair 
+within our largest volume to be P$_{{\rm RS},Bullet-like}=1.89\times10^{-2}$ and P$_{{\rm FOF},Bullet-like}=2.00\times10^{-5}$.
+Note that with the additional mass cut we are sampling a different population of halo pairs.
+This results in a value of P$_{{\rm RS},Bullet-like}$ that is $\approx40\times$ larger than P$_{\rm{RS}}$, while P$_{{\rm FOF},Bullet-like}$ is only $\approx2\times$ larger than  P$_{\rm{FOF}}$, indicating that a greater fraction of $\left<\rm{M}_{12}\right>\geq8.25\times10^{14}\Msun$ halo pairs within the RS groupings have a $\vonetwo$ greater than $3000\kms$.
+Nonetheless, we will show in the next section that such {\it Bullet-like} pairs are globally less frequent than {\it massive, high-$\vonetwo$} pairs by an order of magnitude.
+A summary of these probabilities can be found in Table~\ref{table:probabilities}.
+
+%% FIGURE 3 %%
+\begin{figure}
+\includegraphics[scale=0.45]{figure3.pdf}
+\caption{Probability distribution function of massive halo pairs (M$_{12}\geq10^{14}\Msun, d_{12}\leq10\rm{Mpc}$) in our
+largest simulation (L4500) identified by FOF and RS.  Red solid line represents
+the FOF data and the blue solid line shows RS.  Dashed lines represent
+the skew normal fit to the data.  Small error bars were applied at
+$\vonetwo\geq 3000\kms$ to force the fit to be better there, at
+the expense of a poor fit at lower $\vonetwo$.
+Inset shows the fit at $\vonetwo\geq3000\kms$,
+demonstrating the excellent fit in the high velocity tail.  We
+also show the probability of finding a halo with $\vonetwo\geq 3000\kms$
+obtained by integrating the fitting functions to $\infty$.
+}
+\label{fig:PDF}
+\end{figure}
+%%%%%%%%%
+
+%% FIGURE 4 %%
+\begin{figure}
+\includegraphics[scale=0.45]{figure4.pdf}
+\caption{Ratio between FOF \& RS PDFs, for all three simulation box sizes.
+The two halo finders agree well up to $\vonetwo\sim 1000\kms$, but
+RS rapidly increases relative to FOF above this.  The PDF are consistent
+among the various box sizes.}
+\label{fig:PDFdiff}
+\end{figure}
+%%%%%%%%%%
+
+\subsection{Number density estimation}
+\label{sec:ndensity}
+In order to quantify whether these objects are a likely occurrence in $\lcdm$, 
+we must estimate their number densities.
+This will also provide predictions for future all-sky surveys that may
+be able to probe deeper and hence see such objects over a larger
+volume.
+
+In our largest volume simulation, the number of halo pairs with
+$d_{12}\leq10\rm{Mpc}$, M$_{12}\geq10^{14}\Msun$, and
+$\vonetwo\geq3000\kms$ is 6 using FOF and 318 using RS.  To obtain
+the full number density, we must additionally correct for our finite
+volume using the integrated PDF described in the previous
+sections; this results in an additional factor of $1.13$ for FOF
+and $1.03$ for RS.  Dividing by our
+simulation volume, we thus obtain the values of
+$n_{\rm{FOF}}=7.43\times10^{-11}$ and
+$n_{\rm{RS}}=3.6\times10^{-9}\,(\hinv\rm{Mpc})^{-3}$.
+
+We note that \citet{Thompson12} computed a number density, but to
+do so they needed to extrapolate their cumulative
+$\vonetwo$ distribution out to 3000$\kms$ owing to their limited
+volume of $(2\hinv\rm{Gpc})^3$.  They calculated a value of
+$n=3.5\times10^{-13}(\hinv\rm{Mpc})^{-3}$ for such halo pairs.
+The use of a larger volume and a better fitting function results
+in significantly higher values for FOF, and RS additionally provides
+a number density increase by more than a factor of 45.
+
+Again the distinction must be made that the above values of $n$ 
+represent the number density of {\it massive, high-$\vonetwo$} halo pairs.
+Within our largest volume simulation we find 0 FOF pairs, and 20 RS pairs that meet the {\it Bullet-like} criteria described in the previous section.
+We find the number density of {\it Bullet-like} halo pairs to be $n_{{\rm RS},Bullet-like}=3.2\times10^{-10} (\hinv\rm{Mpc})^{-3}$,
+i.e. an order of magnitude less than the number density of {\it massive, high-$\vonetwo$} pairs
+($n_{\rm{RS}}$).
+Table~\ref{table:probabilities} summarizes these results.
+
+
+\subsection{Bullet-like pair candidates}
+\label{sec:candidates}
+
+We now study in more detail the properties of {\it Bullet-like} candidates
+in the simulation.  {\it Bullet-like} candidate pairs are selected from
+our largest simulation according to the following criteria:
+(i) M$_{12}\geq10^{14}\Msun$,
+(ii) $\left<\rm{M_{12}}\right>$$\geq8.25\times10^{14}\Msun$,
+(iii) $d_{12}\leq10\,\rm{Mpc}$ and
+(iv) $\vonetwo\geq3000\kms$.  
+As mentioned in Section~\ref{sec:ndensity} we find 20 candidates
+within the RS groupings that meet this criteria, and zero within
+the FOF groupings.
+
+%% FIGURE 5 %%
+\begin{figure*}
+\includegraphics[scale=0.5]{figure5.pdf}
+\caption{Candidate halo pairs from Table~\ref{table:candidates} projected on the $x-y$ plane.  Greyscale
+intensity represents the number of FOF identified particles contained
+within each hexagonal bin.  The size of each bin corresponds roughly
+to the FOF linking length of $\simeq0.4\rm{Mpc}$ ($b=0.15$).  Panels
+(1) \& (2) show RS-identified mean particle velocity vectors from
+each bin.  To accentuate the differences we also subtract the FOF
+halo's bulk velocity from the RS velocities.  In these cases,
+FOF groups the two concentrations into a single halo, whereas
+RS separates them into two halos based on their distinct kinematics.
+Panel (3) only shows
+the smaller halo from candidate pair \#3; here we also overplot the FOF
+velocity vectors in red.  Where most of the particles
+lie (the dark region), the velocity vectors of RS and FOF are
+in the opposite direction, showing that again FOF is merging kinematically
+distinct components that RS separates.  The resulting pairwise velocity
+relative to the main halo (not shown) is much smaller in the FOF case.
+}
+\label{fig:vis}
+\end{figure*}
+%%%%%%%%%%%%%
+
+We select the three most ideal {\it Bullet-like} candidate pairs from the
+RS groupings that best match the true Bullet Cluster mass ratio and
+separation distance, and examine FOF data for the same halos.  The
+results are summarized in Table~\ref{table:candidates}.  RS {\it Bullet-like}
+candidates \#1 and \#2 are each grouped into a single FOF halo.
+Pair three however, is identified as two separate FOF groups, but
+with a $\vonetwo$ that is less than half of its RS counterpart (and
+hence fails to meet the {\it Bullet-like} criteria).  We note that we
+used $b=0.15$ to group FOF halos; if we had used the canonical value
+of $b=0.20$, FOF identifies system \#3 as a single group.
+
+By visualizing these systems we can better understand the differences
+between RS and FOF.  In Figure~\ref{fig:vis} we project the halo
+particles of our candidate groups onto the $x-y$ plane, and then
+bin them into hexagonal bins\footnote{Interactive 3D visualizations are available at \url{http://www.physics.unlv.edu/~rthompson/bulletCandidates}}.  The number of FOF-identified particles within a given
+bin is indicated by the shade of each hexagon, with darker shades
+corresponding to more particles contained within.  Additionally,
+we indicate the mean velocity vectors of particles within each bin
+by the colored arrows.
+
+Panels (1) \& (2) show halo candidate pairs \#1 and \#2 from
+Table~\ref{table:candidates}.  Both of these pairs are identified
+as a single group by FOF; one can clearly see the `bridge' of
+particles connecting the two concentrations.  Arrows indicate the
+mean velocity of the RS-identified particles within a given bin
+minus the bulk velocity of the corresponding (single) FOF halo.
+The directions and magnitudes of the different RS groupings provides
+clear evidence that the single object identified by FOF is indeed
+two separate objects when viewed in velocity space.  We do not to
+show FOF velocity information, but it is very similar to that of
+RS since the actual particles grouped into RS and FOF halos are
+quite similar; the difference is that, by using velocity information,
+RS is able to separate these systems into two distinct halos whereas
+FOF (which does not use velocity information) lumps them into one.
+
+Candidate \#3 is distinct since both FOF and RS identify them as
+two separate halos.  Here we only show the smaller `bullet' from
+this pair in Panel~(3) of Figure~\ref{fig:vis}, since the larger
+halo is identified similarly by both.  We further show the median velocity
+vectors for both FOF-identified particles (red) and RS-identified
+particles (blue).  While some bins have similar mean velocities,
+others are considerably different from one another.  Most notably,
+two of the dark center bins where the majority of the mass lies
+show nearly opposing velocity vectors between FOF and RS.  What has
+happened is that there are multiple objects in this region, and FOF
+has overgrouped them resulting in a velocity much closer to that
+of the main halo (not shown).  Meanwhile, RS is able to distinguish
+the relatively small `bullet' that is distinct in velocity space.
+The overgrouping results in an FOF halo that is $7\times$ more
+massive than the RS counterpart, and double in radius.  Crucially,
+the pairwise velocity is reduced by a factor of two when compared
+to the RS results.
+
+By lumping together multiple groups into a single object, the overall bulk
+velocity can easily get washed out.  Consider this simple example:
+two head-on merging halos are grouped together; their bulk
+velocities would effectively cancel out leading to a much lower bulk
+velocity for the final group.  When $\vonetwo$ is calculated between
+this group and others, the resulting value would be much lower than if they were considered as separate objects.
+This problem is exacerbated as the number of distinct objects grouped
+together increases.  
+Candidate \#3 is one clear example of such a process.
+
+\begin{comment}
+Figure~\ref{fig:vis} shows a visual representation of each of these
+candidate pair's smaller `bullet' halo.  In each panel we see the
+particle velocity vectors represented as colored arrows; the base
+of the arrows is the particle's position, the length of the arrow
+is proportional to the maximum particle velocity within each panel,
+and the colors represent group membership (FOF/RS).  Red arrows
+correspond to particles that are only identified by FOF, blue arrows
+to particles only identified by RS, and cyan arrows are particles
+that are identified by both FOF \& RS.
+
+Panels (1) \& (2) show halo pairs one and two from
+Table~\ref{table:candidates}, respectively.  Both of these pairs
+are identified as a single group by FOF.  However, the velocity
+field clearly shows that the right clump has a large number of
+infalling velocity vectors, indicating that it is a dynamically
+separate group.  This large grouping is actually the larger `parent'
+halo whose RS grouping data is not shown because we are instead
+focused on the smaller `bullet'.  These two panels plainly illustrate
+how FOF can group particles together when they are distinctly
+different in velocity space.
+
+In Panel~(3) we show candidate pair three, which is identified as
+two separate objects by FOF \footnotemark[\value{footnote}].  Because
+of this, we are only visualizing the smaller `bullet' halo for both
+groupings.  One can clearly see multiple groups with different bulk
+velocities.  In fact, for this particular region RS identifies three
+individual sub-halos.  For the purposes of this paper however, we
+focus on only one of these sub-halos, which can be seen as the blue
+\& cyan arrows.  The FOF halo is much larger than the RS counterpart
+by nearly an order of magnitude in mass ($\Delta
+M\simeq7.91\times10^{14}\Msun$), and size ($\Delta
+r_{vir}\simeq0.92\,\rm{Mpc}$).
+By lumping together sub-halos into a single halo the overall bulk
+velocity could easily get washed out.  Consider this simple example:
+two head-on merging halos are grouped together, their overall bulk
+velocity would effectively cancel out leading to a much lower bulk
+velocity for the final group.  When $\vonetwo$ is calculated between
+this group and others, the resulting value would be much lower.
+This problem is exacerbated as the number of sub-halos grouped
+together increases.  
+Candidate three is one clear example of such a process.
+
+\end{comment}
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+In this work we determine the probability and number density of
+finding systems analogous to progenitors of the Bullet Cluster
+1E0657-56 within large-volume cosmological N-body simulations.  We
+particularly examine the difference between two popular halo finding
+algorithms in the context of searching for a massive, high-pairwise
+velocity halo pair.  Our results show that halo finders that only
+consider particle positions (FOF) can underestimate the probability
+of high pairwise velocity systems, which can ultimately lead to
+tension with the $\lcdm$ model.  Halo finders that additionally
+consider particle velocities can more robustly
+identify kinematically distinct substructures, resulting in greater
+$\vonetwo$ probabilities, alleviating tensions with $\lcdm$.
+
+Within our largest cosmological N-body simulation, we find the
+probability of producing a halo pair with $\vonetwo\geq3000\kms$
+from among all halo pairs with $d_{12}\leq10\rm{Mpc}$, \& M$_{12}\geq10^{14}\Msun$ to be
+P$_{\rm{RS}}=4.58\times10^{-4}$ when using \RS\ (RS).
+This value is larger by 1.6 dex than when one only considers particle
+positions using a friends-of-friends (FOF) halo finding algorithm 
+(P$_{\rm{FOF}}=9.95\times10^{-6}$).  Simulation box size
+still plays an important role as we show in Figure~\ref{fig:v12},
+but using RS, a box size on the order of $(2\hinv\rm{Gpc})^3$ yields
+similar probabilities as a $(4.5\hinv\rm{Gpc})^3$ box with reasonable
+extrapolations of the $\vonetwo$ probability distribution functions.
+
+We estimate the expected number density of such {\it massive, high-$\vonetwo$}
+objects to be $n_{\rm{RS}}=3.6\times10^{-9}(\hinv\rm{Mpc})^{-3}$.
+Imposing an additional mass criteria of $\langle \rm{M}_{12} \rangle
+\geq 8.25\times10^{14}\Msun$ in order to identify more massive systems
+that are truer analogs of the Bullet Cluster, we calculate the
+expected number density of {\it Bullet-like} objects to be
+$n_{{\rm RS},Bullet-like}=3.2\times10^{-10}(\hinv\rm{Mpc})^{-3}$.
+Including this more stringent mass criterion, RS identifies $\simeq20$
+{\it Bullet-like} candidates within our largest simulation, wherein
+FOF applied to the same simulation identifies none.
+
+By studying individual examples, we show that the differences between
+RS and FOF owe to the identification of more substructure by
+considering particle velocities.  We identify three ideal candidate
+halo pairs from the RS dataset and examine the FOF data in the same
+region (Table~\ref{table:candidates}).  By not considering particle
+velocities, FOF tends to over-group halos and/or group together
+particles that are clearly different groups in velocity space
+(Figure~\ref{fig:vis}).
+
+We do not expect to find an exact match to the Bullet Cluster within
+one random realization of our Universe.  The more significant point
+is that producing such {\it massive high-$\vonetwo$} pairs should no
+longer be considered a challenge to $\lcdm$, as was suggested in
+\citet{Lee10,Thompson12}.  
+As we have shown here, the identification
+of such a pair is not only possible but likely when a kinematic
+halo finding algorithm is used.  While for the overall halo population
+the differences between RS and FOF are fairly minor, using particle
+velocity information is crucial when identifying halos in the context
+of this particular problem.
+
+More broadly, this greatly ameliorates a major challenge to the
+$\lcdm$ model presented by the high progenitor pairwise velocities
+of the Bullet Cluster.  Instead, we show that the Bullet Cluster
+is a rare but expected object in a $\lcdm$ universe.  Future all-sky
+X-ray surveys 
+(e.g. eROSITA)
+%(e.g. eROSITA\footnote{\tt http://www.mpe.mpg.de/eROSITA})
+together with upcoming weak lensing surveys 
+(e.g. LSST)
+%(e.g. LSST\footnote{\tt http://www.lsst.org/lsst}) 
+will potentially identify many more
+Bullet-like systems to lower masses and/or higher redshifts, which
+can be used to further explore the nature of dark matter, and
+thus test the $\lcdm$ paradigm in more detail.  At this time,
+however, the Bullet Cluster provides unequivocal support for the
+modern concordance cosmological paradigm.
+
+
+ \section*{Acknowledgements}
+The simulations used in this paper were run on `Blue Waters' at the
+National Center for Supercomputing Applications (NCSA), and the data was
+analysed on the `Timon' cluster at the University of the Western Cape with 
+{\small pyGadgetReader}\footnote{\url{https://bitbucket.org/rthompson/pygadgetreader}} \& 
+{\small SPHGR}\footnote{\url{https://bitbucket.org/rthompson/sphgr}}.
+This research is part of the Blue Waters sustained-petascale
+computing project, which is supported by the National Science
+Foundation (awards OCI-0725070 and ACI-1238993) and the state of
+Illinois.  Blue Waters is a joint effort of the University of
+Illinois at Urbana-Champaign and NCSA.  This work is also part of
+the PRAC allocation, supported by the National Science Foundation
+(award number OCI-0832614).  Support for this work was provided by
+the South African Research Chairs Initiative and the South African
+National Research Foundation, along with NASA grant NNX12AH86G.
+
+\vspace{-0.25cm}
+\footnotesize{
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Wechsler}, \& {Wu}}]{ROCKSTAR}
+{Behroozi}, P.~S., {Wechsler}, R.~H., \& {Wu}, H.-Y. 2013, \apj, 762, 109
+
+\bibitem[{{Bouillot} {et~al.}(2014){Bouillot}, {Alimi}, {Corasaniti}, \&
+  {Rasera}}]{Bouillot14}
+{Bouillot}, V.~R., {Alimi}, J.-M., {Corasaniti}, P.-S., \& {Rasera}, Y. 2014,
+  ArXiv e-prints
+
+\bibitem[{{Brada{\v c}} {et~al.}(2006){Brada{\v c}}, {Clowe}, {Gonzalez},
+  {Marshall}, {Forman}, {Jones}, {Markevitch}, {Randall}, {Schrabback}, \&
+  {Zaritsky}}]{Bradac06}
+{Brada{\v c}}, M., {Clowe}, D., {Gonzalez}, A.~H., {Marshall}, P., {Forman},
+  W., {Jones}, C., {Markevitch}, M., {Randall}, S., {Schrabback}, T., \&
+  {Zaritsky}, D. 2006, \apj, 652, 937
+
+\bibitem[{{Clowe} {et~al.}(2006){Clowe}, {Brada{\v c}}, {Gonzalez},
+  {Markevitch}, {Randall}, {Jones}, \& {Zaritsky}}]{Clowe06}
+{Clowe}, D., {Brada{\v c}}, M., {Gonzalez}, A.~H., {Markevitch}, M., {Randall},
+  S.~W., {Jones}, C., \& {Zaritsky}, D. 2006, \apjl, 648, L109
+
+\bibitem[{{Clowe} {et~al.}(2004){Clowe}, {Gonzalez}, \& {Markevitch}}]{Clowe04}
+{Clowe}, D., {Gonzalez}, A., \& {Markevitch}, M. 2004, \apj, 604, 596
+
+\bibitem[{{Courtin} {et~al.}(2011){Courtin}, {Rasera}, {Alimi}, {Corasaniti},
+  {Boucher}, \& {F{\"u}zfa}}]{Courtin11}
+{Courtin}, J., {Rasera}, Y., {Alimi}, J.-M., {Corasaniti}, P.-S., {Boucher},
+  V., \& {F{\"u}zfa}, A. 2011, \mnras, 410, 1911
+
+\bibitem[{{Davis} {et~al.}(1985){Davis}, {Efstathiou}, {Frenk}, \&
+  {White}}]{Davis85}
+{Davis}, M., {Efstathiou}, G., {Frenk}, C.~S., \& {White}, S.~D.~M. 1985, \apj,
+  292, 371
+
+\bibitem[{{Fisher} \& Tippett(1928)}]{Fisher28}
+{Fisher}, R.~A. \& Tippett, L. H.~C. 1928, Proc. Cambridge Philosophical Soc.,
+  24, 180
+
+\bibitem[{{Frechet}(1927)}]{Frechet27}
+{Frechet}, M. 1927, Ann. Soc. Polon. Math, 6, 93
+
+\bibitem[{{Gnedenko}(1943)}]{Gnedenko43}
+{Gnedenko}, V. 1943, Annals of Mathematics, 44, 423
+
+\bibitem[{{Gumbel}(1935)}]{Gumbel35}
+{Gumbel}, E.~J. 1935, Ann. Inst. Henri Pointcare, 5, 115
+
+\bibitem[{{Hayashi} \& {White}(2006)}]{Hayashi06}
+{Hayashi}, E. \& {White}, S.~D.~M. 2006, \mnras, 370, L38
+
+\bibitem[{{Hinshaw} {et~al.}(2013){Hinshaw}, {Larson}, {Komatsu}, {Spergel},
+  {Bennett}, {Dunkley}, {Nolta}, {Halpern}, {Hill}, {et~al.}}]{WMAP9}
+{Hinshaw}, G., {Larson}, D., {Komatsu}, E., {Spergel}, D.~N., {Bennett}, C.~L.,
+  {Dunkley}, J., {Nolta}, M.~R., {Halpern}, M., {Hill}, {et~al.} 2013, \apjs,
+  208, 19
+
+\bibitem[{{Jenkins} {et~al.}(2001){Jenkins}, {Frenk}, {White}, {Colberg},
+  {Cole}, {Evrard}, {Couchman}, \& {Yoshida}}]{Jenkins01}
+{Jenkins}, A., {Frenk}, C.~S., {White}, S.~D.~M., {Colberg}, J.~M., {Cole}, S.,
+  {Evrard}, A.~E., {Couchman}, H.~M.~P., \& {Yoshida}, N. 2001, \mnras, 321,
+  372
+
+\bibitem[{{Knebe} {et~al.}(2011){Knebe}, {Knollmann}, {Muldrew}, {Pearce},
+  {Aragon-Calvo}, {Ascasibar}, {Behroozi}, {Ceverino}, \& others.}]{MAD11}
+{Knebe}, A., {Knollmann}, S.~R., {Muldrew}, S.~I., {Pearce}, F.~R.,
+  {Aragon-Calvo}, M.~A., {Ascasibar}, Y., {Behroozi}, P.~S., {Ceverino}, \&
+  others. 2011, \mnras, 415, 2293
+
+\bibitem[{{Lage} \& {Farrar}(2014{\natexlab{a}})}]{Lage14b}
+{Lage}, C. \& {Farrar}, F. 2014{\natexlab{a}}, ArXiv e-prints
+
+\bibitem[{{Lage} \& {Farrar}(2014{\natexlab{b}})}]{Lage14}
+{Lage}, C. \& {Farrar}, G. 2014{\natexlab{b}}, \apj, 787, 144
+
+\bibitem[{{Lee} \& {Komatsu}(2010)}]{Lee10}
+{Lee}, J. \& {Komatsu}, E. 2010, \apj, 718, 60
+
+\bibitem[{{Markevitch}(2006)}]{Mark06}
+{Markevitch}, M. 2006, in ESA Special Publication, Vol. 604, The X-ray Universe
+  2005, ed. {A.~Wilson}, 723--+
+
+\bibitem[{{Mastropietro} \& {Burkert}(2008)}]{Mast08}
+{Mastropietro}, C. \& {Burkert}, A. 2008, \mnras, 389, 967
+
+\bibitem[{{Milosavljevi{\'c}} {et~al.}(2007){Milosavljevi{\'c}}, {Koda},
+  {Nagai}, {Nakar}, \& {Shapiro}}]{Milo07}
+{Milosavljevi{\'c}}, M., {Koda}, J., {Nagai}, D., {Nakar}, E., \& {Shapiro},
+  P.~R. 2007, \apjl, 661, L131
+
+\bibitem[{{More} {et~al.}(2011){More}, {Kravtsov}, {Dalal}, \&
+  {Gottl{\"o}ber}}]{More11}
+{More}, S., {Kravtsov}, A.~V., {Dalal}, N., \& {Gottl{\"o}ber}, S. 2011, \apjs,
+  195, 4
+
+\bibitem[{{Planck Collaboration} {et~al.}(2013){Planck Collaboration}, {Ade},
+  {Aghanim}, {Armitage-Caplan}, {Arnaud}, {Ashdown}, {Atrio-Barandela},
+  {Aumont}, {Baccigalupi}, {Banday}, \& et~al.}]{Planck13}
+{Planck Collaboration}, {Ade}, P.~A.~R., {Aghanim}, N., {Armitage-Caplan}, C.,
+  {Arnaud}, M., {Ashdown}, M., {Atrio-Barandela}, F., {Aumont}, J.,
+  {Baccigalupi}, C., {Banday}, A.~J., \& et~al. 2013, ArXiv e-prints
+
+\bibitem[{{Robertson} {et~al.}(2009){Robertson}, {Kravtsov}, {Tinker}, \&
+  {Zentner}}]{Robertson09}
+{Robertson}, B.~E., {Kravtsov}, A.~V., {Tinker}, J., \& {Zentner}, A.~R. 2009,
+  \apj, 696, 636
+
+\bibitem[{{Sheth} \& {Tormen}(1999)}]{ST99}
+{Sheth}, R.~K. \& {Tormen}, G. 1999, \mnras, 308, 119
+
+\bibitem[{{Springel}(2005)}]{Springel05}
+{Springel}, V. 2005, \mnras, 364, 1105
+
+\bibitem[{{Springel} \& {Farrar}(2007)}]{Springel07}
+{Springel}, V. \& {Farrar}, G.~R. 2007, \mnras, 380, 911
+
+\bibitem[{{Springel} {et~al.}(2001){Springel}, {White}, {Tormen}, \&
+  {Kauffmann}}]{Springel01}
+{Springel}, V., {White}, S.~D.~M., {Tormen}, G., \& {Kauffmann}, G. 2001,
+  \mnras, 328, 726
+
+\bibitem[{{Thompson} \& {Nagamine}(2012)}]{Thompson12}
+{Thompson}, R. \& {Nagamine}, K. 2012, \mnras, 419, 3560
+
+\bibitem[{{Tinker} {et~al.}(2008){Tinker}, {Kravtsov}, {Klypin}, {Abazajian},
+  {Warren}, {Yepes}, {Gottl{\"o}ber}, \& {Holz}}]{Tinker08}
+{Tinker}, J., {Kravtsov}, A.~V., {Klypin}, A., {Abazajian}, K., {Warren}, M.,
+  {Yepes}, G., {Gottl{\"o}ber}, S., \& {Holz}, D.~E. 2008, \apj, 688, 709
+
+\end{thebibliography}
+}
+
+\begin{onecolumn}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% TABLE 2 %%
+\begin{deluxetable}{rrccccc}
+\tabletypesize{\footnotesize}
+\tablecolumns{7}
+\tablewidth{0pc}
+\tablecaption{Probabilities \& number densities}
+\tablehead{
+	\colhead{} &
+	\colhead{N$_{\rm{RS}}$} &
+	\colhead{N$_{\rm{FOF}}$} &
+	\colhead{P$_{\rm{RS}}$} &
+	\colhead{P$_{\rm{FOF}}$} &
+	\colhead{$n_{\rm{RS}}$} &
+	\colhead{$n_{\rm{FOF}}$}
+}
+\startdata
+{\it Massive high-$\vonetwo$} pairs & 318 & 6 & $4.58\times10^{-4}$ & $9.95\times10^{-6}$ & $3.60\times10^{-9}$ & $7.43\times10^{-11}$ \\
+{\it Bullet-like} pairs & 20 & 0 & $1.89\times10^{-2}$ & $2.00\times10^{-5}$ & $\,\,3.18\times10^{-10}$ & - \\
+\enddata
+\vspace{-0.5cm}
+\label{table:probabilities}
+\tablecomments{
+{\it Massive, high-$\vonetwo$} pairs are defined as halo pairs with $\vonetwo\geq3000\kms$ from among all halo pairs with M$_{12}\geq10^{14}\Msun$ and $d_{12}\leq10\,\rm{Mpc}$.  {\it Bullet-like} pairs are defined by imposing an additional mass criteria of $\left<\rm{M}_{12}\right>\geq8.25\times10^{14}\Msun$.
+All values are from our largest volume simulation.
+`N' is the total number of pairs that meet said criteria, `P' represents the probability (Section~\ref{sec:pdf}), and `$n$' is the number density given in units of $(\hinv\rm{Mpc})^{-3}$.
+Previous works found P$_{\rm{FOF}}=6.4\times10^{-6}$ \citep{Bouillot14}, and $n_{\rm{FOF}}=3.50\times10^{-13}$ \citep{Thompson12} for {\it massive, high-$\vonetwo$} pairs.
+}
+\end{deluxetable}
+%%%%%%%%%%
+
+
+%% TABLE 3 %%
+\begin{deluxetable}{ccccccccc}
+\tabletypesize{\footnotesize}
+\tablecolumns{9}
+\tablewidth{0pc}
+\tablecaption{{\it Bullet-like} candidate pairs}
+\tablehead{\multicolumn{1}{c}{Pair} &
+	\colhead{$\vonetwo$} &
+	\colhead{$d_{12}$} &
+	\colhead{$\theta$} &
+	\colhead{M$_1$} &
+	\colhead{M$_2$} &
+	\colhead{Mass} &
+	\colhead{r$_{1}$} &
+	\colhead{r$_{2}$} \\
+	\colhead{ \ } &
+	\colhead{[km 
+	s$^{-1}$]} &
+	\colhead{[Mpc]} &
+	\colhead{ \ } &
+	\colhead{[$\Msun$]} &
+	\colhead{[$\Msun$]} &
+	\colhead{Ratio} &
+	\colhead{[Mpc]} &
+	\colhead{[Mpc]} 
+}
+\startdata
+\sidehead{Rockstar Candidates}
+1 & 4893 & 5.95 & 156 & 1.69e15 & 2.01e14 & 0.08  & 2.34 & 1.00 \\
+2 & 3506 & 3.57 & 149 & 1.65e15 & 2.06e14 & 0.13  & 2.32 & 1.16 \\
+3 & 3130 & 6.17 & 141 & 1.88e15 & 1.30e14 & 0.07  & 2.42 & 0.99 \\
+\sidehead{FOF Findings}
+1 & Single &- & - & 4.19e15 & - & - & 3.17 & - \\
+2 & Single & - & - & 2.48e15 & - & - & 2.66 & - \\
+3 & 1537 & 5.69 & 131 & 1.56e15 & 9.21e14 & 0.59 & 2.28 & 1.91 \\
+\enddata
+\vspace{-0.5cm}
+\label{table:candidates}
+\tablecomments{
+Selected {\it Bullet-like} candidate pairs from our largest simulation (see Table~\ref{table:sims}).
+Rockstar candidates were chosen based on how similar they were to the initial requirements set by \citet{Mast08,Lage14b}.
+Corresponding FOF halos were then identified based on their proximity to the chosen RS halos.
+}
+\end{deluxetable}
+%%%%%%%%%%%%%%%
+
+\end{onecolumn}
+\end{document}

@@ -1,0 +1,145 @@
+% additional use of \usepackage{beamerthemesplit}
+\documentclass{beamer}
+\usepackage{beamerthemesplit} % new 
+\usepackage{hyperref}
+\usepackage{multimedia}
+\usetheme{Frankfurt}
+\definecolor{verde}{rgb}{0.5,1,0.2}
+\definecolor{rojo}{rgb}{1,0,0}
+\definecolor{azul}{rgb}{0,0,1}
+
+\begin{document}
+\title{Measuring the angular distribution fo the cosmological parameters.} 
+\author{Mart\'in de los Rios \& Mariano Dom\'inguez} 
+
+\frame{\titlepage
+\date{}} 
+
+\frame{
+ \tiny
+ \frametitle{Table of contents}
+\tableofcontents} 
+
+\section{What is Machine Learning.}
+\frame{
+\tableofcontents[ 
+    currentsection, 
+    sectionstyle=show/hide, 
+    sectionstyle=show/shaded, 
+    ] 
+}
+
+\subsection{Supervised learning.}
+\frame{
+  \frametitle{Supervised Learning.}
+  \begin{center}
+ \includegraphics[scale=0.3]{./aprendizaje_supervisado1.jpg}
+ % aprendizaje_supervisado1.jpg: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+}
+\frame{
+  \frametitle{Random Forest}
+  \begin{center}
+ \includegraphics[scale=0.85]{./rf.png}
+ % rf.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
+}
+
+\frame{
+  \frametitle{Support Vector Machine}
+  \begin{center}
+ \includegraphics[scale=0.4]{./svm.png}
+
+ % svm.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
+}
+\subsection{Unsupervised learning.}
+\frame{
+  \frametitle{Supervised Learning.}
+  \begin{center}
+ \includegraphics[scale=0.34]{./aprendizaje_nosupervisado.jpg}
+ % aprendizaje_nosupervisado.jpg: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
+} 
+\frame{
+ \frametitle{Mixture of Gaussians.}
+ \begin{center}
+ \includegraphics[scale=0.5]{./mixt_gauss.png}
+ % mixt_gauss.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+}
+\frame{
+\frametitle{Principal Components Analysis.}
+\begin{center}
+ \includegraphics[scale=0.5]{./pca.png}
+ % pca_example.gif: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
+}
+
+\subsection{Machine Learning in physics.}
+\frame{
+  \frametitle{Machine Learning in physics.}
+} 
+
+\section{Basic Concepts of Cosmolgy.}
+\frame{
+\tableofcontents[ 
+    currentsection, 
+    sectionstyle=show/hide, 
+    sectionstyle=show/shaded, 
+    ] 
+}
+
+\subsection{What are the cosmological parameters?}
+\frame{
+  \frametitle{What are the cosmological parameters?}
+} 
+\subsection{How can we measure the cosmological parameters?}
+\frame{
+  \frametitle{How can we measure the cosmological parameters?}
+} 
+\subsection{Latest Results.}
+\frame{
+  \frametitle{Latest Results.}
+} 
+
+\section{Measuring the Cosmological Parameters with Machine Learning.}
+\frame{
+\tableofcontents[ 
+    currentsection, 
+    sectionstyle=show/hide, 
+    sectionstyle=show/shaded, 
+    ] 
+}
+\subsection{The training sample.}
+\frame{
+\frametitle{The training sample.}
+}
+
+\subsection{Studying different Machine Learning algorithms.}
+\frame{
+\frametitle{Studying different Machine Learning algorithms.}
+}
+
+\subsection{First Results.}
+\frame{
+\frametitle{First Results.}
+}
+
+\section{Final Remarks and Future Work.}
+\frame{
+\tableofcontents[ 
+    currentsection, 
+    sectionstyle=show/hide, 
+    sectionstyle=show/shaded, 
+    ] 
+}
+\frame{
+Final Remarks
+}
+\end{document}
+

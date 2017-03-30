@@ -1,0 +1,554 @@
+>sumary(glm.out)
+
+Call:
+glm(formula = galaxyid ~ ngal * deltas_gal * ind_cum * del_cum * 
+    g_r * sw_gal * sw_cum, family = binomial(logit), data = l)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.0453  -0.7106  -0.5008  -0.1245   3.3369  
+
+Coefficients:
+                                                    Estimate Std. Error z value
+(Intercept)                                       -8.468e+00  2.837e+00  -2.985
+ngal                                               5.366e-02  2.529e-02   2.122
+deltas_gal                                         9.685e+00  2.032e+00   4.767
+ind_cum                                           -2.497e+00  1.047e+00  -2.385
+del_cum                                            2.018e+00  1.935e+00   1.043
+g_r                                                8.024e+00  3.902e+00   2.056
+sw_gal                                             3.441e+00  5.665e+00   0.607
+sw_cum                                             2.251e+01  1.695e+01   1.328
+ngal:deltas_gal                                   -8.599e-02  1.820e-02  -4.726
+ngal:ind_cum                                       3.043e-02  9.521e-03   3.196
+deltas_gal:ind_cum                                -2.212e-01  5.932e-01  -0.373
+ngal:del_cum                                      -2.421e-02  1.326e-02  -1.826
+deltas_gal:del_cum                                -5.815e+00  1.269e+00  -4.582
+ind_cum:del_cum                                    8.000e-01  6.251e-01   1.280
+ngal:g_r                                          -6.661e-02  3.481e-02  -1.913
+deltas_gal:g_r                                    -1.185e+01  2.785e+00  -4.256
+ind_cum:g_r                                        2.368e+00  1.437e+00   1.647
+del_cum:g_r                                       -1.655e+00  2.661e+00  -0.622
+ngal:sw_gal                                       -1.415e-01  5.360e-02  -2.640
+deltas_gal:sw_gal                                 -1.174e+01  3.910e+00  -3.002
+ind_cum:sw_gal                                    -2.507e+00  2.143e+00  -1.170
+del_cum:sw_gal                                     1.125e+00  3.691e+00   0.305
+g_r:sw_gal                                        -5.978e+00  7.788e+00  -0.768
+ngal:sw_cum                                       -2.647e-01  1.840e-01  -1.439
+deltas_gal:sw_cum                                 -7.449e+01  1.218e+01  -6.118
+ind_cum:sw_cum                                    -5.296e-01  4.240e+00  -0.125
+del_cum:sw_cum                                    -1.042e+01  1.079e+01  -0.966
+g_r:sw_cum                                        -4.768e+01  2.321e+01  -2.055
+sw_gal:sw_cum                                     -9.755e+01  3.257e+01  -2.995
+ngal:deltas_gal:ind_cum                           -4.521e-04  5.160e-03  -0.088
+ngal:deltas_gal:del_cum                            4.281e-02  8.857e-03   4.833
+ngal:ind_cum:del_cum                              -1.596e-02  5.177e-03  -3.083
+deltas_gal:ind_cum:del_cum                         4.614e-01  3.328e-01   1.386
+ngal:deltas_gal:g_r                                1.064e-01  2.490e-02   4.275
+ngal:ind_cum:g_r                                  -3.486e-02  1.310e-02  -2.662
+deltas_gal:ind_cum:g_r                             6.193e-01  8.170e-01   0.758
+ngal:del_cum:g_r                                   2.871e-02  1.833e-02   1.567
+deltas_gal:del_cum:g_r                             7.170e+00  1.737e+00   4.128
+ind_cum:del_cum:g_r                               -5.261e-01  8.588e-01  -0.613
+ngal:deltas_gal:sw_gal                             1.439e-01  3.528e-02   4.078
+ngal:ind_cum:sw_gal                                2.739e-02  1.996e-02   1.372
+deltas_gal:ind_cum:sw_gal                          2.233e+00  1.256e+00   1.778
+ngal:del_cum:sw_gal                                5.854e-02  2.782e-02   2.104
+deltas_gal:del_cum:sw_gal                          5.813e+00  2.346e+00   2.478
+ind_cum:del_cum:sw_gal                             2.026e+00  1.272e+00   1.593
+ngal:g_r:sw_gal                                    2.094e-01  7.347e-02   2.851
+deltas_gal:g_r:sw_gal                              1.814e+01  5.366e+00   3.381
+ind_cum:g_r:sw_gal                                 2.918e+00  2.936e+00   0.994
+del_cum:g_r:sw_gal                                 3.084e-01  5.088e+00   0.061
+ngal:deltas_gal:sw_cum                             6.099e-01  1.325e-01   4.604
+ngal:ind_cum:sw_cum                                2.248e-02  4.930e-02   0.456
+deltas_gal:ind_cum:sw_cum                          7.748e+00  3.180e+00   2.436
+ngal:del_cum:sw_cum                                1.606e-01  1.112e-01   1.445
+deltas_gal:del_cum:sw_cum                          3.983e+01  7.115e+00   5.598
+ind_cum:del_cum:sw_cum                             1.820e+00  2.741e+00   0.664
+ngal:g_r:sw_cum                                    5.537e-01  2.533e-01   2.186
+deltas_gal:g_r:sw_cum                              1.116e+02  1.659e+01   6.729
+ind_cum:g_r:sw_cum                                 1.145e+00  5.812e+00   0.197
+del_cum:g_r:sw_cum                                 2.237e+01  1.483e+01   1.508
+ngal:sw_gal:sw_cum                                 1.306e+00  3.646e-01   3.583
+deltas_gal:sw_gal:sw_cum                           1.216e+02  2.087e+01   5.828
+ind_cum:sw_gal:sw_cum                              1.236e+01  7.838e+00   1.577
+del_cum:sw_gal:sw_cum                              3.148e+01  2.057e+01   1.530
+g_r:sw_gal:sw_cum                                  1.497e+02  4.440e+01   3.371
+ngal:deltas_gal:ind_cum:del_cum                    3.458e-05  2.658e-03   0.013
+ngal:deltas_gal:ind_cum:g_r                        1.065e-03  7.098e-03   0.150
+ngal:deltas_gal:del_cum:g_r                       -5.257e-02  1.214e-02  -4.332
+ngal:ind_cum:del_cum:g_r                           1.906e-02  7.139e-03   2.670
+deltas_gal:ind_cum:del_cum:g_r                    -8.143e-01  4.585e-01  -1.776
+ngal:deltas_gal:ind_cum:sw_gal                    -1.426e-02  1.068e-02  -1.335
+ngal:deltas_gal:del_cum:sw_gal                    -6.777e-02  1.718e-02  -3.944
+ngal:ind_cum:del_cum:sw_gal                       -1.744e-02  1.104e-02  -1.580
+deltas_gal:ind_cum:del_cum:sw_gal                 -1.610e+00  7.112e-01  -2.264
+ngal:deltas_gal:g_r:sw_gal                        -2.098e-01  4.834e-02  -4.340
+ngal:ind_cum:g_r:sw_gal                           -2.601e-02  2.739e-02  -0.950
+deltas_gal:ind_cum:g_r:sw_gal                     -3.032e+00  1.725e+00  -1.758
+ngal:del_cum:g_r:sw_gal                           -9.111e-02  3.829e-02  -2.379
+deltas_gal:del_cum:g_r:sw_gal                     -9.446e+00  3.221e+00  -2.932
+ind_cum:del_cum:g_r:sw_gal                        -2.737e+00  1.746e+00  -1.568
+ngal:deltas_gal:ind_cum:sw_cum                    -5.912e-02  3.405e-02  -1.736
+ngal:deltas_gal:del_cum:sw_cum                    -3.252e-01  7.588e-02  -4.286
+ngal:ind_cum:del_cum:sw_cum                       -2.468e-02  3.170e-02  -0.779
+deltas_gal:ind_cum:del_cum:sw_cum                 -5.228e+00  1.976e+00  -2.646
+ngal:deltas_gal:g_r:sw_cum                        -9.893e-01  1.816e-01  -5.448
+ngal:ind_cum:g_r:sw_cum                           -1.619e-02  6.747e-02  -0.240
+deltas_gal:ind_cum:g_r:sw_cum                     -1.031e+01  4.352e+00  -2.369
+ngal:del_cum:g_r:sw_cum                           -3.072e-01  1.534e-01  -2.003
+deltas_gal:del_cum:g_r:sw_cum                     -6.108e+01  9.730e+00  -6.277
+ind_cum:del_cum:g_r:sw_cum                        -2.243e+00  3.771e+00  -0.595
+ngal:deltas_gal:sw_gal:sw_cum                     -1.272e+00  2.414e-01  -5.270
+ngal:ind_cum:sw_gal:sw_cum                        -1.555e-01  9.113e-02  -1.706
+deltas_gal:ind_cum:sw_gal:sw_cum                  -1.375e+01  5.560e+00  -2.473
+ngal:del_cum:sw_gal:sw_cum                        -6.576e-01  2.195e-01  -2.997
+deltas_gal:del_cum:sw_gal:sw_cum                  -5.786e+01  1.219e+01  -4.745
+ind_cum:del_cum:sw_gal:sw_cum                     -6.395e+00  5.059e+00  -1.264
+ngal:g_r:sw_gal:sw_cum                            -2.125e+00  5.007e-01  -4.243
+deltas_gal:g_r:sw_gal:sw_cum                      -1.879e+02  2.851e+01  -6.592
+ind_cum:g_r:sw_gal:sw_cum                         -1.253e+01  1.072e+01  -1.169
+del_cum:g_r:sw_gal:sw_cum                         -5.613e+01  2.816e+01  -1.993
+ngal:deltas_gal:ind_cum:del_cum:g_r               -8.410e-05  3.661e-03  -0.023
+ngal:deltas_gal:ind_cum:del_cum:sw_gal             8.393e-03  5.621e-03   1.493
+ngal:deltas_gal:ind_cum:g_r:sw_gal                 1.372e-02  1.467e-02   0.935
+ngal:deltas_gal:del_cum:g_r:sw_gal                 9.984e-02  2.357e-02   4.235
+ngal:ind_cum:del_cum:g_r:sw_gal                    1.879e-02  1.518e-02   1.238
+deltas_gal:ind_cum:del_cum:g_r:sw_gal              2.288e+00  9.770e-01   2.342
+ngal:deltas_gal:ind_cum:del_cum:sw_cum             3.684e-02  2.103e-02   1.751
+ngal:deltas_gal:ind_cum:g_r:sw_cum                 7.875e-02  4.650e-02   1.694
+ngal:deltas_gal:del_cum:g_r:sw_cum                 5.422e-01  1.042e-01   5.203
+ngal:ind_cum:del_cum:g_r:sw_cum                    1.847e-02  4.346e-02   0.425
+deltas_gal:ind_cum:del_cum:g_r:sw_cum              6.996e+00  2.710e+00   2.581
+ngal:deltas_gal:ind_cum:sw_gal:sw_cum              1.089e-01  6.003e-02   1.814
+ngal:deltas_gal:del_cum:sw_gal:sw_cum              6.549e-01  1.388e-01   4.717
+ngal:ind_cum:del_cum:sw_gal:sw_cum                 8.874e-02  5.808e-02   1.528
+deltas_gal:ind_cum:del_cum:sw_gal:sw_cum           8.119e+00  3.395e+00   2.392
+ngal:deltas_gal:g_r:sw_gal:sw_cum                  2.009e+00  3.316e-01   6.058
+ngal:ind_cum:g_r:sw_gal:sw_cum                     1.707e-01  1.244e-01   1.372
+deltas_gal:ind_cum:g_r:sw_gal:sw_cum               1.732e+01  7.616e+00   2.274
+ngal:del_cum:g_r:sw_gal:sw_cum                     1.115e+00  3.020e-01   3.693
+deltas_gal:del_cum:g_r:sw_gal:sw_cum               9.397e+01  1.670e+01   5.627
+ind_cum:del_cum:g_r:sw_gal:sw_cum                  6.570e+00  6.944e+00   0.946
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal        -8.966e-03  7.724e-03  -1.161
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_cum        -4.989e-02  2.877e-02  -1.734
+ngal:deltas_gal:ind_cum:del_cum:sw_gal:sw_cum     -6.659e-02  3.649e-02  -1.825
+ngal:deltas_gal:ind_cum:g_r:sw_gal:sw_cum         -1.318e-01  8.196e-02  -1.608
+ngal:deltas_gal:del_cum:g_r:sw_gal:sw_cum         -1.063e+00  1.910e-01  -5.566
+ngal:ind_cum:del_cum:g_r:sw_gal:sw_cum            -9.847e-02  7.946e-02  -1.239
+deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum      -1.063e+01  4.664e+00  -2.279
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum  8.411e-02  4.988e-02   1.686
+                                                  Pr(>|z|)    
+(Intercept)                                       0.002837 ** 
+ngal                                              0.033843 *  
+deltas_gal                                        1.87e-06 ***
+ind_cum                                           0.017084 *  
+del_cum                                           0.296924    
+g_r                                               0.039743 *  
+sw_gal                                            0.543590    
+sw_cum                                            0.184238    
+ngal:deltas_gal                                   2.29e-06 ***
+ngal:ind_cum                                      0.001395 ** 
+deltas_gal:ind_cum                                0.709235    
+ngal:del_cum                                      0.067776 .  
+deltas_gal:del_cum                                4.60e-06 ***
+ind_cum:del_cum                                   0.200644    
+ngal:g_r                                          0.055689 .  
+deltas_gal:g_r                                    2.08e-05 ***
+ind_cum:g_r                                       0.099484 .  
+del_cum:g_r                                       0.533887    
+ngal:sw_gal                                       0.008279 ** 
+deltas_gal:sw_gal                                 0.002683 ** 
+ind_cum:sw_gal                                    0.242004    
+del_cum:sw_gal                                    0.760517    
+g_r:sw_gal                                        0.442748    
+ngal:sw_cum                                       0.150261    
+deltas_gal:sw_cum                                 9.50e-10 ***
+ind_cum:sw_cum                                    0.900584    
+del_cum:sw_cum                                    0.334251    
+g_r:sw_cum                                        0.039923 *  
+sw_gal:sw_cum                                     0.002747 ** 
+ngal:deltas_gal:ind_cum                           0.930173    
+ngal:deltas_gal:del_cum                           1.34e-06 ***
+ngal:ind_cum:del_cum                              0.002048 ** 
+deltas_gal:ind_cum:del_cum                        0.165720    
+ngal:deltas_gal:g_r                               1.91e-05 ***
+ngal:ind_cum:g_r                                  0.007770 ** 
+deltas_gal:ind_cum:g_r                            0.448447    
+ngal:del_cum:g_r                                  0.117180    
+deltas_gal:del_cum:g_r                            3.66e-05 ***
+ind_cum:del_cum:g_r                               0.540159    
+ngal:deltas_gal:sw_gal                            4.54e-05 ***
+ngal:ind_cum:sw_gal                               0.170082    
+deltas_gal:ind_cum:sw_gal                         0.075456 .  
+ngal:del_cum:sw_gal                               0.035355 *  
+deltas_gal:del_cum:sw_gal                         0.013216 *  
+ind_cum:del_cum:sw_gal                            0.111220    
+ngal:g_r:sw_gal                                   0.004362 ** 
+deltas_gal:g_r:sw_gal                             0.000722 ***
+ind_cum:g_r:sw_gal                                0.320221    
+del_cum:g_r:sw_gal                                0.951672    
+ngal:deltas_gal:sw_cum                            4.15e-06 ***
+ngal:ind_cum:sw_cum                               0.648395    
+deltas_gal:ind_cum:sw_cum                         0.014850 *  
+ngal:del_cum:sw_cum                               0.148575    
+deltas_gal:del_cum:sw_cum                         2.17e-08 ***
+ind_cum:del_cum:sw_cum                            0.506841    
+ngal:g_r:sw_cum                                   0.028833 *  
+deltas_gal:g_r:sw_cum                             1.70e-11 ***
+ind_cum:g_r:sw_cum                                0.843868    
+del_cum:g_r:sw_cum                                0.131544    
+ngal:sw_gal:sw_cum                                0.000340 ***
+deltas_gal:sw_gal:sw_cum                          5.61e-09 ***
+ind_cum:sw_gal:sw_cum                             0.114707    
+del_cum:sw_gal:sw_cum                             0.125972    
+g_r:sw_gal:sw_cum                                 0.000748 ***
+ngal:deltas_gal:ind_cum:del_cum                   0.989622    
+ngal:deltas_gal:ind_cum:g_r                       0.880693    
+ngal:deltas_gal:del_cum:g_r                       1.48e-05 ***
+ngal:ind_cum:del_cum:g_r                          0.007590 ** 
+deltas_gal:ind_cum:del_cum:g_r                    0.075695 .  
+ngal:deltas_gal:ind_cum:sw_gal                    0.181719    
+ngal:deltas_gal:del_cum:sw_gal                    8.02e-05 ***
+ngal:ind_cum:del_cum:sw_gal                       0.114121    
+deltas_gal:ind_cum:del_cum:sw_gal                 0.023576 *  
+ngal:deltas_gal:g_r:sw_gal                        1.42e-05 ***
+ngal:ind_cum:g_r:sw_gal                           0.342305    
+deltas_gal:ind_cum:g_r:sw_gal                     0.078821 .  
+ngal:del_cum:g_r:sw_gal                           0.017340 *  
+deltas_gal:del_cum:g_r:sw_gal                     0.003364 ** 
+ind_cum:del_cum:g_r:sw_gal                        0.116959    
+ngal:deltas_gal:ind_cum:sw_cum                    0.082476 .  
+ngal:deltas_gal:del_cum:sw_cum                    1.82e-05 ***
+ngal:ind_cum:del_cum:sw_cum                       0.436197    
+deltas_gal:ind_cum:del_cum:sw_cum                 0.008142 ** 
+ngal:deltas_gal:g_r:sw_cum                        5.10e-08 ***
+ngal:ind_cum:g_r:sw_cum                           0.810397    
+deltas_gal:ind_cum:g_r:sw_cum                     0.017859 *  
+ngal:del_cum:g_r:sw_cum                           0.045158 *  
+deltas_gal:del_cum:g_r:sw_cum                     3.44e-10 ***
+ind_cum:del_cum:g_r:sw_cum                        0.551909    
+ngal:deltas_gal:sw_gal:sw_cum                     1.36e-07 ***
+ngal:ind_cum:sw_gal:sw_cum                        0.087959 .  
+deltas_gal:ind_cum:sw_gal:sw_cum                  0.013401 *  
+ngal:del_cum:sw_gal:sw_cum                        0.002729 ** 
+deltas_gal:del_cum:sw_gal:sw_cum                  2.08e-06 ***
+ind_cum:del_cum:sw_gal:sw_cum                     0.206148    
+ngal:g_r:sw_gal:sw_cum                            2.20e-05 ***
+deltas_gal:g_r:sw_gal:sw_cum                      4.35e-11 ***
+ind_cum:g_r:sw_gal:sw_cum                         0.242212    
+del_cum:g_r:sw_gal:sw_cum                         0.046236 *  
+ngal:deltas_gal:ind_cum:del_cum:g_r               0.981672    
+ngal:deltas_gal:ind_cum:del_cum:sw_gal            0.135387    
+ngal:deltas_gal:ind_cum:g_r:sw_gal                0.349652    
+ngal:deltas_gal:del_cum:g_r:sw_gal                2.29e-05 ***
+ngal:ind_cum:del_cum:g_r:sw_gal                   0.215750    
+deltas_gal:ind_cum:del_cum:g_r:sw_gal             0.019204 *  
+ngal:deltas_gal:ind_cum:del_cum:sw_cum            0.079860 .  
+ngal:deltas_gal:ind_cum:g_r:sw_cum                0.090304 .  
+ngal:deltas_gal:del_cum:g_r:sw_cum                1.96e-07 ***
+ngal:ind_cum:del_cum:g_r:sw_cum                   0.670849    
+deltas_gal:ind_cum:del_cum:g_r:sw_cum             0.009854 ** 
+ngal:deltas_gal:ind_cum:sw_gal:sw_cum             0.069690 .  
+ngal:deltas_gal:del_cum:sw_gal:sw_cum             2.40e-06 ***
+ngal:ind_cum:del_cum:sw_gal:sw_cum                0.126546    
+deltas_gal:ind_cum:del_cum:sw_gal:sw_cum          0.016775 *  
+ngal:deltas_gal:g_r:sw_gal:sw_cum                 1.38e-09 ***
+ngal:ind_cum:g_r:sw_gal:sw_cum                    0.170018    
+deltas_gal:ind_cum:g_r:sw_gal:sw_cum              0.022947 *  
+ngal:del_cum:g_r:sw_gal:sw_cum                    0.000221 ***
+deltas_gal:del_cum:g_r:sw_gal:sw_cum              1.83e-08 ***
+ind_cum:del_cum:g_r:sw_gal:sw_cum                 0.344103    
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal        0.245727    
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_cum        0.082890 .  
+ngal:deltas_gal:ind_cum:del_cum:sw_gal:sw_cum     0.068005 .  
+ngal:deltas_gal:ind_cum:g_r:sw_gal:sw_cum         0.107809    
+ngal:deltas_gal:del_cum:g_r:sw_gal:sw_cum         2.60e-08 ***
+ngal:ind_cum:del_cum:g_r:sw_gal:sw_cum            0.215273    
+deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum      0.022694 *  
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum 0.091760 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 113786  on 108695  degrees of freedom
+Residual deviance:  96234  on 108568  degrees of freedom
+AIC: 96490
+
+Number of Fisher Scoring iterations: 7
+>
+>
+>anova(glm.out, test="Chisq")
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: galaxyid
+
+Terms added sequentially (first to last)
+
+
+                                                  Df Deviance Resid. Df
+NULL                                                             108695
+ngal                                               1   2033.3    108694
+deltas_gal                                         1    114.6    108693
+ind_cum                                            1   1703.0    108692
+del_cum                                            1    473.4    108691
+g_r                                                1   3459.3    108690
+sw_gal                                             1      2.9    108689
+sw_cum                                             1    874.7    108688
+ngal:deltas_gal                                    1     29.8    108687
+ngal:ind_cum                                       1   1383.5    108686
+deltas_gal:ind_cum                                 1     32.0    108685
+ngal:del_cum                                       1    128.2    108684
+deltas_gal:del_cum                                 1    117.6    108683
+ind_cum:del_cum                                    1    430.9    108682
+ngal:g_r                                           1      0.1    108681
+deltas_gal:g_r                                     1     12.3    108680
+ind_cum:g_r                                        1    103.8    108679
+del_cum:g_r                                        1      0.2    108678
+ngal:sw_gal                                        1     11.7    108677
+deltas_gal:sw_gal                                  1      2.6    108676
+ind_cum:sw_gal                                     1     24.3    108675
+del_cum:sw_gal                                     1     32.3    108674
+g_r:sw_gal                                         1     12.8    108673
+ngal:sw_cum                                        1   2036.3    108672
+deltas_gal:sw_cum                                  1      0.6    108671
+ind_cum:sw_cum                                     1      0.4    108670
+del_cum:sw_cum                                     1     38.2    108669
+g_r:sw_cum                                         1      1.3    108668
+sw_gal:sw_cum                                      1      5.2    108667
+ngal:deltas_gal:ind_cum                            1      2.2    108666
+ngal:deltas_gal:del_cum                            1    231.3    108665
+ngal:ind_cum:del_cum                               1     74.2    108664
+deltas_gal:ind_cum:del_cum                         1     54.4    108663
+ngal:deltas_gal:g_r                                1      2.9    108662
+ngal:ind_cum:g_r                                   1     22.8    108661
+deltas_gal:ind_cum:g_r                             1     24.0    108660
+ngal:del_cum:g_r                                   1      6.2    108659
+deltas_gal:del_cum:g_r                             1      0.5    108658
+ind_cum:del_cum:g_r                                1      4.7    108657
+ngal:deltas_gal:sw_gal                             1      3.0    108656
+ngal:ind_cum:sw_gal                                1      1.9    108655
+deltas_gal:ind_cum:sw_gal                          1     36.4    108654
+ngal:del_cum:sw_gal                                1      2.8    108653
+deltas_gal:del_cum:sw_gal                          1     20.9    108652
+ind_cum:del_cum:sw_gal                             1     38.5    108651
+ngal:g_r:sw_gal                                    1      1.4    108650
+deltas_gal:g_r:sw_gal                              1      2.5    108649
+ind_cum:g_r:sw_gal                                 1      0.9    108648
+del_cum:g_r:sw_gal                                 1      4.6    108647
+ngal:deltas_gal:sw_cum                             1      0.0    108646
+ngal:ind_cum:sw_cum                                1   1787.8    108645
+deltas_gal:ind_cum:sw_cum                          1    234.1    108644
+ngal:del_cum:sw_cum                                1      0.1    108643
+deltas_gal:del_cum:sw_cum                          1    125.0    108642
+ind_cum:del_cum:sw_cum                             1    734.0    108641
+ngal:g_r:sw_cum                                    1     11.5    108640
+deltas_gal:g_r:sw_cum                              1      0.0    108639
+ind_cum:g_r:sw_cum                                 1      0.1    108638
+del_cum:g_r:sw_cum                                 1     32.6    108637
+ngal:sw_gal:sw_cum                                 1      0.0    108636
+deltas_gal:sw_gal:sw_cum                           1     75.7    108635
+ind_cum:sw_gal:sw_cum                              1     44.7    108634
+del_cum:sw_gal:sw_cum                              1     25.8    108633
+g_r:sw_gal:sw_cum                                  1     17.2    108632
+ngal:deltas_gal:ind_cum:del_cum                    1     44.5    108631
+ngal:deltas_gal:ind_cum:g_r                        1      0.6    108630
+ngal:deltas_gal:del_cum:g_r                        1      0.4    108629
+ngal:ind_cum:del_cum:g_r                           1     64.7    108628
+deltas_gal:ind_cum:del_cum:g_r                     1      3.6    108627
+ngal:deltas_gal:ind_cum:sw_gal                     1      1.0    108626
+ngal:deltas_gal:del_cum:sw_gal                     1      3.2    108625
+ngal:ind_cum:del_cum:sw_gal                        1      1.1    108624
+deltas_gal:ind_cum:del_cum:sw_gal                  1     31.4    108623
+ngal:deltas_gal:g_r:sw_gal                         1      0.0    108622
+ngal:ind_cum:g_r:sw_gal                            1     18.4    108621
+deltas_gal:ind_cum:g_r:sw_gal                      1     17.4    108620
+ngal:del_cum:g_r:sw_gal                            1      1.4    108619
+deltas_gal:del_cum:g_r:sw_gal                      1      8.2    108618
+ind_cum:del_cum:g_r:sw_gal                         1      0.3    108617
+ngal:deltas_gal:ind_cum:sw_cum                     1      1.2    108616
+ngal:deltas_gal:del_cum:sw_cum                     1      9.6    108615
+ngal:ind_cum:del_cum:sw_cum                        1     83.4    108614
+deltas_gal:ind_cum:del_cum:sw_cum                  1     21.6    108613
+ngal:deltas_gal:g_r:sw_cum                         1      7.7    108612
+ngal:ind_cum:g_r:sw_cum                            1     24.9    108611
+deltas_gal:ind_cum:g_r:sw_cum                      1      9.3    108610
+ngal:del_cum:g_r:sw_cum                            1     24.2    108609
+deltas_gal:del_cum:g_r:sw_cum                      1     23.6    108608
+ind_cum:del_cum:g_r:sw_cum                         1      0.2    108607
+ngal:deltas_gal:sw_gal:sw_cum                      1      3.8    108606
+ngal:ind_cum:sw_gal:sw_cum                         1      1.5    108605
+deltas_gal:ind_cum:sw_gal:sw_cum                   1      3.0    108604
+ngal:del_cum:sw_gal:sw_cum                         1      0.1    108603
+deltas_gal:del_cum:sw_gal:sw_cum                   1     28.3    108602
+ind_cum:del_cum:sw_gal:sw_cum                      1     32.0    108601
+ngal:g_r:sw_gal:sw_cum                             1      3.1    108600
+deltas_gal:g_r:sw_gal:sw_cum                       1      3.6    108599
+ind_cum:g_r:sw_gal:sw_cum                          1      2.2    108598
+del_cum:g_r:sw_gal:sw_cum                          1     11.0    108597
+ngal:deltas_gal:ind_cum:del_cum:g_r                1      5.4    108596
+ngal:deltas_gal:ind_cum:del_cum:sw_gal             1      8.4    108595
+ngal:deltas_gal:ind_cum:g_r:sw_gal                 1      0.0    108594
+ngal:deltas_gal:del_cum:g_r:sw_gal                 1      0.1    108593
+ngal:ind_cum:del_cum:g_r:sw_gal                    1      1.1    108592
+deltas_gal:ind_cum:del_cum:g_r:sw_gal              1      3.3    108591
+ngal:deltas_gal:ind_cum:del_cum:sw_cum             1     29.6    108590
+ngal:deltas_gal:ind_cum:g_r:sw_cum                 1      0.7    108589
+ngal:deltas_gal:del_cum:g_r:sw_cum                 1      0.6    108588
+ngal:ind_cum:del_cum:g_r:sw_cum                    1      6.9    108587
+deltas_gal:ind_cum:del_cum:g_r:sw_cum              1      0.5    108586
+ngal:deltas_gal:ind_cum:sw_gal:sw_cum              1     58.6    108585
+ngal:deltas_gal:del_cum:sw_gal:sw_cum              1    163.7    108584
+ngal:ind_cum:del_cum:sw_gal:sw_cum                 1     10.7    108583
+deltas_gal:ind_cum:del_cum:sw_gal:sw_cum           1      0.8    108582
+ngal:deltas_gal:g_r:sw_gal:sw_cum                  1      6.7    108581
+ngal:ind_cum:g_r:sw_gal:sw_cum                     1      2.7    108580
+deltas_gal:ind_cum:g_r:sw_gal:sw_cum               1      0.0    108579
+ngal:del_cum:g_r:sw_gal:sw_cum                     1      7.1    108578
+deltas_gal:del_cum:g_r:sw_gal:sw_cum               1      3.9    108577
+ind_cum:del_cum:g_r:sw_gal:sw_cum                  1     12.7    108576
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal         1      3.2    108575
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_cum         1      1.1    108574
+ngal:deltas_gal:ind_cum:del_cum:sw_gal:sw_cum      1      4.2    108573
+ngal:deltas_gal:ind_cum:g_r:sw_gal:sw_cum          1      0.6    108572
+ngal:deltas_gal:del_cum:g_r:sw_gal:sw_cum          1     33.4    108571
+ngal:ind_cum:del_cum:g_r:sw_gal:sw_cum             1      0.0    108570
+deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum       1      2.4    108569
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum  1      2.8    108568
+                                                  Resid. Dev  Pr(>Chi)    
+NULL                                                  113786              
+ngal                                                  111753 < 2.2e-16 ***
+deltas_gal                                            111638 < 2.2e-16 ***
+ind_cum                                               109935 < 2.2e-16 ***
+del_cum                                               109462 < 2.2e-16 ***
+g_r                                                   106003 < 2.2e-16 ***
+sw_gal                                                106000 0.0875825 .  
+sw_cum                                                105125 < 2.2e-16 ***
+ngal:deltas_gal                                       105095 4.740e-08 ***
+ngal:ind_cum                                          103712 < 2.2e-16 ***
+deltas_gal:ind_cum                                    103679 1.521e-08 ***
+ngal:del_cum                                          103551 < 2.2e-16 ***
+deltas_gal:del_cum                                    103434 < 2.2e-16 ***
+ind_cum:del_cum                                       103003 < 2.2e-16 ***
+ngal:g_r                                              103003 0.7380031    
+deltas_gal:g_r                                        102990 0.0004452 ***
+ind_cum:g_r                                           102887 < 2.2e-16 ***
+del_cum:g_r                                           102886 0.6729732    
+ngal:sw_gal                                           102875 0.0006402 ***
+deltas_gal:sw_gal                                     102872 0.1064473    
+ind_cum:sw_gal                                        102848 8.268e-07 ***
+del_cum:sw_gal                                        102815 1.336e-08 ***
+g_r:sw_gal                                            102803 0.0003386 ***
+ngal:sw_cum                                           100766 < 2.2e-16 ***
+deltas_gal:sw_cum                                     100766 0.4537551    
+ind_cum:sw_cum                                        100765 0.5215982    
+del_cum:sw_cum                                        100727 6.431e-10 ***
+g_r:sw_cum                                            100726 0.2529788    
+sw_gal:sw_cum                                         100721 0.0222673 *  
+ngal:deltas_gal:ind_cum                               100718 0.1365684    
+ngal:deltas_gal:del_cum                               100487 < 2.2e-16 ***
+ngal:ind_cum:del_cum                                  100413 < 2.2e-16 ***
+deltas_gal:ind_cum:del_cum                            100359 1.648e-13 ***
+ngal:deltas_gal:g_r                                   100356 0.0868233 .  
+ngal:ind_cum:g_r                                      100333 1.831e-06 ***
+deltas_gal:ind_cum:g_r                                100309 9.838e-07 ***
+ngal:del_cum:g_r                                      100303 0.0124628 *  
+deltas_gal:del_cum:g_r                                100302 0.4756456    
+ind_cum:del_cum:g_r                                   100297 0.0293797 *  
+ngal:deltas_gal:sw_gal                                100295 0.0841324 .  
+ngal:ind_cum:sw_gal                                   100293 0.1707779    
+deltas_gal:ind_cum:sw_gal                             100256 1.591e-09 ***
+ngal:del_cum:sw_gal                                   100253 0.0944384 .  
+deltas_gal:del_cum:sw_gal                             100233 4.859e-06 ***
+ind_cum:del_cum:sw_gal                                100194 5.566e-10 ***
+ngal:g_r:sw_gal                                       100193 0.2391816    
+deltas_gal:g_r:sw_gal                                 100190 0.1162667    
+ind_cum:g_r:sw_gal                                    100189 0.3552162    
+del_cum:g_r:sw_gal                                    100185 0.0324073 *  
+ngal:deltas_gal:sw_cum                                100185 0.8967522    
+ngal:ind_cum:sw_cum                                    98397 < 2.2e-16 ***
+deltas_gal:ind_cum:sw_cum                              98163 < 2.2e-16 ***
+ngal:del_cum:sw_cum                                    98163 0.8158818    
+deltas_gal:del_cum:sw_cum                              98038 < 2.2e-16 ***
+ind_cum:del_cum:sw_cum                                 97304 < 2.2e-16 ***
+ngal:g_r:sw_cum                                        97292 0.0006941 ***
+deltas_gal:g_r:sw_cum                                  97292 0.8479122    
+ind_cum:g_r:sw_cum                                     97292 0.7342912    
+del_cum:g_r:sw_cum                                     97260 1.113e-08 ***
+ngal:sw_gal:sw_cum                                     97260 0.9032965    
+deltas_gal:sw_gal:sw_cum                               97184 < 2.2e-16 ***
+ind_cum:sw_gal:sw_cum                                  97139 2.314e-11 ***
+del_cum:sw_gal:sw_cum                                  97113 3.832e-07 ***
+g_r:sw_gal:sw_cum                                      97096 3.347e-05 ***
+ngal:deltas_gal:ind_cum:del_cum                        97052 2.486e-11 ***
+ngal:deltas_gal:ind_cum:g_r                            97051 0.4396643    
+ngal:deltas_gal:del_cum:g_r                            97051 0.5187085    
+ngal:ind_cum:del_cum:g_r                               96986 8.722e-16 ***
+deltas_gal:ind_cum:del_cum:g_r                         96982 0.0589948 .  
+ngal:deltas_gal:ind_cum:sw_gal                         96981 0.3262183    
+ngal:deltas_gal:del_cum:sw_gal                         96978 0.0716910 .  
+ngal:ind_cum:del_cum:sw_gal                            96977 0.2977744    
+deltas_gal:ind_cum:del_cum:sw_gal                      96946 2.140e-08 ***
+ngal:deltas_gal:g_r:sw_gal                             96946 0.9926044    
+ngal:ind_cum:g_r:sw_gal                                96927 1.781e-05 ***
+deltas_gal:ind_cum:g_r:sw_gal                          96910 3.047e-05 ***
+ngal:del_cum:g_r:sw_gal                                96909 0.2326562    
+deltas_gal:del_cum:g_r:sw_gal                          96900 0.0041027 ** 
+ind_cum:del_cum:g_r:sw_gal                             96900 0.6113954    
+ngal:deltas_gal:ind_cum:sw_cum                         96899 0.2785135    
+ngal:deltas_gal:del_cum:sw_cum                         96889 0.0019501 ** 
+ngal:ind_cum:del_cum:sw_cum                            96806 < 2.2e-16 ***
+deltas_gal:ind_cum:del_cum:sw_cum                      96784 3.433e-06 ***
+ngal:deltas_gal:g_r:sw_cum                             96777 0.0053777 ** 
+ngal:ind_cum:g_r:sw_cum                                96752 5.918e-07 ***
+deltas_gal:ind_cum:g_r:sw_cum                          96742 0.0022527 ** 
+ngal:del_cum:g_r:sw_cum                                96718 8.636e-07 ***
+deltas_gal:del_cum:g_r:sw_cum                          96695 1.206e-06 ***
+ind_cum:del_cum:g_r:sw_cum                             96694 0.6746655    
+ngal:deltas_gal:sw_gal:sw_cum                          96691 0.0519007 .  
+ngal:ind_cum:sw_gal:sw_cum                             96689 0.2139204    
+deltas_gal:ind_cum:sw_gal:sw_cum                       96686 0.0850039 .  
+ngal:del_cum:sw_gal:sw_cum                             96686 0.7733873    
+deltas_gal:del_cum:sw_gal:sw_cum                       96658 1.038e-07 ***
+ind_cum:del_cum:sw_gal:sw_cum                          96626 1.531e-08 ***
+ngal:g_r:sw_gal:sw_cum                                 96623 0.0767623 .  
+deltas_gal:g_r:sw_gal:sw_cum                           96619 0.0564841 .  
+ind_cum:g_r:sw_gal:sw_cum                              96617 0.1360342    
+del_cum:g_r:sw_gal:sw_cum                              96606 0.0008933 ***
+ngal:deltas_gal:ind_cum:del_cum:g_r                    96600 0.0198758 *  
+ngal:deltas_gal:ind_cum:del_cum:sw_gal                 96592 0.0036897 ** 
+ngal:deltas_gal:ind_cum:g_r:sw_gal                     96592 0.8531130    
+ngal:deltas_gal:del_cum:g_r:sw_gal                     96592 0.7474225    
+ngal:ind_cum:del_cum:g_r:sw_gal                        96591 0.2972709    
+deltas_gal:ind_cum:del_cum:g_r:sw_gal                  96587 0.0711811 .  
+ngal:deltas_gal:ind_cum:del_cum:sw_cum                 96558 5.356e-08 ***
+ngal:deltas_gal:ind_cum:g_r:sw_cum                     96557 0.4161349    
+ngal:deltas_gal:del_cum:g_r:sw_cum                     96556 0.4390594    
+ngal:ind_cum:del_cum:g_r:sw_cum                        96550 0.0086848 ** 
+deltas_gal:ind_cum:del_cum:g_r:sw_cum                  96549 0.4761517    
+ngal:deltas_gal:ind_cum:sw_gal:sw_cum                  96490 1.914e-14 ***
+ngal:deltas_gal:del_cum:sw_gal:sw_cum                  96327 < 2.2e-16 ***
+ngal:ind_cum:del_cum:sw_gal:sw_cum                     96316 0.0010532 ** 
+deltas_gal:ind_cum:del_cum:sw_gal:sw_cum               96315 0.3681931    
+ngal:deltas_gal:g_r:sw_gal:sw_cum                      96308 0.0096317 ** 
+ngal:ind_cum:g_r:sw_gal:sw_cum                         96306 0.1026914    
+deltas_gal:ind_cum:g_r:sw_gal:sw_cum                   96306 0.8509396    
+ngal:del_cum:g_r:sw_gal:sw_cum                         96299 0.0076521 ** 
+deltas_gal:del_cum:g_r:sw_gal:sw_cum                   96295 0.0481605 *  
+ind_cum:del_cum:g_r:sw_gal:sw_cum                      96282 0.0003755 ***
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal             96279 0.0753005 .  
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_cum             96278 0.2924012    
+ngal:deltas_gal:ind_cum:del_cum:sw_gal:sw_cum          96274 0.0413951 *  
+ngal:deltas_gal:ind_cum:g_r:sw_gal:sw_cum              96273 0.4217838    
+ngal:deltas_gal:del_cum:g_r:sw_gal:sw_cum              96240 7.543e-09 ***
+ngal:ind_cum:del_cum:g_r:sw_gal:sw_cum                 96240 0.9203946    
+deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum           96237 0.1219109    
+ngal:deltas_gal:ind_cum:del_cum:g_r:sw_gal:sw_cum      96234 0.0930050 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+

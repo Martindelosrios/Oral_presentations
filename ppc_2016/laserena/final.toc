@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaciones.}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Bullet cluster}{11}{0}{1}
+\beamer@sectionintoc {2}{Mock.}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Simulaci\'on Millenium}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{Modelo semi-anal\'itico: De lucia 2004, Croton et al. 2006}{30}{0}{2}
+\beamer@sectionintoc {3}{Test de identificaci\'on de subestructuras.}{46}{0}{3}
+\beamer@subsectionintoc {3}{1}{Test de Dressler-Shectman}{47}{0}{3}
+\beamer@subsectionintoc {3}{2}{Test de Dressler-Shectman iterativo.}{57}{0}{3}
+\beamer@subsectionintoc {3}{3}{Mixtura de gaussianas.}{62}{0}{3}
+\beamer@sectionintoc {4}{Resultados.}{94}{0}{4}
+\beamer@subsectionintoc {4}{1}{Cat\'alogo de grupos y c\'umulos de galaxias del SDSS DR3.}{95}{0}{4}
+\beamer@subsectionintoc {4}{2}{Cat\'alogo de grupos y c\'umulos de galaxias del SDSS DR8.}{102}{0}{4}
+\beamer@subsectionintoc {4}{3}{Cat\'alogo de grupos y c\'umulos de galaxias del 2DF.}{109}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{116}{0}{5}

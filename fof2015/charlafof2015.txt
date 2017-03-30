@@ -1,0 +1,6 @@
+En este trabajo se presentan la metodología y resultados de la identificación de cúmulos en colisión en los grandes
+catálogos de galaxias con mediciones de redshift (SDSS,2DF), a través de un método calibrado en catálogos
+simulados realizados en base a la simulación cosmológica Millenium y sus modelos semi-analíticos; mediante el
+estudio de los árboles de fusión de los sistemas de galaxias allí presentes, analizados con técnicas de aprendizaje automático (random forest, suport vector machine).
+Finalmente se discuten perspectivas futuras del análisis de nuestra muestra de sistemas en colisión combinados
+con observaciones en rayos-x y reconstrucciones de masas obtenidas con lentes gravitacionales débiles.
