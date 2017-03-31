@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  30 MAR 2017 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.19)  31 MAR 2017 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,8 +1133,8 @@ Overfull \hbox (19.33664pt too wide) has occurred while \output is active
 
  <./fig1_nueva.pdf> <./fig2_nueva.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./fig2_nueva.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./fig2_nueva.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
 >] <./fig3_paper.pdf, id=734, 505.89pt x 505.89pt>
 File: ./fig3_paper.pdf Graphic file (type pdf)
  <use ./fig3_paper.pdf>
@@ -1224,7 +1224,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
 Here is how much of TeX's memory you used:
  17701 strings out of 494953
  339090 string characters out of 6180976
- 411505 words of memory out of 5000000
+ 411527 words of memory out of 5000000
  20481 multiletter control sequences out of 15000+600000
  11140 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1240,7 +1240,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
 
-Output written on grav17.pdf (18 pages, 837392 bytes).
+Output written on grav17.pdf (18 pages, 837395 bytes).
 PDF statistics:
  1076 PDF objects out of 1200 (max. 8388607)
  954 compressed objects within 10 object streams
