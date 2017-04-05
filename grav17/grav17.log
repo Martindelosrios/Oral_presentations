@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  30 MAR 2017 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.19)  2 APR 2017 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,8 +1133,8 @@ Overfull \hbox (19.33664pt too wide) has occurred while \output is active
 
  <./fig1_nueva.pdf> <./fig2_nueva.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./fig2_nueva.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./fig2_nueva.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
 >] <./fig3_paper.pdf, id=734, 505.89pt x 505.89pt>
 File: ./fig3_paper.pdf Graphic file (type pdf)
  <use ./fig3_paper.pdf>
@@ -1197,7 +1197,24 @@ Overfull \hbox (19.33664pt too wide) has occurred while \output is active
 
 [18
 
-]
+] <./thankyou.png, id=1031, 757.83125pt x 464.73625pt>
+File: ./thankyou.png Graphic file (type png)
+ <use ./thankyou.png>
+Package pdftex.def Info: ./thankyou.png used on input line 271.
+(pdftex.def)             Requested size: 341.02092pt x 209.12938pt.
+
+Overfull \hbox (33.73105pt too wide) in paragraph at lines 271--271
+ [] 
+ []
+
+
+Overfull \hbox (19.33664pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+ <./thankyou.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `grav17.nav'.
 
@@ -1207,11 +1224,11 @@ Overfull \hbox (19.33664pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `grav17.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./grav17.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `grav17.out' has not changed.
 (rerunfilecheck)             Checksum: 54A0CF0B55DC1027EE2460B55BACB22D;709.
 
@@ -1219,13 +1236,13 @@ Package rerunfilecheck Info: File `grav17.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  ) 
 Here is how much of TeX's memory you used:
- 17701 strings out of 494953
- 339090 string characters out of 6180976
- 411505 words of memory out of 5000000
- 20481 multiletter control sequences out of 15000+600000
+ 17710 strings out of 494953
+ 339212 string characters out of 6180976
+ 411562 words of memory out of 5000000
+ 20487 multiletter control sequences out of 15000+600000
  11140 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,20n,63p,421b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1240,10 +1257,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
 
-Output written on grav17.pdf (18 pages, 837392 bytes).
+Output written on grav17.pdf (19 pages, 1278824 bytes).
 PDF statistics:
- 1076 PDF objects out of 1200 (max. 8388607)
- 954 compressed objects within 10 object streams
- 47 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1120 PDF objects out of 1200 (max. 8388607)
+ 996 compressed objects within 10 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
