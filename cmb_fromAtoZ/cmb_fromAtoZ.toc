@@ -2,10 +2,10 @@
 \beamer@sectionintoc {1}{What is Machine Learning.}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Supervised learning.}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Machine Learning in physics.}{7}{0}{1}
-\beamer@sectionintoc {2}{Basic Concepts of Cosmology.}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{What are the cosmological parameters?}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{How can we measure the cosmological parameters?}{10}{0}{2}
-\beamer@sectionintoc {3}{Measuring the Cosmological Parameters.}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{The training sample.}{13}{0}{3}
-\beamer@subsectionintoc {3}{2}{First Results.}{15}{0}{3}
-\beamer@sectionintoc {4}{Final Remarks.}{17}{0}{4}
+\beamer@sectionintoc {2}{Basic Concepts of Cosmology.}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{What are the cosmological parameters?}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{How can we measure the cosmological parameters?}{9}{0}{2}
+\beamer@sectionintoc {3}{Measuring the Cosmological Parameters.}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{The training sample.}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{First Results.}{14}{0}{3}
+\beamer@sectionintoc {4}{Final Remarks.}{16}{0}{4}

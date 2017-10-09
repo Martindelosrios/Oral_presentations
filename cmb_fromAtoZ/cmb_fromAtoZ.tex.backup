@@ -218,11 +218,6 @@ CAMB: Code for Anisotropies in the Cosmic Background
 \begin{column}{4cm}
 \begin{tiny}
  {\color{rojo} K-Nearest Neighbour}
- 
- {Random Forest}
- 
- {\color{azul} Support Vector Machine}
- 
  \end{tiny}
 \end{column}
 \end{columns}
@@ -249,7 +244,7 @@ CAMB: Code for Anisotropies in the Cosmic Background
 }
 \frame{
  \begin{center}
- \includegraphics[scale=0.18]{./comparaciones.pdf}
+ \includegraphics[scale=0.25]{./comparaciones.pdf}
  % comparaciones.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
 
