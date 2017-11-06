@@ -10,7 +10,7 @@
 \definecolor{azul}{rgb}{0,0,1}
 
 \begin{document}
-\title{Measuring the angular distribution of the cosmological parameters.} 
+\title{CosmoML: A Machine Learning method to measure the cosmological parameters.} 
 \author{Mart\'in de los Rios \& Mariano Dom\'inguez} 
 
 \frame{\titlepage
@@ -133,7 +133,7 @@
 %  \end{flushleft}
 % \end{figure}
 %}
-\section{Basic Concepts of Cosmology.}
+\section{Measuring the Cosmological Parameters.}
 \frame{
 \tableofcontents[ 
     currentsection, 
@@ -142,7 +142,7 @@
     ] 
 }
 
-\subsection{What are the cosmological parameters?}
+%\subsection{What are the cosmological parameters?}
 \frame{
   \frametitle{What are the cosmological parameters?}
   Homogeneous and isotropic Universe $\rightarrow$ FRW metric
@@ -151,15 +151,16 @@ $ds^{2}=dt^{2}-a^{2}(t)[\frac{dr^{2}}{1-kr^{2}}+r^{2}(d \theta^{2}+sin^{2} \thet
 
 $(\frac{H}{H_{0}})^{2}=\Omega_{rad}a^{-4}+\Omega_{m}a^{-3}+\Omega_{\Lambda}-Kc^{2}a^{-2}$
 } 
-\subsection{How can we measure the cosmological parameters?}
+%\subsection{How can we measure the cosmological parameters?}
 \frame{
   \frametitle{How can we measure the cosmological parameters?}
   \begin{center}
- \includegraphics[scale=0.26]{./supernovas.png}
+ %\includegraphics[scale=0.26]{./supernovas.png}
   \includegraphics[scale=0.22]{./planck.png}
  % supernovas.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
-Carvalho \& Marques 2015 (1512.07869) Planck Collaboration 2015 (1502.01589)
+%Carvalho \& Marques 2015 (1512.07869) 
+Planck Collaboration 2015 (1502.01589)
 } 
 %\subsection{Latest Results.}
 %\frame{
@@ -178,21 +179,15 @@ Carvalho \& Marques 2015 (1512.07869) Planck Collaboration 2015 (1502.01589)
 %\end{center}
 %
 %}
-\frame{
-\begin{center}
- \includegraphics[scale=0.5]{./hubble.png}
+%\frame{
+%\begin{center}
+% \includegraphics[scale=0.5]{./hubble.png}
  % matter.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{center}
-Carvalho \& Marques (1512.07869)
-}
-\section{Measuring the Cosmological Parameters.}
-\frame{
-\tableofcontents[ 
-    currentsection, 
-    sectionstyle=show/hide, 
-    sectionstyle=show/shaded, 
-    ] 
-}
+%\end{center}
+%Carvalho \& Marques (1512.07869)
+%}
+
+
 \subsection{The training sample.}
 \frame{
 \frametitle{The training sample.}
@@ -218,9 +213,24 @@ CAMB: Code for Anisotropies in the Cosmic Background
 \begin{column}{4cm}
 \begin{tiny}
  {\color{rojo} K-Nearest Neighbour}
+ 
+ {Random Forest}
+ 
+ {\color{azul} Support Vector Machine}
+ 
  \end{tiny}
 \end{column}
 \end{columns}
+}
+
+\frame{
+Changing the minimum mutipole.
+
+\begin{center}
+ \includegraphics[scale=0.2]{./lvar.pdf}
+ % lvar.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
 }
 %\frame{
 %\begin{center}
@@ -234,17 +244,28 @@ CAMB: Code for Anisotropies in the Cosmic Background
 % % fig3_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 %\end{center}
 %}
-\subsection{First Results.}
+\subsection{First Applications.}
 \frame{
-\frametitle{First Results.}
+\frametitle{Measuring the cosmological parameters angular distributions. }
+
 \begin{center}
- \includegraphics[scale=0.26]{./fig7_paper.pdf}
+ \includegraphics[scale=0.22]{./fig7_paper.pdf}
  % fig7_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
+de los Rios \& Dominguez et al. (in preparation)
 }
+
+\frame{
+%\begin{center}
+ \includegraphics[scale=0.5]{./Stranger_Things_logo.png}
+ % Stranger_Things_logo.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+%\end{center}
+
+}
+
 \frame{
  \begin{center}
- \includegraphics[scale=0.25]{./comparaciones.pdf}
+ \includegraphics[scale=0.18]{./comparaciones.pdf}
  % comparaciones.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
 
