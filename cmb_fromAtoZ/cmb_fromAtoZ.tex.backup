@@ -244,7 +244,7 @@ Changing the minimum mutipole.
 % % fig3_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 %\end{center}
 %}
-\subsection{First Applications.}
+\subsection{Applications.}
 \frame{
 \frametitle{Measuring the cosmological parameters angular distributions. }
 
@@ -256,10 +256,11 @@ de los Rios \& Dominguez et al. (in preparation)
 }
 
 \frame{
-%\begin{center}
+\begin{center}
+\hspace{-2.1cm}
  \includegraphics[scale=0.5]{./Stranger_Things_logo.png}
  % Stranger_Things_logo.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-%\end{center}
+\end{center}
 
 }
 
@@ -271,6 +272,15 @@ de los Rios \& Dominguez et al. (in preparation)
 
 }
 
+\subsection{Hemispheric Asymmetry.}
+\frame{
+\begin{figure}[t!]
+ \centering
+ \includegraphics[scale=0.5]{./example_pi_2.pdf}
+ % example_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+
+}
 \section{Final Remarks.}
 \frame{
 \tableofcontents[ 
@@ -281,15 +291,21 @@ de los Rios \& Dominguez et al. (in preparation)
 }
 \frame{
 \frametitle{Final Remarks}
+\begin{small}
+ 
+
 \begin{itemize}
- \item We developed a machine learning technique that estimate the cosmological parameters in a more efficient way,
- and allow us to measure the angular distribution of this parameters.
+ \item We developed a machine learning technique that estimate the cosmological parameters in a more efficient way withouth losing precision.
  \item This technique can be easily extended to use more cosmological information as features (BAO, correlation function, SZ emission, etc.).
- \item We do not found statistically significant departures from what is expected in an homogeneous and isotropic universe, with the possible
- exception of a bi-modal $H_{0}$ distribution.
+ %\item We do not found statistically significant departures from what is expected in an homogeneous and isotropic universe, with the possible
+ %exception of a bi-modal $H_{0}$ distribution.
+ \item As a first application we study the angular distribution of the cosmological parameters.
+ \item We do not found any significant departure from what is expected in an homogeneous and isotropic univese, but 
+       we found some features in the distributions that may come from the pixelization.
  \item We will extend the parameters space and add polarization information in a forthcoming work.
  \item We will analyze the correlations between the angular distribution of the cosmological parameters and the large scale structure (voids, filaments, etc.) 
 \end{itemize}
+\end{small}
 
 }
 \frame{
