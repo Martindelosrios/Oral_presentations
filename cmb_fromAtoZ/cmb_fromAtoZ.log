@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  10 NOV 2017 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.1)  13 NOV 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,7 +983,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [3
 
-] <./aprendizaje_supervisado.pdf, id=231, 722.7pt x 406.51875pt>
+] <./aprendizaje_supervisado.pdf, id=216, 722.7pt x 406.51875pt>
 File: ./aprendizaje_supervisado.pdf Graphic file (type pdf)
 
 <use ./aprendizaje_supervisado.pdf>
@@ -1001,7 +1001,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [4
 
- <./aprendizaje_supervisado.pdf>] <./annz1.png, id=283, 963.6pt x 542.025pt>
+ <./aprendizaje_supervisado.pdf>] <./annz1.png, id=264, 963.6pt x 542.025pt>
 File: ./annz1.png Graphic file (type png)
 
 <use ./annz1.png>
@@ -1014,7 +1014,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [5
 
- <./annz1.png (PNG copy)>] <./annz.png, id=323, 476.78125pt x 466.74374pt>
+ <./annz1.png (PNG copy)>] <./annz.png, id=302, 476.78125pt x 466.74374pt>
 File: ./annz.png Graphic file (type png)
 
 <use ./annz.png>
@@ -1050,7 +1050,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [8
 
-] <./planck.png, id=459, 909.3975pt x 581.17125pt>
+] <./planck.png, id=429, 909.3975pt x 581.17125pt>
 File: ./planck.png Graphic file (type png)
  <use ./planck.png>
 Package pdftex.def Info: ./planck.png used on input line 164.
@@ -1062,7 +1062,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [9
 
- <./planck.png>] <./fig1_nueva.pdf, id=501, 505.89pt x 505.89pt>
+ <./planck.png>] <./fig1_nueva.pdf, id=467, 505.89pt x 505.89pt>
 File: ./fig1_nueva.pdf Graphic file (type pdf)
 
 <use ./fig1_nueva.pdf>
@@ -1076,7 +1076,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 [10
 
  <./fig1_nueva.pdf>]
-<./fig4_extended_30feat.pdf, id=552, 505.89pt x 505.89pt>
+<./fig4_extended_30feat.pdf, id=516, 505.89pt x 505.89pt>
 File: ./fig4_extended_30feat.pdf Graphic file (type pdf)
 
 <use ./fig4_extended_30feat.pdf>
@@ -1090,7 +1090,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 [11
 
  <./fig4_extended_30feat.pdf>]
-<./fig7_paper.pdf, id=600, 1228.59pt x 778.91pt>
+<./fig7_paper.pdf, id=560, 1228.59pt x 778.91pt>
 File: ./fig7_paper.pdf Graphic file (type pdf)
  <use ./fig7_paper.pdf>
 Package pdftex.def Info: ./fig7_paper.pdf used on input line 256.
@@ -1103,7 +1103,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 [12
 
  <./fig7_paper.pdf>]
-<./Stranger_Things_logo.png, id=651, 730.73pt x 401.5pt>
+<./Stranger_Things_logo.png, id=608, 730.73pt x 401.5pt>
 File: ./Stranger_Things_logo.png Graphic file (type png)
 
 <use ./Stranger_Things_logo.png>
@@ -1122,7 +1122,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 [13
 
  <./Stranger_Things_logo.png>]
-<./comparaciones.pdf, id=692, 1458.64528pt x 913.53227pt>
+<./comparaciones.pdf, id=646, 1458.64528pt x 913.53227pt>
 File: ./comparaciones.pdf Graphic file (type pdf)
 
 <use ./comparaciones.pdf>
@@ -1135,56 +1135,21 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
 
 [14
 
- <./comparaciones.pdf>]
-<./example_pi_2.pdf, id=821, 614.295pt x 390.25801pt>
-File: ./example_pi_2.pdf Graphic file (type pdf)
- <use ./example_pi_2.pdf>
-Package pdftex.def Info: ./example_pi_2.pdf used on input line 283.
-(pdftex.def)             Requested size: 307.14674pt x 195.12852pt.
-
-Overfull \vbox (7.88797pt too high) detected at line 283
- []
-
-
+ <./comparaciones.pdf>] (./cmb_fromAtoZ.toc)
 Overfull \hbox (60.22855pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [15
 
- <./example_pi_2.pdf>]
-<./hemispheric_d2diff_pi_2.pdf, id=944, 433.62pt x 289.08pt>
-File: ./hemispheric_d2diff_pi_2.pdf Graphic file (type pdf)
-
-<use ./hemispheric_d2diff_pi_2.pdf>
-Package pdftex.def Info: ./hemispheric_d2diff_pi_2.pdf used on input line 297.
-(pdftex.def)             Requested size: 281.84966pt x 187.89977pt.
-
+]
 Overfull \hbox (60.22855pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [16
 
- <./hemispheric_d2diff_pi_2.pdf>] (./cmb_fromAtoZ.toc)
-Overfull \hbox (60.22855pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[17
-
-]
-Overfull \vbox (10.0594pt too high) detected at line 324
- []
-
-
-Overfull \hbox (60.22855pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[18
-
-] <./thankyou.png, id=1344, 757.83125pt x 464.73625pt>
+] <./thankyou.png, id=854, 757.83125pt x 464.73625pt>
 File: ./thankyou.png Graphic file (type png)
  <use ./thankyou.png>
 Package pdftex.def Info: ./thankyou.png used on input line 331.
@@ -1199,7 +1164,7 @@ Overfull \hbox (60.22855pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[19
+[17
 
  <./thankyou.png (PNG copy)>]
 \tf@nav=\write6
@@ -1216,15 +1181,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./cmb_fromAtoZ.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
+Package rerunfilecheck Info: File `cmb_fromAtoZ.out' has not changed.
+(rerunfilecheck)             Checksum: 7DF092A4812F5168FFFA2AFE62990640;461.
 
-
-Package rerunfilecheck Warning: File `cmb_fromAtoZ.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cmb_fromAtoZ.out':
-(rerunfilecheck)             Before: C27F343DA7401BA67FE44BCA7DA561D8;461
-(rerunfilecheck)             After:  7DF092A4812F5168FFFA2AFE62990640;461.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1232,36 +1191,28 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 17710 strings out of 493029
- 339434 string characters out of 6136235
- 415298 words of memory out of 5000000
- 20740 multiletter control sequences out of 15000+600000
+ 17688 strings out of 493029
+ 339052 string characters out of 6136235
+ 413043 words of memory out of 5000000
+ 20726 multiletter control sequences out of 15000+600000
  14502 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,20n,63p,427b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation20} has been referenced but does not ex
-ist, replaced by a fixed one
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
 
-pdfTeX warning (dest): name{Outline0.2.2.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on cmb_fromAtoZ.pdf (19 pages, 1788267 bytes).
+Output written on cmb_fromAtoZ.pdf (17 pages, 1673763 bytes).
 PDF statistics:
- 1440 PDF objects out of 1440 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 48 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 936 PDF objects out of 1000 (max. 8388607)
+ 820 compressed objects within 9 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

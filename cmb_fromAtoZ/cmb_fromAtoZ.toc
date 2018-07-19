@@ -5,4 +5,4 @@
 \beamer@sectionintoc {2}{Measuring the Cosmological Parameters.}{7}{0}{2}
 \beamer@subsectionintoc {2}{1}{The training sample.}{10}{0}{2}
 \beamer@subsectionintoc {2}{2}{Applications.}{12}{0}{2}
-\beamer@sectionintoc {3}{Final Remarks.}{17}{0}{3}
+\beamer@sectionintoc {3}{Final Remarks.}{15}{0}{3}
