@@ -112,12 +112,19 @@ Changing the minimum mutipole.
 \frame{
 \frametitle{Measuring the cosmological parameters angular distributions. }
 
-\begin{figure}[]
- \includegraphics[width=4cm,height=5cm]{./pixelado.pdf}
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[width=0.5cm,height=0.5cm]{./pixelado.pdf}
  % pixelado.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
- \includegraphics[width=4cm,height=5cm]{./pixelado_reconstruction.pdf}
+\end{figure}
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[width=0.5cm,height=0.56cm]{./pixelado_reconstruction.pdf}
  % pixelado_reconstruction.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
- \includegraphics[width=4cm,height=5cm]{./chi_DAEs.pdf}
+\end{figure}
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[width=0.5cm,height=0.5cm]{./chi_DAEs.pdf}
  % chi_DAEs.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
