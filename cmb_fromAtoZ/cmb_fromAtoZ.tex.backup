@@ -191,7 +191,7 @@ Planck Collaboration 2015 (1502.01589)
 \subsection{The training sample.}
 \frame{
 \frametitle{The training sample.}
-CAMB: Code for Anisotropies in the Cosmic Background 
+CAMB: Code for Anisotropies in the Microwave Background (Lewis \& Challinor)
 \begin{center}
  \includegraphics[scale=0.3]{./fig1_nueva.pdf}
   %\includegraphics[scale=0.3]{./fig2_nueva.pdf}
@@ -223,15 +223,15 @@ CAMB: Code for Anisotropies in the Cosmic Background
 \end{columns}
 }
 
-\frame{
-Changing the minimum mutipole.
+%\frame{
+%Changing the minimum mutipole.
 
-\begin{center}
- \includegraphics[scale=0.2]{./lvar.pdf}
+%\begin{center}
+% \includegraphics[scale=0.2]{./lvar.pdf}
  % lvar.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{center}
+%\end{center}
 
-}
+%}
 %\frame{
 %\begin{center}
 % \includegraphics[scale=0.4]{./fig4_paper.pdf}
@@ -272,15 +272,29 @@ de los Rios \& Dominguez et al. (in preparation)
 
 }
 
-\subsection{Hemispheric Asymmetry.}
-\frame{
-\begin{figure}[t!]
- \centering
- \includegraphics[scale=0.5]{./example_pi_2.pdf}
- % example_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{figure}
 
-}
+%\frame{
+%\frametitle{Hemispheric Asymmetry. de los Rios \& Dominguez (in preparation).}
+%\begin{figure}[t!]
+% \centering
+% \includegraphics[scale=0.5]{./example_pi_2.pdf}
+ % example_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+%\end{figure}
+%}
+
+%\frame{
+%\begin{figure}[t!]
+% \centering
+% \includegraphics[scale=0.65]{./hemispheric_d2diff_pi_2.pdf}
+ % hemispheric_d2diff_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+%\end{figure}
+%\begin{small}
+ 
+%$\xi^{2}=(\frac{H_{pl}-H}{\sigma_{H}})^{2}+(\frac{\Omega_{m,pl}-\Omega_{m}}{\sigma_{\Omega_{m}}})^{2}+(\frac{\Omega_{b,pl}-\Omega_{b}}{\sigma_{\Omega_{b}}})^{2}+
+%(\frac{\Omega_{k,pl}-\Omega_{k}}{\sigma_{\Omega_{k}}})^{2}+(\frac{\tau_{pl}-\tau}{\sigma_{\tau}})^{2}+(\frac{n_{pl}-n}{\sigma_{n}})^{2}$
+
+%\end{small}
+%}
 \section{Final Remarks.}
 \frame{
 \tableofcontents[ 
@@ -299,7 +313,7 @@ de los Rios \& Dominguez et al. (in preparation)
  \item This technique can be easily extended to use more cosmological information as features (BAO, correlation function, SZ emission, etc.).
  %\item We do not found statistically significant departures from what is expected in an homogeneous and isotropic universe, with the possible
  %exception of a bi-modal $H_{0}$ distribution.
- \item As a first application we study the angular distribution of the cosmological parameters.
+ \item As a first application we study the angular distribution of the cosmological parameters and the Hemispherical Asymmetry.
  \item We do not found any significant departure from what is expected in an homogeneous and isotropic univese, but 
        we found some features in the distributions that may come from the pixelization.
  \item We will extend the parameters space and add polarization information in a forthcoming work.
