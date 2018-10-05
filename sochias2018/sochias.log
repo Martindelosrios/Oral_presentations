@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.7.4)  19 SEP 2018 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.7.4)  5 OCT 2018 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,7 +913,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [3
 
 ]
-<./aprendizaje_supervisado.pdf, id=251, 722.7pt x 406.51875pt>
+<./aprendizaje_supervisado.pdf, id=276, 722.7pt x 406.51875pt>
 File: ./aprendizaje_supervisado.pdf Graphic file (type pdf)
 <use ./aprendizaje_supervisado.pdf>
 Package pdftex.def Info: ./aprendizaje_supervisado.pdf  used on input line 39.
@@ -930,38 +930,12 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [4
 
- <./aprendizaje_supervisado.pdf>]
-<./annz1.png, id=309, 963.6pt x 542.025pt>
-File: ./annz1.png Graphic file (type png)
-<use ./annz1.png>
-Package pdftex.def Info: ./annz1.png  used on input line 47.
-(pdftex.def)             Requested size: 289.08223pt x 162.60875pt.
-
+ <./aprendizaje_supervisado.pdf>] (./sochias.toc)
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [5
-
- <./annz1.png (PNG copy)>]
-<./annz.png, id=355, 476.78125pt x 466.74374pt>
-File: ./annz.png Graphic file (type png)
-<use ./annz.png>
-Package pdftex.def Info: ./annz.png  used on input line 52.
-(pdftex.def)             Requested size: 214.54958pt x 210.03275pt.
-
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[6
-
- <./annz.png>] (./sochias.toc)
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[7
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 78.
@@ -980,7 +954,7 @@ line 78.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<./planck.png, id=456, 909.3975pt x 581.17125pt>
+<./planck.png, id=396, 909.3975pt x 581.17125pt>
 File: ./planck.png Graphic file (type png)
 <use ./planck.png>
 Package pdftex.def Info: ./planck.png  used on input line 78.
@@ -990,10 +964,10 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[8
+[6
 
  <./planck.png>]
-<./fig1_nueva.pdf, id=509, 505.89pt x 505.89pt>
+<./fig1_nueva.pdf, id=454, 505.89pt x 505.89pt>
 File: ./fig1_nueva.pdf Graphic file (type pdf)
 <use ./fig1_nueva.pdf>
 Package pdftex.def Info: ./fig1_nueva.pdf  used on input line 90.
@@ -1003,14 +977,48 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[9
+[7
 
  <./fig1_nueva.pdf>]
-<./predicciones.pdf, id=566, 1593.7973pt x 1056.51524pt>
-File: ./predicciones.pdf Graphic file (type pdf)
-<use ./predicciones.pdf>
-Package pdftex.def Info: ./predicciones.pdf  used on input line 99.
+<./predicciones_pre.pdf, id=518, 1593.7973pt x 1056.51524pt>
+File: ./predicciones_pre.pdf Graphic file (type pdf)
+<use ./predicciones_pre.pdf>
+Package pdftex.def Info: ./predicciones_pre.pdf  used on input line 99.
 (pdftex.def)             Requested size: 286.87114pt x 190.16454pt.
+
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[8
+
+ <./predicciones_pre.pdf>]
+<./map-nside4.pdf, id=610, 614.295pt x 390.25798pt>
+File: ./map-nside4.pdf Graphic file (type pdf)
+<use ./map-nside4.pdf>
+Package pdftex.def Info: ./map-nside4.pdf  used on input line 112.
+(pdftex.def)             Requested size: 307.14674pt x 195.12851pt.
+
+Overfull \vbox (7.08795pt too high) detected at line 112
+ []
+
+
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[9
+
+ <./map-nside4.pdf>]
+<./pixelado_pre.pdf, id=698, 505.89pt x 505.89pt>
+File: ./pixelado_pre.pdf Graphic file (type pdf)
+<use ./pixelado_pre.pdf>
+Package pdftex.def Info: ./pixelado_pre.pdf  used on input line 120.
+(pdftex.def)             Requested size: 202.3524pt x 202.3524pt.
+
+Overfull \vbox (14.31184pt too high) detected at line 120
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1018,12 +1026,12 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [10
 
- <./predicciones.pdf>]
-<./lvar.pdf, id=635, 1458.22893pt x 887.5214pt>
-File: ./lvar.pdf Graphic file (type pdf)
-<use ./lvar.pdf>
-Package pdftex.def Info: ./lvar.pdf  used on input line 109.
-(pdftex.def)             Requested size: 291.64061pt x 177.50113pt.
+ <./pixelado_pre.pdf>]
+<./autoencoder.png, id=775, 871.255pt x 603.25375pt>
+File: ./autoencoder.png Graphic file (type png)
+<use ./autoencoder.png>
+Package pdftex.def Info: ./autoencoder.png  used on input line 130.
+(pdftex.def)             Requested size: 261.37851pt x 180.97751pt.
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1031,27 +1039,12 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [11
 
- <./lvar.pdf>]
-<./pixelado.pdf, id=743, 505.89pt x 505.89pt>
-File: ./pixelado.pdf Graphic file (type pdf)
-<use ./pixelado.pdf>
-Package pdftex.def Info: ./pixelado.pdf  used on input line 123.
-(pdftex.def)             Requested size: 113.80489pt x 142.26576pt.
-<./pixelado_reconstruction.pdf, id=744, 505.89pt x 505.89pt>
-File: ./pixelado_reconstruction.pdf Graphic file (type pdf)
-<use ./pixelado_reconstruction.pdf>
-Package pdftex.def Info: ./pixelado_reconstruction.pdf  used on input line 123.
-
-(pdftex.def)             Requested size: 113.80489pt x 142.26576pt.
-<./chi_DAEs.pdf, id=745, 505.89pt x 505.89pt>
-File: ./chi_DAEs.pdf Graphic file (type pdf)
-<use ./chi_DAEs.pdf>
-Package pdftex.def Info: ./chi_DAEs.pdf  used on input line 123.
-(pdftex.def)             Requested size: 113.80489pt x 142.26576pt.
-
-Overfull \vbox (97.49097pt too high) detected at line 123
- []
-
+ <./autoencoder.png>]
+<./daes.jpeg, id=827, 390.45876pt x 129.48375pt>
+File: ./daes.jpeg Graphic file (type jpg)
+<use ./daes.jpeg>
+Package pdftex.def Info: ./daes.jpeg  used on input line 140.
+(pdftex.def)             Requested size: 273.31926pt x 90.63799pt.
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1059,12 +1052,21 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [12
 
- <./pixelado.pdf> <./pixelado_reconstruction.pdf> <./chi_DAEs.pdf>]
-<./fig7_paper.pdf, id=814, 1228.59pt x 778.91pt>
-File: ./fig7_paper.pdf Graphic file (type pdf)
-<use ./fig7_paper.pdf>
-Package pdftex.def Info: ./fig7_paper.pdf  used on input line 131.
-(pdftex.def)             Requested size: 270.29063pt x 171.36073pt.
+ <./daes.jpeg>]
+<./autoencoder2.png, id=879, 701.62125pt x 462.22687pt>
+File: ./autoencoder2.png Graphic file (type png)
+<use ./autoencoder2.png>
+Package pdftex.def Info: ./autoencoder2.png  used on input line 150.
+(pdftex.def)             Requested size: 350.80975pt x 231.11287pt.
+
+Overfull \hbox (43.51988pt too wide) in paragraph at lines 150--150
+ [] 
+ []
+
+
+Overfull \vbox (41.27228pt too high) detected at line 150
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1072,12 +1074,16 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [13
 
- <./fig7_paper.pdf>]
-<./comparaciones.pdf, id=872, 1458.64528pt x 913.53227pt>
-File: ./comparaciones.pdf Graphic file (type pdf)
-<use ./comparaciones.pdf>
-Package pdftex.def Info: ./comparaciones.pdf  used on input line 140.
-(pdftex.def)             Requested size: 262.54482pt x 164.42871pt.
+ <./autoencoder2.png>]
+<./pixel1_pre.pdf, id=932, 505.89pt x 505.89pt>
+File: ./pixel1_pre.pdf Graphic file (type pdf)
+<use ./pixel1_pre.pdf>
+Package pdftex.def Info: ./pixel1_pre.pdf  used on input line 166.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+Overfull \vbox (23.26631pt too high) detected at line 166
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1085,14 +1091,15 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [14
 
- <./comparaciones.pdf>]
-<./example_pi_2.pdf, id=1005, 614.295pt x 390.25801pt>
-File: ./example_pi_2.pdf Graphic file (type pdf)
-<use ./example_pi_2.pdf>
-Package pdftex.def Info: ./example_pi_2.pdf  used on input line 150.
-(pdftex.def)             Requested size: 307.14674pt x 195.12852pt.
+ <./pixel1_pre.pdf>]
+<./pixel1_reconstruction_pre.pdf, id=1015, 505.89pt x 505.89pt>
+File: ./pixel1_reconstruction_pre.pdf Graphic file (type pdf)
+<use ./pixel1_reconstruction_pre.pdf>
+Package pdftex.def Info: ./pixel1_reconstruction_pre.pdf  used on input line 17
+3.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Overfull \vbox (7.88797pt too high) detected at line 150
+Overfull \vbox (23.26631pt too high) detected at line 173
  []
 
 
@@ -1102,13 +1109,16 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [15
 
- <./example_pi_2.pdf>]
-<./hemispheric_d2diff_pi_2.pdf, id=1134, 433.62pt x 289.08pt>
-File: ./hemispheric_d2diff_pi_2.pdf Graphic file (type pdf)
-<use ./hemispheric_d2diff_pi_2.pdf>
-Package pdftex.def Info: ./hemispheric_d2diff_pi_2.pdf  used on input line 164.
+ <./pixel1_reconstruction_pre.pdf>]
+<./pixel2_pre.pdf, id=1117, 505.89pt x 505.89pt>
+File: ./pixel2_pre.pdf Graphic file (type pdf)
+<use ./pixel2_pre.pdf>
+Package pdftex.def Info: ./pixel2_pre.pdf  used on input line 180.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-(pdftex.def)             Requested size: 281.84966pt x 187.89977pt.
+Overfull \vbox (23.26631pt too high) detected at line 180
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1116,15 +1126,32 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [16
 
- <./hemispheric_d2diff_pi_2.pdf>] (./sochias.toc)
+ <./pixel2_pre.pdf>]
+<./pixel2_reconstruction_pre.pdf, id=1197, 505.89pt x 505.89pt>
+File: ./pixel2_reconstruction_pre.pdf Graphic file (type pdf)
+<use ./pixel2_reconstruction_pre.pdf>
+Package pdftex.def Info: ./pixel2_reconstruction_pre.pdf  used on input line 18
+7.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+Overfull \vbox (23.26631pt too high) detected at line 187
+ []
+
+
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [17
 
-]
-Overfull \vbox (10.0594pt too high) detected at line 191
+ <./pixel2_reconstruction_pre.pdf>]
+<./chi_DAEs_pre.pdf, id=1299, 505.89pt x 505.89pt>
+File: ./chi_DAEs_pre.pdf Graphic file (type pdf)
+<use ./chi_DAEs_pre.pdf>
+Package pdftex.def Info: ./chi_DAEs_pre.pdf  used on input line 197.
+(pdftex.def)             Requested size: 177.06415pt x 177.06415pt.
+
+Overfull \vbox (9.57951pt too high) detected at line 197
  []
 
 
@@ -1134,15 +1161,15 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [18
 
-]
-<./thankyou.png, id=1550, 757.83125pt x 464.73625pt>
-File: ./thankyou.png Graphic file (type png)
-<use ./thankyou.png>
-Package pdftex.def Info: ./thankyou.png  used on input line 198.
-(pdftex.def)             Requested size: 341.02092pt x 209.12938pt.
+ <./chi_DAEs_pre.pdf>]
+<./omk_pred_pixels_dae_pre.pdf, id=1382, 505.89pt x 505.89pt>
+File: ./omk_pred_pixels_dae_pre.pdf Graphic file (type pdf)
+<use ./omk_pred_pixels_dae_pre.pdf>
+Package pdftex.def Info: ./omk_pred_pixels_dae_pre.pdf  used on input line 206.
 
-Overfull \hbox (33.73105pt too wide) in paragraph at lines 198--198
- [] 
+(pdftex.def)             Requested size: 237.76833pt x 237.76833pt.
+
+Overfull \vbox (8.09027pt too high) detected at line 206
  []
 
 
@@ -1152,7 +1179,65 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [19
 
+ <./omk_pred_pixels_dae_pre.pdf>]
+<./omk_predictions_pre.pdf, id=1471, 474.18953pt x 436.78922pt>
+File: ./omk_predictions_pre.pdf Graphic file (type pdf)
+<use ./omk_predictions_pre.pdf>
+Package pdftex.def Info: ./omk_predictions_pre.pdf  used on input line 214.
+(pdftex.def)             Requested size: 237.09418pt x 218.39407pt.
+
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[20
+
+ <./omk_predictions_pre.pdf>] (./sochias.toc)
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[21
+
+]
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[22
+
+]
+<./thankyou.png, id=1664, 757.83125pt x 464.73625pt>
+File: ./thankyou.png Graphic file (type png)
+<use ./thankyou.png>
+Package pdftex.def Info: ./thankyou.png  used on input line 248.
+(pdftex.def)             Requested size: 341.02092pt x 209.12938pt.
+
+Overfull \hbox (33.73105pt too wide) in paragraph at lines 248--248
+ [] 
+ []
+
+
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[23
+
  <./thankyou.png (PNG copy)>]
+<./lvar.pdf, id=1716, 1458.22893pt x 887.5214pt>
+File: ./lvar.pdf Graphic file (type pdf)
+<use ./lvar.pdf>
+Package pdftex.def Info: ./lvar.pdf  used on input line 259.
+(pdftex.def)             Requested size: 291.64061pt x 177.50113pt.
+
+Overfull \hbox (39.06175pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[24
+
+ <./lvar.pdf>]
 \tf@nav=\write6
 \openout6 = `sochias.nav'.
 
@@ -1162,40 +1247,40 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `sochias.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (./sochias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `sochias.out' has not changed.
-(rerunfilecheck)             Checksum: 67EAB9795669F46F310EA339C90376ED;383.
+(rerunfilecheck)             Checksum: ABA3CF377D8F31B88EB2DE02F7D04AC1;382.
  ) 
 Here is how much of TeX's memory you used:
- 18299 strings out of 492648
- 348088 string characters out of 6132016
- 435139 words of memory out of 5000000
- 21681 multiletter control sequences out of 15000+600000
- 15066 words of font info for 55 fonts, out of 8000000 for 9000
+ 18320 strings out of 492648
+ 348606 string characters out of 6132016
+ 440016 words of memory out of 5000000
+ 21690 multiletter control sequences out of 15000+600000
+ 11577 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,809b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texli
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/symbol/usyr.pfb>
-Output written on sochias.pdf (19 pages, 1626605 bytes).
+Output written on sochias.pdf (24 pages, 1474624 bytes).
 PDF statistics:
- 1653 PDF objects out of 1728 (max. 8388607)
- 1370 compressed objects within 14 object streams
- 45 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1885 PDF objects out of 2073 (max. 8388607)
+ 1612 compressed objects within 17 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

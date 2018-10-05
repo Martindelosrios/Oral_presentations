@@ -38,18 +38,18 @@
   \end{center}
 }
 
-\frame{
- \frametitle{Simple Example:ANNz}
-  ANNz: Estimating photometric redshift using artificial neural network. Collister \& Lahav 2003 (0311058)
-  \begin{center}
-   \includegraphics[scale=0.3]{./annz1.png}
-  \end{center}
-}
-\frame{
-  \begin{center}
-   \includegraphics[scale=0.45]{./annz.png}
-  \end{center}
-}
+%\frame{
+% \frametitle{Simple Example:ANNz}
+%  ANNz: Estimating photometric redshift using artificial neural network. Collister \& Lahav 2003 (0311058)
+%  \begin{center}
+%   \includegraphics[scale=0.3]{./annz1.png}
+%  \end{center}
+%}
+%\frame{
+%  \begin{center}
+%   \includegraphics[scale=0.45]{./annz.png}
+%  \end{center}
+%}
 
 \section{Measuring the Cosmological Parameters.}
 \frame{
@@ -92,76 +92,128 @@ CAMB: Code for Anisotropies in the Cosmic Background
 %\subsection{Studying different Machine Learning algorithms.}
 \frame{\frametitle{Studying different Machine Learning algorithms.}
 \begin{center}
- \includegraphics[scale=0.18]{./predicciones.pdf}
+ \includegraphics[scale=0.18]{./predicciones_pre.pdf}
  % fig3_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb= width=32,height=23
 \end{center}
 
 }
 
-\frame{
-Changing the minimum mutipole.
 
-\begin{center}
- \includegraphics[scale=0.2]{./lvar.pdf}
- % lvar.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{center}
+\subsection{Applications.}
+
+\frame{
+\frametitle{Measuring the cosmological parameters angular distributions. }
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./map-nside4.pdf}
+ % map-nside4.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
 
 }
 
-\subsection{Applications.}
 \frame{
 \frametitle{Measuring the cosmological parameters angular distributions. }
 
-\begin{figure}[]
- \includegraphics[width=4cm,height=5cm]{./pixelado.pdf}
+\begin{figure}[l]
+ \includegraphics[scale=0.4,keepaspectratio=true]{./pixelado_pre.pdf}
+\end{figure}
+}
+
+\frame{
+\frametitle{Denoising Autoencoders}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.3,keepaspectratio=true]{./autoencoder.png}
+\end{figure}
+
+}
+
+\frame{
+\frametitle{Denoising Autoencoders}
+
+\begin{figure}[ht!]
+ \centering
+\includegraphics[scale=0.7,keepaspectratio=true]{./daes.jpeg}
+\end{figure}
+
+}
+
+\frame{
+\frametitle{Denoising Autoencoders}
+
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./autoencoder2.png}
+\end{figure}
+
+}
+%\frame{
+%\begin{figure}[l]
+% \includegraphics[width=5cm,height=5cm]{./pixelado.pdf}
  % pixelado.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
- \includegraphics[width=4cm,height=5cm]{./pixelado_reconstruction.pdf}
+% \includegraphics[width=5cm,height=5cm]{./pixelado_reconstruction.pdf}
  % pixelado_reconstruction.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
- \includegraphics[width=4cm,height=5cm]{./chi_DAEs.pdf}
+%\end{figure}
+%}
+
+\frame{
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1_pre.pdf}
+ % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+}
+\frame{
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1_reconstruction_pre.pdf}
+ % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+}
+\frame{
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2_pre.pdf}
+ % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+}
+\frame{
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2_reconstruction_pre.pdf}
+ % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+}
+\frame{
+\frametitle{Measuring the cosmological parameters angular distributions. }
+
+$\chi = \frac{\sum_{i=1}^{npix} |C_{l, real}-C_{l, rec}|}{npix}$
+
+\begin{figure}[]
+ \includegraphics[scale=0.35,keepaspectratio=true]{./chi_DAEs_pre.pdf}
  % chi_DAEs.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
 
+\frame{ 
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.47,keepaspectratio=true]{./omk_pred_pixels_dae_pre.pdf}
+ % \includegraphics[scale=0.27,keepaspectratio=true]{./at_pred_pixels_dae.pdf}
+ % omk_pred_pixels_dae.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{figure}
+}
+
 \frame{
 \begin{center}
- \includegraphics[scale=0.22]{./fig7_paper.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./omk_predictions_pre.pdf}
+ % omk_predictions.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb
  % fig7_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
-de los Rios \& Dominguez et al. (in preparation)
 }
 
 
-\frame{
- \begin{center}
- \includegraphics[scale=0.18]{./comparaciones.pdf}
- % comparaciones.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{center}
-
-}
-
-
-\frame{
-\frametitle{Hemispheric Asymmetry. de los Rios \& Dominguez (in preparation).}
-\begin{figure}[t!]
- \centering
- \includegraphics[scale=0.5]{./example_pi_2.pdf}
- % example_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{figure}
-}
-
-\frame{
-\begin{figure}[t!]
- \centering
- \includegraphics[scale=0.65]{./hemispheric_d2diff_pi_2.pdf}
- % hemispheric_d2diff_pi_2.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{figure}
-\begin{small}
- 
-$\xi^{2}=(\frac{H_{pl}-H}{\sigma_{H}})^{2}+(\frac{\Omega_{m,pl}-\Omega_{m}}{\sigma_{\Omega_{m}}})^{2}+(\frac{\Omega_{b,pl}-\Omega_{b}}{\sigma_{\Omega_{b}}})^{2}+
-(\frac{\Omega_{k,pl}-\Omega_{k}}{\sigma_{\Omega_{k}}})^{2}+(\frac{\tau_{pl}-\tau}{\sigma_{\tau}})^{2}+(\frac{n_{pl}-n}{\sigma_{n}})^{2}$
-
-\end{small}
-}
 \section{Final Remarks.}
 \frame{
 \tableofcontents[ 
@@ -173,19 +225,17 @@ $\xi^{2}=(\frac{H_{pl}-H}{\sigma_{H}})^{2}+(\frac{\Omega_{m,pl}-\Omega_{m}}{\sig
 \frame{
 \frametitle{Final Remarks}
 \begin{small}
- 
-
-\begin{itemize}
- \item We developed a machine learning technique that estimate the cosmological parameters in a more efficient way withouth losing precision.
+ \begin{itemize}
+ \item We developed a machine learning technique that estimate the cosmological parameters using CMB information.
  \item This technique can be easily extended to use more cosmological information as features (BAO, correlation function, SZ emission, etc.).
  %\item We do not found statistically significant departures from what is expected in an homogeneous and isotropic universe, with the possible
  %exception of a bi-modal $H_{0}$ distribution.
- \item As a first application we study the angular distribution of the cosmological parameters and the Hemispherical Asymmetry.
- \item We do not found any significant departure from what is expected in an homogeneous and isotropic univese, but 
-       we found some features in the distributions that may come from the pixelization.
- \item We will extend the parameters space and add polarization information in a forthcoming work.
- \item We will analyze the correlations between the angular distribution of the cosmological parameters and the large scale structure (voids, filaments, etc.) 
-\end{itemize}
+ \item As a first application we are studying the angular distribution of the cosmological parameters.
+ \item We developed a machine learning technique that reconstructed the power spectra from pixels.
+ \item We do not found any significant curvature departure from what is expected in an homogeneous and isotropic universe, with the exception of 
+ some pixels that are in the galactic plane.
+ \item We will extend the parameters space and add polarization information.
+ \end{itemize}
 \end{small}
 
 }
@@ -193,6 +243,17 @@ $\xi^{2}=(\frac{H_{pl}-H}{\sigma_{H}})^{2}+(\frac{\Omega_{m,pl}-\Omega_{m}}{\sig
  \begin{center}
  \includegraphics[scale=0.45]{./thankyou.png}
  % comparaciones.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+
+}
+
+
+\frame{
+Changing the minimum mutipole.
+
+\begin{center}
+ \includegraphics[scale=0.2]{./lvar.pdf}
+ % lvar.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
 
 }
