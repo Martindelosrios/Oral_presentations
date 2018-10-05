@@ -92,7 +92,7 @@ CAMB: Code for Anisotropies in the Cosmic Background
 %\subsection{Studying different Machine Learning algorithms.}
 \frame{\frametitle{Studying different Machine Learning algorithms.}
 \begin{center}
- \includegraphics[scale=0.18]{./predicciones.pdf}
+ \includegraphics[scale=0.18]{./predicciones_pre.pdf}
  % fig3_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb= width=32,height=23
 \end{center}
 
@@ -115,7 +115,7 @@ CAMB: Code for Anisotropies in the Cosmic Background
 \frametitle{Measuring the cosmological parameters angular distributions. }
 
 \begin{figure}[l]
- \includegraphics[scale=0.4,keepaspectratio=true]{./pixelado.pdf}
+ \includegraphics[scale=0.4,keepaspectratio=true]{./pixelado_pre.pdf}
 \end{figure}
 }
 
@@ -160,28 +160,28 @@ CAMB: Code for Anisotropies in the Cosmic Background
 \frame{
 \begin{figure}[ht!]
  \centering
- \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1_pre.pdf}
  % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
 \frame{
 \begin{figure}[ht!]
  \centering
- \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1_reconstruction.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel1_reconstruction_pre.pdf}
  % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
 \frame{
 \begin{figure}[ht!]
  \centering
- \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2_pre.pdf}
  % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
 \frame{
 \begin{figure}[ht!]
  \centering
- \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2_reconstruction.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./pixel2_reconstruction_pre.pdf}
  % pixel1.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
@@ -191,7 +191,7 @@ CAMB: Code for Anisotropies in the Cosmic Background
 $\chi = \frac{\sum_{i=1}^{npix} |C_{l, real}-C_{l, rec}|}{npix}$
 
 \begin{figure}[]
- \includegraphics[scale=0.35,keepaspectratio=true]{./chi_DAEs.pdf}
+ \includegraphics[scale=0.35,keepaspectratio=true]{./chi_DAEs_pre.pdf}
  % chi_DAEs.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
 }
@@ -199,7 +199,7 @@ $\chi = \frac{\sum_{i=1}^{npix} |C_{l, real}-C_{l, rec}|}{npix}$
 \frame{ 
 \begin{figure}[ht!]
  \centering
- \includegraphics[scale=0.47,keepaspectratio=true]{./omk_pred_pixels_dae.pdf}
+ \includegraphics[scale=0.47,keepaspectratio=true]{./omk_pred_pixels_dae_pre.pdf}
  % \includegraphics[scale=0.27,keepaspectratio=true]{./at_pred_pixels_dae.pdf}
  % omk_pred_pixels_dae.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{figure}
@@ -207,7 +207,7 @@ $\chi = \frac{\sum_{i=1}^{npix} |C_{l, real}-C_{l, rec}|}{npix}$
 
 \frame{
 \begin{center}
- \includegraphics[scale=0.5,keepaspectratio=true]{./omk_predictions.pdf}
+ \includegraphics[scale=0.5,keepaspectratio=true]{./omk_predictions_pre.pdf}
  % omk_predictions.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb
  % fig7_paper.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \end{center}
@@ -225,19 +225,17 @@ $\chi = \frac{\sum_{i=1}^{npix} |C_{l, real}-C_{l, rec}|}{npix}$
 \frame{
 \frametitle{Final Remarks}
 \begin{small}
- 
-
-\begin{itemize}
- \item We developed a machine learning technique that estimate the cosmological parameters in a more efficient way withouth losing precision.
+ \begin{itemize}
+ \item We developed a machine learning technique that estimate the cosmological parameters using CMB information.
  \item This technique can be easily extended to use more cosmological information as features (BAO, correlation function, SZ emission, etc.).
  %\item We do not found statistically significant departures from what is expected in an homogeneous and isotropic universe, with the possible
  %exception of a bi-modal $H_{0}$ distribution.
  \item As a first application we are studying the angular distribution of the cosmological parameters.
- \item We do not found any significant curvature departure from what is expected in an homogeneous and isotropic univese, with the exception of 
+ \item We developed a machine learning technique that reconstructed the power spectra from pixels.
+ \item We do not found any significant curvature departure from what is expected in an homogeneous and isotropic universe, with the exception of 
  some pixels that are in the galactic plane.
- \item We will extend the parameters space and add polarization information in a forthcoming work.
- \item We will analyze the correlations between the angular distribution of the cosmological parameters and the large scale structure (voids, filaments, etc.) 
-\end{itemize}
+ \item We will extend the parameters space and add polarization information.
+ \end{itemize}
 \end{small}
 
 }
