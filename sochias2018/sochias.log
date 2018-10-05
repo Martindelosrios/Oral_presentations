@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.7.4)  5 OCT 2018 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.1)  5 OCT 2018 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sochias.tex
 (./sochias.tex
-LaTeX2e <2018-04-01> patch level 4
-Babel <3.20> and hyphenation patterns for 84 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count80
+\etb@tempcnta=\count79
 )
 \beamer@tempbox=\box26
-\beamer@tempcount=\count81
-\c@beamerpauses=\count82
+\beamer@tempcount=\count80
+\c@beamerpauses=\count81
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-\beamer@slideinframe=\count83
-\beamer@minimum=\count84
+\beamer@slideinframe=\count82
+\beamer@minimum=\count83
 )
 \beamer@commentbox=\box27
-\beamer@modecount=\count85
+\beamer@modecount=\count84
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
@@ -50,25 +50,25 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 \beamer@sectionbox=\box31
 \beamer@logobox=\box32
 \beamer@linebox=\box33
-\beamer@sectioncount=\count86
-\beamer@subsubsectionmax=\count87
-\beamer@subsectionmax=\count88
-\beamer@sectionmax=\count89
-\beamer@totalheads=\count90
-\beamer@headcounter=\count91
-\beamer@partstartpage=\count92
-\beamer@sectionstartpage=\count93
-\beamer@subsectionstartpage=\count94
-\beamer@animationtempa=\count95
-\beamer@animationtempb=\count96
-\beamer@xpos=\count97
-\beamer@ypos=\count98
-\beamer@ypos@offset=\count99
-\beamer@showpartnumber=\count100
-\beamer@currentsubsection=\count101
-\beamer@coveringdepth=\count102
-\beamer@sectionadjust=\count103
-\beamer@tocsectionnumber=\count104
+\beamer@sectioncount=\count85
+\beamer@subsubsectionmax=\count86
+\beamer@subsectionmax=\count87
+\beamer@sectionmax=\count88
+\beamer@totalheads=\count89
+\beamer@headcounter=\count90
+\beamer@partstartpage=\count91
+\beamer@sectionstartpage=\count92
+\beamer@subsectionstartpage=\count93
+\beamer@animationtempa=\count94
+\beamer@animationtempb=\count95
+\beamer@xpos=\count96
+\beamer@ypos=\count97
+\beamer@ypos@offset=\count98
+\beamer@showpartnumber=\count99
+\beamer@currentsubsection=\count100
+\beamer@coveringdepth=\count101
+\beamer@sectionadjust=\count102
+\beamer@tocsectionnumber=\count103
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -79,7 +79,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \beamer@paperheight=\skip43
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -88,9 +88,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count105
-\Gm@cntv=\count106
-\c@Gm@tempcnt=\count107
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
 \Gm@bindingoffset=\dimen118
 \Gm@wd@mp=\dimen119
 \Gm@odd@mp=\dimen120
@@ -162,10 +162,10 @@ ex
 \pgf@yc=\dimen137
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count108
-\c@pgf@countb=\count109
-\c@pgf@countc=\count110
-\c@pgf@countd=\count111
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
 \t@pgf@toka=\toks20
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
@@ -184,8 +184,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count112
-\pgfsyssoftpath@bigbuffer@items=\count113
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -215,7 +215,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen138
-\pgfmath@count=\count114
+\pgfmath@count=\count113
 \pgfmath@box=\box35
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
@@ -239,7 +239,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count115
+\c@pgfmathroundto@lastzeros=\count114
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -277,7 +277,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count116
+\pgf@picture@serial@count=\count115
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -310,7 +310,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count117
+\pgf@sys@shading@range@num=\count116
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -333,8 +333,8 @@ tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count118
-\XC@countmixins=\count119
+\XC@nummixins=\count117
+\XC@countmixins=\count118
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
@@ -363,9 +363,13 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -393,15 +397,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count120
-\Hy@pagecounter=\count121
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count122
+\Hy@SavedSpaceFactor=\count121
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -416,7 +418,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count123
+\c@Hy@tempcnt=\count122
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -424,7 +426,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen164
-\Fld@menulength=\count124
+\Fld@menulength=\count123
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -436,7 +438,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count125
+\Hy@abspage=\count124
 
 
 Package hyperref Message: Stopped early.
@@ -445,8 +447,8 @@ Package hyperref Message: Stopped early.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -466,12 +468,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-Package: sansmathaccent 2013/03/28
-
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
@@ -480,40 +476,40 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count128
+\beamer@argscount=\count127
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count129
+\beamer@trivlistdepth=\count128
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count130
-\c@part=\count131
-\c@section=\count132
-\c@subsection=\count133
-\c@subsubsection=\count134
+\c@lecture=\count129
+\c@part=\count130
+\c@section=\count131
+\c@subsection=\count132
+\c@subsubsection=\count133
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
-\beamer@zoomcount=\count135
-\beamer@zoomframecount=\count136
+\beamer@zoomcount=\count134
+\beamer@zoomframecount=\count135
 \beamer@frametextheight=\dimen167
-\c@subsectionslide=\count137
+\c@subsectionslide=\count136
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
 \framewidth=\dimen168
-\c@framenumber=\count138
+\c@framenumber=\count137
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box43
-\beamer@autobreakcount=\count139
+\beamer@autobreakcount=\count138
 \beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
@@ -552,8 +548,8 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-\c@figure=\count140
-\c@table=\count141
+\c@figure=\count139
+\c@table=\count140
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
@@ -581,13 +577,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count142
+\inf@bad=\count141
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count143
-\leftroot@=\count144
+\uproot@=\count142
+\leftroot@=\count143
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count145
-\DOTSCASE@=\count146
+\classnum@=\count144
+\DOTSCASE@=\count145
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -596,15 +592,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen181
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count147
-\c@MaxMatrixCols=\count148
+\macc@depth=\count146
+\c@MaxMatrixCols=\count147
 \dotsspace@=\muskip11
-\c@parentequation=\count149
-\dspbrk@lvl=\count150
+\c@parentequation=\count148
+\dspbrk@lvl=\count149
 \tag@help=\toks33
-\row@=\count151
-\column@=\count152
-\maxfields@=\count153
+\row@=\count150
+\column@=\count151
+\maxfields@=\count152
 \andhelp@=\toks34
 \eqnshift@=\dimen182
 \alignsep@=\dimen183
@@ -631,7 +627,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip56
 \dth@everypar=\toks42
 )
-\c@theorem=\count154
+\c@theorem=\count153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
@@ -648,10 +644,10 @@ Package: amsthm 2017/10/31 v2.20.4
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemestructurebold.st
 y)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
-\mm@movie=\count155
+\mm@movie=\count154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -661,7 +657,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks43
 \XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count156
+\XKV@depth=\count155
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -669,7 +665,7 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
@@ -682,27 +678,23 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen194
 \adjbox@Height=\dimen195
 \adjbox@Depth=\dimen196
 \adjbox@Totalheight=\dimen197
-\adjbox@pwidth=\dimen198
-\adjbox@pheight=\dimen199
-\adjbox@pdepth=\dimen256
-\adjbox@ptotalheight=\dimen257
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count157
+\c@checkoddpage=\count156
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box54
-\sift@deathcycles=\count158
-\@vwid@loff=\dimen258
-\@vwid@roff=\dimen259
+\sift@deathcycles=\count157
+\@vwid@loff=\dimen198
+\@vwid@roff=\dimen199
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeFrankfurt.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesmoothbars.sty)
@@ -762,16 +754,16 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count159
-\scratchdimen=\dimen260
+\scratchcounter=\count158
+\scratchdimen=\dimen256
 \scratchbox=\box55
-\nofMPsegments=\count160
-\nofMParguments=\count161
+\nofMPsegments=\count159
+\nofMParguments=\count160
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count162
-\MPscratchDim=\dimen261
-\MPnumerator=\count163
-\makeMPintoPDFobject=\count164
+\MPscratchCnt=\count161
+\MPscratchDim=\dimen257
+\MPnumerator=\count162
+\makeMPintoPDFobject=\count163
 \everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -800,7 +792,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count165
+\c@section@level=\count164
 )
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
@@ -852,16 +844,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 12.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-2.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-12.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -913,7 +895,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [3
 
 ]
-<./aprendizaje_supervisado.pdf, id=276, 722.7pt x 406.51875pt>
+<./aprendizaje_supervisado.pdf, id=256, 722.7pt x 406.51875pt>
 File: ./aprendizaje_supervisado.pdf Graphic file (type pdf)
 <use ./aprendizaje_supervisado.pdf>
 Package pdftex.def Info: ./aprendizaje_supervisado.pdf  used on input line 39.
@@ -947,14 +929,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 78.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-<./planck.png, id=396, 909.3975pt x 581.17125pt>
+<./planck.png, id=367, 909.3975pt x 581.17125pt>
 File: ./planck.png Graphic file (type png)
 <use ./planck.png>
 Package pdftex.def Info: ./planck.png  used on input line 78.
@@ -967,7 +942,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [6
 
  <./planck.png>]
-<./fig1_nueva.pdf, id=454, 505.89pt x 505.89pt>
+<./fig1_nueva.pdf, id=422, 505.89pt x 505.89pt>
 File: ./fig1_nueva.pdf Graphic file (type pdf)
 <use ./fig1_nueva.pdf>
 Package pdftex.def Info: ./fig1_nueva.pdf  used on input line 90.
@@ -980,7 +955,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [7
 
  <./fig1_nueva.pdf>]
-<./predicciones_pre.pdf, id=518, 1593.7973pt x 1056.51524pt>
+<./predicciones_pre.pdf, id=481, 1593.7973pt x 1056.51524pt>
 File: ./predicciones_pre.pdf Graphic file (type pdf)
 <use ./predicciones_pre.pdf>
 Package pdftex.def Info: ./predicciones_pre.pdf  used on input line 99.
@@ -993,7 +968,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [8
 
  <./predicciones_pre.pdf>]
-<./map-nside4.pdf, id=610, 614.295pt x 390.25798pt>
+<./map-nside4.pdf, id=628, 614.295pt x 390.25798pt>
 File: ./map-nside4.pdf Graphic file (type pdf)
 <use ./map-nside4.pdf>
 Package pdftex.def Info: ./map-nside4.pdf  used on input line 112.
@@ -1010,7 +985,7 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [9
 
  <./map-nside4.pdf>]
-<./pixelado_pre.pdf, id=698, 505.89pt x 505.89pt>
+<./pixelado_pre.pdf, id=712, 505.89pt x 505.89pt>
 File: ./pixelado_pre.pdf Graphic file (type pdf)
 <use ./pixelado_pre.pdf>
 Package pdftex.def Info: ./pixelado_pre.pdf  used on input line 120.
@@ -1027,11 +1002,20 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 [10
 
  <./pixelado_pre.pdf>]
-<./autoencoder.png, id=775, 871.255pt x 603.25375pt>
-File: ./autoencoder.png Graphic file (type png)
-<use ./autoencoder.png>
-Package pdftex.def Info: ./autoencoder.png  used on input line 130.
-(pdftex.def)             Requested size: 261.37851pt x 180.97751pt.
+<./autoencoder2.png, id=785, 701.62125pt x 462.22687pt>
+File: ./autoencoder2.png Graphic file (type png)
+<use ./autoencoder2.png>
+Package pdftex.def Info: ./autoencoder2.png  used on input line 131.
+(pdftex.def)             Requested size: 350.80975pt x 231.11287pt.
+
+Overfull \hbox (43.51988pt too wide) in paragraph at lines 131--131
+ [] 
+ []
+
+
+Overfull \vbox (41.27228pt too high) detected at line 131
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1039,12 +1023,16 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [11
 
- <./autoencoder.png>]
-<./daes.jpeg, id=827, 390.45876pt x 129.48375pt>
-File: ./daes.jpeg Graphic file (type jpg)
-<use ./daes.jpeg>
-Package pdftex.def Info: ./daes.jpeg  used on input line 140.
-(pdftex.def)             Requested size: 273.31926pt x 90.63799pt.
+ <./autoencoder2.png>]
+<./pixel1_pre.pdf, id=833, 505.89pt x 505.89pt>
+File: ./pixel1_pre.pdf Graphic file (type pdf)
+<use ./pixel1_pre.pdf>
+Package pdftex.def Info: ./pixel1_pre.pdf  used on input line 147.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+Overfull \vbox (23.26631pt too high) detected at line 147
+ []
+
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1052,19 +1040,15 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [12
 
- <./daes.jpeg>]
-<./autoencoder2.png, id=879, 701.62125pt x 462.22687pt>
-File: ./autoencoder2.png Graphic file (type png)
-<use ./autoencoder2.png>
-Package pdftex.def Info: ./autoencoder2.png  used on input line 150.
-(pdftex.def)             Requested size: 350.80975pt x 231.11287pt.
+ <./pixel1_pre.pdf>]
+<./pixel1_reconstruction_pre.pdf, id=931, 505.89pt x 505.89pt>
+File: ./pixel1_reconstruction_pre.pdf Graphic file (type pdf)
+<use ./pixel1_reconstruction_pre.pdf>
+Package pdftex.def Info: ./pixel1_reconstruction_pre.pdf  used on input line 15
+4.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Overfull \hbox (43.51988pt too wide) in paragraph at lines 150--150
- [] 
- []
-
-
-Overfull \vbox (41.27228pt too high) detected at line 150
+Overfull \vbox (23.26631pt too high) detected at line 154
  []
 
 
@@ -1074,14 +1058,14 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [13
 
- <./autoencoder2.png>]
-<./pixel1_pre.pdf, id=932, 505.89pt x 505.89pt>
-File: ./pixel1_pre.pdf Graphic file (type pdf)
-<use ./pixel1_pre.pdf>
-Package pdftex.def Info: ./pixel1_pre.pdf  used on input line 166.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ <./pixel1_reconstruction_pre.pdf>]
+<./chi_DAEs_pre.pdf, id=1058, 505.89pt x 505.89pt>
+File: ./chi_DAEs_pre.pdf Graphic file (type pdf)
+<use ./chi_DAEs_pre.pdf>
+Package pdftex.def Info: ./chi_DAEs_pre.pdf  used on input line 165.
+(pdftex.def)             Requested size: 177.06415pt x 177.06415pt.
 
-Overfull \vbox (23.26631pt too high) detected at line 166
+Overfull \vbox (9.57951pt too high) detected at line 165
  []
 
 
@@ -1091,15 +1075,15 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [14
 
- <./pixel1_pre.pdf>]
-<./pixel1_reconstruction_pre.pdf, id=1015, 505.89pt x 505.89pt>
-File: ./pixel1_reconstruction_pre.pdf Graphic file (type pdf)
-<use ./pixel1_reconstruction_pre.pdf>
-Package pdftex.def Info: ./pixel1_reconstruction_pre.pdf  used on input line 17
-3.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ <./chi_DAEs_pre.pdf>]
+<./omk_pred_pixels_dae_pre.pdf, id=1156, 505.89pt x 505.89pt>
+File: ./omk_pred_pixels_dae_pre.pdf Graphic file (type pdf)
+<use ./omk_pred_pixels_dae_pre.pdf>
+Package pdftex.def Info: ./omk_pred_pixels_dae_pre.pdf  used on input line 174.
 
-Overfull \vbox (23.26631pt too high) detected at line 173
+(pdftex.def)             Requested size: 237.76833pt x 237.76833pt.
+
+Overfull \vbox (8.09027pt too high) detected at line 174
  []
 
 
@@ -1109,16 +1093,12 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [15
 
- <./pixel1_reconstruction_pre.pdf>]
-<./pixel2_pre.pdf, id=1117, 505.89pt x 505.89pt>
-File: ./pixel2_pre.pdf Graphic file (type pdf)
-<use ./pixel2_pre.pdf>
-Package pdftex.def Info: ./pixel2_pre.pdf  used on input line 180.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-Overfull \vbox (23.26631pt too high) detected at line 180
- []
-
+ <./omk_pred_pixels_dae_pre.pdf>]
+<./omk_predictions_pre.pdf, id=1255, 474.18953pt x 436.78922pt>
+File: ./omk_predictions_pre.pdf Graphic file (type pdf)
+<use ./omk_predictions_pre.pdf>
+Package pdftex.def Info: ./omk_predictions_pre.pdf  used on input line 182.
+(pdftex.def)             Requested size: 237.09418pt x 218.39407pt.
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
@@ -1126,50 +1106,29 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [16
 
- <./pixel2_pre.pdf>]
-<./pixel2_reconstruction_pre.pdf, id=1197, 505.89pt x 505.89pt>
-File: ./pixel2_reconstruction_pre.pdf Graphic file (type pdf)
-<use ./pixel2_reconstruction_pre.pdf>
-Package pdftex.def Info: ./pixel2_reconstruction_pre.pdf  used on input line 18
-7.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-Overfull \vbox (23.26631pt too high) detected at line 187
- []
-
-
+ <./omk_predictions_pre.pdf>] (./sochias.toc)
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [17
 
- <./pixel2_reconstruction_pre.pdf>]
-<./chi_DAEs_pre.pdf, id=1299, 505.89pt x 505.89pt>
-File: ./chi_DAEs_pre.pdf Graphic file (type pdf)
-<use ./chi_DAEs_pre.pdf>
-Package pdftex.def Info: ./chi_DAEs_pre.pdf  used on input line 197.
-(pdftex.def)             Requested size: 177.06415pt x 177.06415pt.
-
-Overfull \vbox (9.57951pt too high) detected at line 197
- []
-
-
+]
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [18
 
- <./chi_DAEs_pre.pdf>]
-<./omk_pred_pixels_dae_pre.pdf, id=1382, 505.89pt x 505.89pt>
-File: ./omk_pred_pixels_dae_pre.pdf Graphic file (type pdf)
-<use ./omk_pred_pixels_dae_pre.pdf>
-Package pdftex.def Info: ./omk_pred_pixels_dae_pre.pdf  used on input line 206.
+]
+<./thankyou.png, id=1437, 757.83125pt x 464.73625pt>
+File: ./thankyou.png Graphic file (type png)
+<use ./thankyou.png>
+Package pdftex.def Info: ./thankyou.png  used on input line 216.
+(pdftex.def)             Requested size: 341.02092pt x 209.12938pt.
 
-(pdftex.def)             Requested size: 237.76833pt x 237.76833pt.
-
-Overfull \vbox (8.09027pt too high) detected at line 206
+Overfull \hbox (33.73105pt too wide) in paragraph at lines 216--216
+ [] 
  []
 
 
@@ -1179,63 +1138,18 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 
 [19
 
- <./omk_pred_pixels_dae_pre.pdf>]
-<./omk_predictions_pre.pdf, id=1471, 474.18953pt x 436.78922pt>
-File: ./omk_predictions_pre.pdf Graphic file (type pdf)
-<use ./omk_predictions_pre.pdf>
-Package pdftex.def Info: ./omk_predictions_pre.pdf  used on input line 214.
-(pdftex.def)             Requested size: 237.09418pt x 218.39407pt.
-
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[20
-
- <./omk_predictions_pre.pdf>] (./sochias.toc)
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[21
-
-]
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[22
-
-]
-<./thankyou.png, id=1664, 757.83125pt x 464.73625pt>
-File: ./thankyou.png Graphic file (type png)
-<use ./thankyou.png>
-Package pdftex.def Info: ./thankyou.png  used on input line 248.
-(pdftex.def)             Requested size: 341.02092pt x 209.12938pt.
-
-Overfull \hbox (33.73105pt too wide) in paragraph at lines 248--248
- [] 
- []
-
-
-Overfull \hbox (39.06175pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[23
-
  <./thankyou.png (PNG copy)>]
-<./lvar.pdf, id=1716, 1458.22893pt x 887.5214pt>
+<./lvar.pdf, id=1486, 1458.22893pt x 887.5214pt>
 File: ./lvar.pdf Graphic file (type pdf)
 <use ./lvar.pdf>
-Package pdftex.def Info: ./lvar.pdf  used on input line 259.
+Package pdftex.def Info: ./lvar.pdf  used on input line 227.
 (pdftex.def)             Requested size: 291.64061pt x 177.50113pt.
 
 Overfull \hbox (39.06175pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[24
+[20
 
  <./lvar.pdf>]
 \tf@nav=\write6
@@ -1247,22 +1161,22 @@ Overfull \hbox (39.06175pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `sochias.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./sochias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `sochias.out' has not changed.
 (rerunfilecheck)             Checksum: ABA3CF377D8F31B88EB2DE02F7D04AC1;382.
  ) 
 Here is how much of TeX's memory you used:
- 18320 strings out of 492648
- 348606 string characters out of 6132016
- 440016 words of memory out of 5000000
- 21690 multiletter control sequences out of 15000+600000
- 11577 words of font info for 42 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 56i,20n,63p,809b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 17966 strings out of 494923
+ 341627 string characters out of 6180742
+ 419992 words of memory out of 5000000
+ 20791 multiletter control sequences out of 15000+600000
+ 11445 words of font info for 42 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 48i,20n,63p,809b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
@@ -1277,10 +1191,10 @@ fonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/symbol/usyr.pfb>
-Output written on sochias.pdf (24 pages, 1474624 bytes).
+Output written on sochias.pdf (20 pages, 1323563 bytes).
 PDF statistics:
- 1885 PDF objects out of 2073 (max. 8388607)
- 1612 compressed objects within 17 object streams
- 55 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1648 PDF objects out of 1728 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
