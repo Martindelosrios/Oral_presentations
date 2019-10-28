@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Introduction to Machine Learning techniques.}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Some important methods.}{13}{0}{1}
+\beamer@subsectionintoc {1}{2}{Machine Learning in Astronomy.}{18}{0}{1}
+\beamer@sectionintoc {2}{The MeSsI Algorithm}{22}{0}{2}
+\beamer@subsectionintoc {2}{1}{Machine learning algorithm applied for identification of substructures.}{28}{0}{2}
+\beamer@subsectionintoc {2}{2}{A2029/2033 \& A1204.}{38}{0}{2}
+\beamer@subsectionintoc {2}{3}{A1204.}{41}{0}{2}
+\beamer@subsectionintoc {2}{4}{A267.}{42}{0}{2}
+\beamer@subsectionintoc {2}{5}{Statistical analysis of the magnetic fields in merging clusters.}{46}{0}{2}
+\beamer@sectionintoc {3}{DM-$\gamma $ interactions.}{49}{0}{3}
+\beamer@sectionintoc {4}{Future Work}{52}{0}{4}
