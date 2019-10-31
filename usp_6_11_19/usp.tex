@@ -11,7 +11,7 @@
 
 \begin{document}
 \title{Machine Learning techniques applied to Astronomy: The Merging Systems Identification (MeSsI) Algorithm.} 
-\author{Mart\'in de los Rios } 
+\author{Mart\'in de los Rios (ICTP-SAIFR/IFT-UNESP)} 
 
 \frame{\titlepage
 \date{}
@@ -41,6 +41,17 @@ T improves with the training E.
 \end{block}
 Thomas M. Mitchell. Machine Learning.
 }
+
+\begin{frame}
+ \begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.5]{MLClasses.jpg}
+ % MLClasses.jpg: 1024x604 px, 150dpi, 17.34x10.23 cm, bb=0 0 492 290
+\end{figure}
+
+\end{frame}
+
+
 \frame{
   \frametitle{Supervised Learning.}
   \begin{center}
@@ -135,7 +146,7 @@ Thomas M. Mitchell. Machine Learning.
 \end{center}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{K-Nearest Neighbour}
  \begin{figure}[ht!]
  \centering
  \includegraphics[scale=0.5]{knn.png}
@@ -249,6 +260,18 @@ lensing. {\color{azul}Peel et al.  (1810.11030)}
     ] 
 }
 
+\begin{frame}
+ 
+ \begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.3]{messi_paper.png}
+ % messi_paper.png: 1105x367 px, 72dpi, 38.98x12.95 cm, bb=0 0 1105 367
+
+\end{figure}
+ 
+\end{frame}
+
+
 %\frame{
  %\frametitle{Other approachs for merging clusters detection}
  %\begin{columns}
@@ -292,13 +315,6 @@ lensing. {\color{azul}Peel et al.  (1810.11030)}
 }
 
 \subsection{Machine learning algorithm applied for identification of substructures.}
-\frame{
-\tableofcontents[ 
-    currentsubsection, 
-    sectionstyle=show/hide, 
-    sectionstyle=show/shaded, 
-    ] 
-}
 
 \frame{
  \begin{columns}
@@ -472,7 +488,7 @@ A1204
 
 }
 
-\section{DM-$\gamma$ interactions.}
+\subsection{DM-$\gamma$ interactions.}
 \frame{
 \tableofcontents[ 
     currentsubsection, 
@@ -480,6 +496,24 @@ A1204
     sectionstyle=show/shaded, 
     ] 
 }
+
+\begin{frame}
+Davis \& Silk (1410.5423)
+\begin{figure}[ht!]
+ \centering
+ \includegraphics[scale=0.15]{silk.png}
+ % silk.png: 1445x527 px, 72dpi, 50.98x18.59 cm, bb=0 0 1445 527
+\end{figure}
+
+ \begin{itemize}
+  \item Bo{\oe}m et al. (1404.7012)
+  \item Schewtschenko et al. (1512.0677)
+  \item Stadler \& Bo{\oe}m (1802.06589)
+ \end{itemize}
+ 
+ $\sigma_{DM−\gamma} \leq 2.25x10^{-6}\sigma_{Th}(mDM/GeV) $
+\end{frame}
+
 \frame{\frametitle{DM-$\gamma$ interactions (work in progress)}
 In collaboration with Dra. Celine B{\oe}hm
 \begin{figure}[ht!]
@@ -510,9 +544,9 @@ In collaboration with Dra. Celine B{\oe}hm
  \frametitle{Future Work}
  \begin{itemize}
   \item Perform astrophysical test over our sample of colliding cluster candidates of the catalog looking for
- impose some constraints on dark matter particle properties.
- \item Study the physics properties of the galaxies that belong to the identified substructures.
- \item Construct a catalog of relaxed clusters in order to study the dark matter equation of state (Serra \& Dominguez 2011).
+ impose some constraints on dark matter particle properties. \pause
+ \item Study the physical properties of the galaxies that belong to the identified substructures.\pause
+ \item Construct a catalog of relaxed clusters in order to study the dark matter equation of state (Serra \& Dominguez 2011).\pause
  \item Study the candidate to merging cluster A376 (HSC SUBARU Images).
  \end{itemize}
 }
@@ -520,8 +554,8 @@ In collaboration with Dra. Celine B{\oe}hm
 \frame{
  \frametitle{Future Work}
  \begin{itemize}
-  \item Estimate the CMB Masked Bispectra using Machine Learning techniques.
-  \item Estimate the Dark matter Distribution of spiral galaxies using Deep Learning.
+  \item Estimate the CMB Masked Bispectra using Machine Learning techniques.\pause
+  \item Estimate the Dark matter Distribution of spiral galaxies using Deep Learning.\pause
   \item Identifying backsplash galaxies in the phase-space using Machine Learning.
  \end{itemize}
 }
@@ -529,7 +563,7 @@ In collaboration with Dra. Celine B{\oe}hm
 \frame{ 
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.4]{./gracias2.png}
+ \includegraphics[scale=0.55]{./gracias2.png}
  % gracias.png: 657x518 pixel, 72dpi, 23.18x18.27 cm, bb=0 0 657 518
 \end{figure}
 }

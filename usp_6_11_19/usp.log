@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  28 OCT 2019 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  31 OCT 2019 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,23 +1051,6 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./usp.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 14.
@@ -1079,7 +1062,24 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./usp.toc)
+] (./usp.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+))
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1101,16 +1101,11 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [4
 
 ]
-<./aprendizaje_supervisado.pdf, id=511, 722.7pt x 406.51875pt>
-File: ./aprendizaje_supervisado.pdf Graphic file (type pdf)
-<use ./aprendizaje_supervisado.pdf>
-Package pdftex.def Info: ./aprendizaje_supervisado.pdf  used on input line 49.
-(pdftex.def)             Requested size: 325.21199pt x 182.93173pt.
-
-Overfull \hbox (17.92212pt too wide) in paragraph at lines 49--49
- [] 
- []
-
+<MLClasses.jpg, id=524, 493.3632pt x 291.0072pt>
+File: MLClasses.jpg Graphic file (type jpg)
+<use MLClasses.jpg>
+Package pdftex.def Info: MLClasses.jpg  used on input line 52.
+(pdftex.def)             Requested size: 246.681pt x 145.50323pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1118,12 +1113,17 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [5
 
- <./aprendizaje_supervisado.pdf>]
-<table1.png, id=599, 1006.76125pt x 304.13625pt>
-File: table1.png Graphic file (type png)
-<use table1.png>
-Package pdftex.def Info: table1.png  used on input line 58.
-(pdftex.def)             Requested size: 302.0307pt x 91.24158pt.
+ <./MLClasses.jpg>]
+<./aprendizaje_supervisado.pdf, id=603, 722.7pt x 406.51875pt>
+File: ./aprendizaje_supervisado.pdf Graphic file (type pdf)
+<use ./aprendizaje_supervisado.pdf>
+Package pdftex.def Info: ./aprendizaje_supervisado.pdf  used on input line 60.
+(pdftex.def)             Requested size: 325.21199pt x 182.93173pt.
+
+Overfull \hbox (17.92212pt too wide) in paragraph at lines 60--60
+ [] 
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1131,17 +1131,12 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [6
 
- <./table1.png>]
-<table2.png, id=678, 1042.89626pt x 513.92pt>
-File: table2.png Graphic file (type png)
-<use table2.png>
-Package pdftex.def Info: table2.png  used on input line 66.
-(pdftex.def)             Requested size: 312.87129pt x 154.17719pt.
-
-Overfull \hbox (5.58142pt too wide) in paragraph at lines 66--66
- [] 
- []
-
+ <./aprendizaje_supervisado.pdf>]
+<table1.png, id=693, 1006.76125pt x 304.13625pt>
+File: table1.png Graphic file (type png)
+<use table1.png>
+Package pdftex.def Info: table1.png  used on input line 69.
+(pdftex.def)             Requested size: 302.0307pt x 91.24158pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1149,66 +1144,14 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [7
 
- <./table2.png>]
-<f1.png, id=756, 789.95125pt x 529.98pt>
-File: f1.png Graphic file (type png)
-<use f1.png>
-Package pdftex.def Info: f1.png  used on input line 74.
-(pdftex.def)             Requested size: 236.9872pt x 158.99521pt.
+ <./table1.png>]
+<table2.png, id=775, 1042.89626pt x 513.92pt>
+File: table2.png Graphic file (type png)
+<use table2.png>
+Package pdftex.def Info: table2.png  used on input line 77.
+(pdftex.def)             Requested size: 312.87129pt x 154.17719pt.
 
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[8
-
- <./f1.png>]
-<table3.png, id=834, 865.73438pt x 420.82219pt>
-File: table3.png Graphic file (type png)
-<use table3.png>
-Package pdftex.def Info: table3.png  used on input line 82.
-(pdftex.def)             Requested size: 259.72232pt x 126.24762pt.
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[9
-
- <./table3.png>]
-<f2.png, id=912, 793.96625pt x 546.04pt>
-File: f2.png Graphic file (type png)
-<use f2.png>
-Package pdftex.def Info: f2.png  used on input line 90.
-(pdftex.def)             Requested size: 238.19171pt x 163.81326pt.
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[10
-
- <./f2.png>]
-<f3.png, id=990, 794.97pt x 531.9875pt>
-File: f3.png Graphic file (type png)
-<use f3.png>
-Package pdftex.def Info: f3.png  used on input line 98.
-(pdftex.def)             Requested size: 238.49284pt x 159.59747pt.
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[11
-
- <./f3.png>]
-<table4.png, id=1067, 1163.34625pt x 353.32pt>
-File: table4.png Graphic file (type png)
-<use table4.png>
-Package pdftex.def Info: table4.png  used on input line 106.
-(pdftex.def)             Requested size: 325.73473pt x 98.92892pt.
-
-Overfull \hbox (18.44485pt too wide) in paragraph at lines 106--106
+Overfull \hbox (5.58142pt too wide) in paragraph at lines 77--77
  [] 
  []
 
@@ -1217,147 +1160,79 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
+[8
+
+ <./table2.png>]
+<f1.png, id=854, 789.95125pt x 529.98pt>
+File: f1.png Graphic file (type png)
+<use f1.png>
+Package pdftex.def Info: f1.png  used on input line 85.
+(pdftex.def)             Requested size: 236.9872pt x 158.99521pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[9
+
+ <./f1.png>]
+<table3.png, id=934, 865.73438pt x 420.82219pt>
+File: table3.png Graphic file (type png)
+<use table3.png>
+Package pdftex.def Info: table3.png  used on input line 93.
+(pdftex.def)             Requested size: 259.72232pt x 126.24762pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[10
+
+ <./table3.png>]
+<f2.png, id=1014, 793.96625pt x 546.04pt>
+File: f2.png Graphic file (type png)
+<use f2.png>
+Package pdftex.def Info: f2.png  used on input line 101.
+(pdftex.def)             Requested size: 238.19171pt x 163.81326pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[11
+
+ <./f2.png>]
+<f3.png, id=1094, 794.97pt x 531.9875pt>
+File: f3.png Graphic file (type png)
+<use f3.png>
+Package pdftex.def Info: f3.png  used on input line 109.
+(pdftex.def)             Requested size: 238.49284pt x 159.59747pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
 [12
 
- <./table4.png>] (./usp.toc)
+ <./f3.png>]
+<table4.png, id=1173, 1163.34625pt x 353.32pt>
+File: table4.png Graphic file (type png)
+<use table4.png>
+Package pdftex.def Info: table4.png  used on input line 117.
+(pdftex.def)             Requested size: 325.73473pt x 98.92892pt.
+
+Overfull \hbox (18.44485pt too wide) in paragraph at lines 117--117
+ [] 
+ []
+
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [13
 
-]
-<random_forest-0.png, id=1245, 388.45125pt x 328.22626pt>
-File: random_forest-0.png Graphic file (type png)
-<use random_forest-0.png>
-Package pdftex.def Info: random_forest-0.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-0.png> <a0,fr0>
-<random_forest-1.png, id=1254, 388.45125pt x 328.22626pt>
-File: random_forest-1.png Graphic file (type png)
-<use random_forest-1.png>
-Package pdftex.def Info: random_forest-1.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-1.png> <a0,fr1>
-<random_forest-2.png, id=1263, 388.45125pt x 328.22626pt>
-File: random_forest-2.png Graphic file (type png)
-<use random_forest-2.png>
-Package pdftex.def Info: random_forest-2.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-2.png> <a0,fr2>
-<random_forest-3.png, id=1272, 388.45125pt x 328.22626pt>
-File: random_forest-3.png Graphic file (type png)
-<use random_forest-3.png>
-Package pdftex.def Info: random_forest-3.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-3.png> <a0,fr3>
-<random_forest-4.png, id=1281, 388.45125pt x 328.22626pt>
-File: random_forest-4.png Graphic file (type png)
-<use random_forest-4.png>
-Package pdftex.def Info: random_forest-4.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-4.png> <a0,fr4>
-<random_forest-5.png, id=1290, 388.45125pt x 328.22626pt>
-File: random_forest-5.png Graphic file (type png)
-<use random_forest-5.png>
-Package pdftex.def Info: random_forest-5.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-5.png> <a0,fr5>
-<random_forest-6.png, id=1299, 388.45125pt x 328.22626pt>
-File: random_forest-6.png Graphic file (type png)
-<use random_forest-6.png>
-Package pdftex.def Info: random_forest-6.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-6.png> <a0,fr6>
-<random_forest-7.png, id=1308, 388.45125pt x 328.22626pt>
-File: random_forest-7.png Graphic file (type png)
-<use random_forest-7.png>
-Package pdftex.def Info: random_forest-7.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-7.png> <a0,fr7>
-<random_forest-8.png, id=1317, 388.45125pt x 328.22626pt>
-File: random_forest-8.png Graphic file (type png)
-<use random_forest-8.png>
-Package pdftex.def Info: random_forest-8.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-8.png> <a0,fr8>
-<random_forest-9.png, id=1326, 388.45125pt x 328.22626pt>
-File: random_forest-9.png Graphic file (type png)
-<use random_forest-9.png>
-Package pdftex.def Info: random_forest-9.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-9.png> <a0,fr9>
-<random_forest-10.png, id=1335, 388.45125pt x 328.22626pt>
-File: random_forest-10.png Graphic file (type png)
-<use random_forest-10.png>
-Package pdftex.def Info: random_forest-10.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-10.png> <a0,fr10>
-<random_forest-11.png, id=1344, 388.45125pt x 328.22626pt>
-File: random_forest-11.png Graphic file (type png)
-<use random_forest-11.png>
-Package pdftex.def Info: random_forest-11.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-11.png>
-<a0,fr11>
-<random_forest-12.png, id=1353, 388.45125pt x 328.22626pt>
-File: random_forest-12.png Graphic file (type png)
-<use random_forest-12.png>
-Package pdftex.def Info: random_forest-12.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-12.png> <a0,fr12>
-<random_forest-13.png, id=1362, 388.45125pt x 328.22626pt>
-File: random_forest-13.png Graphic file (type png)
-<use random_forest-13.png>
-Package pdftex.def Info: random_forest-13.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-13.png>
-<a0,fr13>
-<random_forest-14.png, id=1371, 388.45125pt x 328.22626pt>
-File: random_forest-14.png Graphic file (type png)
-<use random_forest-14.png>
-Package pdftex.def Info: random_forest-14.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-14.png> <a0,fr14>
-<random_forest-15.png, id=1381, 388.45125pt x 328.22626pt>
-File: random_forest-15.png Graphic file (type png)
-<use random_forest-15.png>
-Package pdftex.def Info: random_forest-15.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-15.png>
-<a0,fr15>
-<random_forest-16.png, id=1390, 388.45125pt x 328.22626pt>
-File: random_forest-16.png Graphic file (type png)
-<use random_forest-16.png>
-Package pdftex.def Info: random_forest-16.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-16.png> <a0,fr16>
-<random_forest-17.png, id=1399, 388.45125pt x 328.22626pt>
-File: random_forest-17.png Graphic file (type png)
-<use random_forest-17.png>
-Package pdftex.def Info: random_forest-17.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-17.png>
-<a0,fr17>
-<random_forest-18.png, id=1408, 388.45125pt x 328.22626pt>
-File: random_forest-18.png Graphic file (type png)
-<use random_forest-18.png>
-Package pdftex.def Info: random_forest-18.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-18.png> <a0,fr18>
-<random_forest-19.png, id=1417, 388.45125pt x 328.22626pt>
-File: random_forest-19.png Graphic file (type png)
-<use random_forest-19.png>
-Package pdftex.def Info: random_forest-19.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-19.png>
-<a0,fr19>
-<random_forest-20.png, id=1426, 388.45125pt x 328.22626pt>
-File: random_forest-20.png Graphic file (type png)
-<use random_forest-20.png>
-Package pdftex.def Info: random_forest-20.png  used on input line 121.
-(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
- <./random_forest-20.png> <a0,fr20>
+ <./table4.png>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1365,298 +1240,137 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [14
 
 ]
-<support_vector_machines-0.png, id=1529, 805.0075pt x 598.235pt>
-File: support_vector_machines-0.png Graphic file (type png)
-<use support_vector_machines-0.png>
-Package pdftex.def Info: support_vector_machines-0.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-0.png> <a1,fr0>
-<support_vector_machines-1.png, id=1538, 805.0075pt x 598.235pt>
-File: support_vector_machines-1.png Graphic file (type png)
-<use support_vector_machines-1.png>
-Package pdftex.def Info: support_vector_machines-1.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-1.png> <a1,fr1>
-<support_vector_machines-2.png, id=1547, 805.0075pt x 598.235pt>
-File: support_vector_machines-2.png Graphic file (type png)
-<use support_vector_machines-2.png>
-Package pdftex.def Info: support_vector_machines-2.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-2.png> <a1,fr2>
-<support_vector_machines-3.png, id=1556, 805.0075pt x 598.235pt>
-File: support_vector_machines-3.png Graphic file (type png)
-<use support_vector_machines-3.png>
-Package pdftex.def Info: support_vector_machines-3.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-3.png> <a1,fr3>
-<support_vector_machines-4.png, id=1565, 805.0075pt x 598.235pt>
-File: support_vector_machines-4.png Graphic file (type png)
-<use support_vector_machines-4.png>
-Package pdftex.def Info: support_vector_machines-4.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-4.png> <a1,fr4>
-<support_vector_machines-5.png, id=1574, 805.0075pt x 598.235pt>
-File: support_vector_machines-5.png Graphic file (type png)
-<use support_vector_machines-5.png>
-Package pdftex.def Info: support_vector_machines-5.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-5.png> <a1,fr5>
-<support_vector_machines-6.png, id=1583, 805.0075pt x 598.235pt>
-File: support_vector_machines-6.png Graphic file (type png)
-<use support_vector_machines-6.png>
-Package pdftex.def Info: support_vector_machines-6.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-6.png> <a1,fr6>
-<support_vector_machines-7.png, id=1592, 805.0075pt x 598.235pt>
-File: support_vector_machines-7.png Graphic file (type png)
-<use support_vector_machines-7.png>
-Package pdftex.def Info: support_vector_machines-7.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-7.png> <a1,fr7>
-<support_vector_machines-8.png, id=1601, 805.0075pt x 598.235pt>
-File: support_vector_machines-8.png Graphic file (type png)
-<use support_vector_machines-8.png>
-Package pdftex.def Info: support_vector_machines-8.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-8.png> <a1,fr8>
-<support_vector_machines-9.png, id=1610, 805.0075pt x 598.235pt>
-File: support_vector_machines-9.png Graphic file (type png)
-<use support_vector_machines-9.png>
-Package pdftex.def Info: support_vector_machines-9.png  used on input line 136.
-
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-9.png> <a1,fr9>
-<support_vector_machines-10.png, id=1619, 805.0075pt x 598.235pt>
-File: support_vector_machines-10.png Graphic file (type png)
-<use support_vector_machines-10.png>
-Package pdftex.def Info: support_vector_machines-10.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-10.png>
-<a1,fr10>
-<support_vector_machines-11.png, id=1628, 805.0075pt x 598.235pt>
-File: support_vector_machines-11.png Graphic file (type png)
-<use support_vector_machines-11.png>
-Package pdftex.def Info: support_vector_machines-11.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-11.png> <a1,fr11>
-<support_vector_machines-12.png, id=1637, 805.0075pt x 598.235pt>
-File: support_vector_machines-12.png Graphic file (type png)
-<use support_vector_machines-12.png>
-Package pdftex.def Info: support_vector_machines-12.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-12.png> <a1,fr12>
-<support_vector_machines-13.png, id=1646, 805.0075pt x 598.235pt>
-File: support_vector_machines-13.png Graphic file (type png)
-<use support_vector_machines-13.png>
-Package pdftex.def Info: support_vector_machines-13.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-13.png> <a1,fr13>
-<support_vector_machines-14.png, id=1655, 805.0075pt x 598.235pt>
-File: support_vector_machines-14.png Graphic file (type png)
-<use support_vector_machines-14.png>
-Package pdftex.def Info: support_vector_machines-14.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-14.png> <a1,fr14>
-<support_vector_machines-15.png, id=1664, 805.0075pt x 598.235pt>
-File: support_vector_machines-15.png Graphic file (type png)
-<use support_vector_machines-15.png>
-Package pdftex.def Info: support_vector_machines-15.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-15.png> <a1,fr15>
-<support_vector_machines-16.png, id=1673, 805.0075pt x 598.235pt>
-File: support_vector_machines-16.png Graphic file (type png)
-<use support_vector_machines-16.png>
-Package pdftex.def Info: support_vector_machines-16.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-16.png> <a1,fr16>
-<support_vector_machines-17.png, id=1682, 805.0075pt x 598.235pt>
-File: support_vector_machines-17.png Graphic file (type png)
-<use support_vector_machines-17.png>
-Package pdftex.def Info: support_vector_machines-17.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-17.png>
-<a1,fr17>
-<support_vector_machines-18.png, id=1691, 805.0075pt x 598.235pt>
-File: support_vector_machines-18.png Graphic file (type png)
-<use support_vector_machines-18.png>
-Package pdftex.def Info: support_vector_machines-18.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-18.png> <a1,fr18>
-<support_vector_machines-19.png, id=1700, 805.0075pt x 598.235pt>
-File: support_vector_machines-19.png Graphic file (type png)
-<use support_vector_machines-19.png>
-Package pdftex.def Info: support_vector_machines-19.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-19.png> <a1,fr19>
-<support_vector_machines-20.png, id=1709, 805.0075pt x 598.235pt>
-File: support_vector_machines-20.png Graphic file (type png)
-<use support_vector_machines-20.png>
-Package pdftex.def Info: support_vector_machines-20.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-20.png> <a1,fr20>
-<support_vector_machines-21.png, id=1718, 805.0075pt x 598.235pt>
-File: support_vector_machines-21.png Graphic file (type png)
-<use support_vector_machines-21.png>
-Package pdftex.def Info: support_vector_machines-21.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-21.png> <a1,fr21>
-<support_vector_machines-22.png, id=1727, 805.0075pt x 598.235pt>
-File: support_vector_machines-22.png Graphic file (type png)
-<use support_vector_machines-22.png>
-Package pdftex.def Info: support_vector_machines-22.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-22.png> <a1,fr22>
-<support_vector_machines-23.png, id=1736, 805.0075pt x 598.235pt>
-File: support_vector_machines-23.png Graphic file (type png)
-<use support_vector_machines-23.png>
-Package pdftex.def Info: support_vector_machines-23.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-23.png> <a1,fr23>
-<support_vector_machines-24.png, id=1746, 805.0075pt x 598.235pt>
-File: support_vector_machines-24.png Graphic file (type png)
-<use support_vector_machines-24.png>
-Package pdftex.def Info: support_vector_machines-24.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-24.png>
-<a1,fr24>
-<support_vector_machines-25.png, id=1755, 805.0075pt x 598.235pt>
-File: support_vector_machines-25.png Graphic file (type png)
-<use support_vector_machines-25.png>
-Package pdftex.def Info: support_vector_machines-25.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-25.png> <a1,fr25>
-<support_vector_machines-26.png, id=1764, 805.0075pt x 598.235pt>
-File: support_vector_machines-26.png Graphic file (type png)
-<use support_vector_machines-26.png>
-Package pdftex.def Info: support_vector_machines-26.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-26.png> <a1,fr26>
-<support_vector_machines-27.png, id=1773, 805.0075pt x 598.235pt>
-File: support_vector_machines-27.png Graphic file (type png)
-<use support_vector_machines-27.png>
-Package pdftex.def Info: support_vector_machines-27.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-27.png> <a1,fr27>
-<support_vector_machines-28.png, id=1782, 805.0075pt x 598.235pt>
-File: support_vector_machines-28.png Graphic file (type png)
-<use support_vector_machines-28.png>
-Package pdftex.def Info: support_vector_machines-28.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-28.png> <a1,fr28>
-<support_vector_machines-29.png, id=1791, 805.0075pt x 598.235pt>
-File: support_vector_machines-29.png Graphic file (type png)
-<use support_vector_machines-29.png>
-Package pdftex.def Info: support_vector_machines-29.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-29.png> <a1,fr29>
-<support_vector_machines-30.png, id=1800, 805.0075pt x 598.235pt>
-File: support_vector_machines-30.png Graphic file (type png)
-<use support_vector_machines-30.png>
-Package pdftex.def Info: support_vector_machines-30.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-30.png> <a1,fr30>
-<support_vector_machines-31.png, id=1809, 805.0075pt x 598.235pt>
-File: support_vector_machines-31.png Graphic file (type png)
-<use support_vector_machines-31.png>
-Package pdftex.def Info: support_vector_machines-31.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-31.png>
-<a1,fr31>
-<support_vector_machines-32.png, id=1818, 805.0075pt x 598.235pt>
-File: support_vector_machines-32.png Graphic file (type png)
-<use support_vector_machines-32.png>
-Package pdftex.def Info: support_vector_machines-32.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-32.png> <a1,fr32>
-<support_vector_machines-33.png, id=1827, 805.0075pt x 598.235pt>
-File: support_vector_machines-33.png Graphic file (type png)
-<use support_vector_machines-33.png>
-Package pdftex.def Info: support_vector_machines-33.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-33.png> <a1,fr33>
-<support_vector_machines-34.png, id=1836, 805.0075pt x 598.235pt>
-File: support_vector_machines-34.png Graphic file (type png)
-<use support_vector_machines-34.png>
-Package pdftex.def Info: support_vector_machines-34.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-34.png> <a1,fr34>
-<support_vector_machines-35.png, id=1845, 805.0075pt x 598.235pt>
-File: support_vector_machines-35.png Graphic file (type png)
-<use support_vector_machines-35.png>
-Package pdftex.def Info: support_vector_machines-35.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-35.png> <a1,fr35>
-<support_vector_machines-36.png, id=1854, 805.0075pt x 598.235pt>
-File: support_vector_machines-36.png Graphic file (type png)
-<use support_vector_machines-36.png>
-Package pdftex.def Info: support_vector_machines-36.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-36.png> <a1,fr36>
-<support_vector_machines-37.png, id=1863, 805.0075pt x 598.235pt>
-File: support_vector_machines-37.png Graphic file (type png)
-<use support_vector_machines-37.png>
-Package pdftex.def Info: support_vector_machines-37.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-37.png> <a1,fr37>
-<support_vector_machines-38.png, id=1872, 805.0075pt x 598.235pt>
-File: support_vector_machines-38.png Graphic file (type png)
-<use support_vector_machines-38.png>
-Package pdftex.def Info: support_vector_machines-38.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-38.png>
-<a1,fr38>
-<support_vector_machines-39.png, id=1881, 805.0075pt x 598.235pt>
-File: support_vector_machines-39.png Graphic file (type png)
-<use support_vector_machines-39.png>
-Package pdftex.def Info: support_vector_machines-39.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-39.png> <a1,fr39>
-<support_vector_machines-40.png, id=1890, 805.0075pt x 598.235pt>
-File: support_vector_machines-40.png Graphic file (type png)
-<use support_vector_machines-40.png>
-Package pdftex.def Info: support_vector_machines-40.png  used on input line 136
-.
-(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
- <./support_vector_machines-40.png> <a1,fr40>
+<random_forest-0.png, id=1355, 388.45125pt x 328.22626pt>
+File: random_forest-0.png Graphic file (type png)
+<use random_forest-0.png>
+Package pdftex.def Info: random_forest-0.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-0.png> <a0,fr0>
+<random_forest-1.png, id=1364, 388.45125pt x 328.22626pt>
+File: random_forest-1.png Graphic file (type png)
+<use random_forest-1.png>
+Package pdftex.def Info: random_forest-1.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-1.png> <a0,fr1>
+<random_forest-2.png, id=1373, 388.45125pt x 328.22626pt>
+File: random_forest-2.png Graphic file (type png)
+<use random_forest-2.png>
+Package pdftex.def Info: random_forest-2.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-2.png> <a0,fr2>
+<random_forest-3.png, id=1382, 388.45125pt x 328.22626pt>
+File: random_forest-3.png Graphic file (type png)
+<use random_forest-3.png>
+Package pdftex.def Info: random_forest-3.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-3.png> <a0,fr3>
+<random_forest-4.png, id=1391, 388.45125pt x 328.22626pt>
+File: random_forest-4.png Graphic file (type png)
+<use random_forest-4.png>
+Package pdftex.def Info: random_forest-4.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-4.png> <a0,fr4>
+<random_forest-5.png, id=1400, 388.45125pt x 328.22626pt>
+File: random_forest-5.png Graphic file (type png)
+<use random_forest-5.png>
+Package pdftex.def Info: random_forest-5.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-5.png> <a0,fr5>
+<random_forest-6.png, id=1409, 388.45125pt x 328.22626pt>
+File: random_forest-6.png Graphic file (type png)
+<use random_forest-6.png>
+Package pdftex.def Info: random_forest-6.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-6.png> <a0,fr6>
+<random_forest-7.png, id=1418, 388.45125pt x 328.22626pt>
+File: random_forest-7.png Graphic file (type png)
+<use random_forest-7.png>
+Package pdftex.def Info: random_forest-7.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-7.png> <a0,fr7>
+<random_forest-8.png, id=1427, 388.45125pt x 328.22626pt>
+File: random_forest-8.png Graphic file (type png)
+<use random_forest-8.png>
+Package pdftex.def Info: random_forest-8.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-8.png> <a0,fr8>
+<random_forest-9.png, id=1436, 388.45125pt x 328.22626pt>
+File: random_forest-9.png Graphic file (type png)
+<use random_forest-9.png>
+Package pdftex.def Info: random_forest-9.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-9.png> <a0,fr9>
+<random_forest-10.png, id=1445, 388.45125pt x 328.22626pt>
+File: random_forest-10.png Graphic file (type png)
+<use random_forest-10.png>
+Package pdftex.def Info: random_forest-10.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-10.png> <a0,fr10>
+<random_forest-11.png, id=1454, 388.45125pt x 328.22626pt>
+File: random_forest-11.png Graphic file (type png)
+<use random_forest-11.png>
+Package pdftex.def Info: random_forest-11.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-11.png>
+<a0,fr11>
+<random_forest-12.png, id=1463, 388.45125pt x 328.22626pt>
+File: random_forest-12.png Graphic file (type png)
+<use random_forest-12.png>
+Package pdftex.def Info: random_forest-12.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-12.png> <a0,fr12>
+<random_forest-13.png, id=1472, 388.45125pt x 328.22626pt>
+File: random_forest-13.png Graphic file (type png)
+<use random_forest-13.png>
+Package pdftex.def Info: random_forest-13.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-13.png>
+<a0,fr13>
+<random_forest-14.png, id=1482, 388.45125pt x 328.22626pt>
+File: random_forest-14.png Graphic file (type png)
+<use random_forest-14.png>
+Package pdftex.def Info: random_forest-14.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-14.png> <a0,fr14>
+<random_forest-15.png, id=1491, 388.45125pt x 328.22626pt>
+File: random_forest-15.png Graphic file (type png)
+<use random_forest-15.png>
+Package pdftex.def Info: random_forest-15.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-15.png>
+<a0,fr15>
+<random_forest-16.png, id=1500, 388.45125pt x 328.22626pt>
+File: random_forest-16.png Graphic file (type png)
+<use random_forest-16.png>
+Package pdftex.def Info: random_forest-16.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-16.png> <a0,fr16>
+<random_forest-17.png, id=1509, 388.45125pt x 328.22626pt>
+File: random_forest-17.png Graphic file (type png)
+<use random_forest-17.png>
+Package pdftex.def Info: random_forest-17.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-17.png>
+<a0,fr17>
+<random_forest-18.png, id=1518, 388.45125pt x 328.22626pt>
+File: random_forest-18.png Graphic file (type png)
+<use random_forest-18.png>
+Package pdftex.def Info: random_forest-18.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-18.png> <a0,fr18>
+<random_forest-19.png, id=1527, 388.45125pt x 328.22626pt>
+File: random_forest-19.png Graphic file (type png)
+<use random_forest-19.png>
+Package pdftex.def Info: random_forest-19.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-19.png>
+<a0,fr19>
+<random_forest-20.png, id=1536, 388.45125pt x 328.22626pt>
+File: random_forest-20.png Graphic file (type png)
+<use random_forest-20.png>
+Package pdftex.def Info: random_forest-20.png  used on input line 132.
+(pdftex.def)             Requested size: 388.45029pt x 328.22545pt.
+ <./random_forest-20.png> <a0,fr20>
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1664,24 +1378,314 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [15
 
 ]
-<knn.png, id=1992, 472.76625pt x 442.65375pt>
-File: knn.png Graphic file (type png)
-<use knn.png>
-Package pdftex.def Info: knn.png  used on input line 145.
-(pdftex.def)             Requested size: 236.38254pt x 221.32632pt.
+<support_vector_machines-0.png, id=1641, 805.0075pt x 598.235pt>
+File: support_vector_machines-0.png Graphic file (type png)
+<use support_vector_machines-0.png>
+Package pdftex.def Info: support_vector_machines-0.png  used on input line 147.
 
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-0.png> <a1,fr0>
+<support_vector_machines-1.png, id=1650, 805.0075pt x 598.235pt>
+File: support_vector_machines-1.png Graphic file (type png)
+<use support_vector_machines-1.png>
+Package pdftex.def Info: support_vector_machines-1.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-1.png> <a1,fr1>
+<support_vector_machines-2.png, id=1659, 805.0075pt x 598.235pt>
+File: support_vector_machines-2.png Graphic file (type png)
+<use support_vector_machines-2.png>
+Package pdftex.def Info: support_vector_machines-2.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-2.png> <a1,fr2>
+<support_vector_machines-3.png, id=1668, 805.0075pt x 598.235pt>
+File: support_vector_machines-3.png Graphic file (type png)
+<use support_vector_machines-3.png>
+Package pdftex.def Info: support_vector_machines-3.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-3.png> <a1,fr3>
+<support_vector_machines-4.png, id=1677, 805.0075pt x 598.235pt>
+File: support_vector_machines-4.png Graphic file (type png)
+<use support_vector_machines-4.png>
+Package pdftex.def Info: support_vector_machines-4.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-4.png> <a1,fr4>
+<support_vector_machines-5.png, id=1686, 805.0075pt x 598.235pt>
+File: support_vector_machines-5.png Graphic file (type png)
+<use support_vector_machines-5.png>
+Package pdftex.def Info: support_vector_machines-5.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-5.png> <a1,fr5>
+<support_vector_machines-6.png, id=1695, 805.0075pt x 598.235pt>
+File: support_vector_machines-6.png Graphic file (type png)
+<use support_vector_machines-6.png>
+Package pdftex.def Info: support_vector_machines-6.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-6.png> <a1,fr6>
+<support_vector_machines-7.png, id=1704, 805.0075pt x 598.235pt>
+File: support_vector_machines-7.png Graphic file (type png)
+<use support_vector_machines-7.png>
+Package pdftex.def Info: support_vector_machines-7.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-7.png> <a1,fr7>
+<support_vector_machines-8.png, id=1713, 805.0075pt x 598.235pt>
+File: support_vector_machines-8.png Graphic file (type png)
+<use support_vector_machines-8.png>
+Package pdftex.def Info: support_vector_machines-8.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-8.png> <a1,fr8>
+<support_vector_machines-9.png, id=1722, 805.0075pt x 598.235pt>
+File: support_vector_machines-9.png Graphic file (type png)
+<use support_vector_machines-9.png>
+Package pdftex.def Info: support_vector_machines-9.png  used on input line 147.
+
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-9.png> <a1,fr9>
+<support_vector_machines-10.png, id=1731, 805.0075pt x 598.235pt>
+File: support_vector_machines-10.png Graphic file (type png)
+<use support_vector_machines-10.png>
+Package pdftex.def Info: support_vector_machines-10.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-10.png>
+<a1,fr10>
+<support_vector_machines-11.png, id=1740, 805.0075pt x 598.235pt>
+File: support_vector_machines-11.png Graphic file (type png)
+<use support_vector_machines-11.png>
+Package pdftex.def Info: support_vector_machines-11.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-11.png> <a1,fr11>
+<support_vector_machines-12.png, id=1749, 805.0075pt x 598.235pt>
+File: support_vector_machines-12.png Graphic file (type png)
+<use support_vector_machines-12.png>
+Package pdftex.def Info: support_vector_machines-12.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-12.png> <a1,fr12>
+<support_vector_machines-13.png, id=1758, 805.0075pt x 598.235pt>
+File: support_vector_machines-13.png Graphic file (type png)
+<use support_vector_machines-13.png>
+Package pdftex.def Info: support_vector_machines-13.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-13.png> <a1,fr13>
+<support_vector_machines-14.png, id=1767, 805.0075pt x 598.235pt>
+File: support_vector_machines-14.png Graphic file (type png)
+<use support_vector_machines-14.png>
+Package pdftex.def Info: support_vector_machines-14.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-14.png> <a1,fr14>
+<support_vector_machines-15.png, id=1776, 805.0075pt x 598.235pt>
+File: support_vector_machines-15.png Graphic file (type png)
+<use support_vector_machines-15.png>
+Package pdftex.def Info: support_vector_machines-15.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-15.png> <a1,fr15>
+<support_vector_machines-16.png, id=1785, 805.0075pt x 598.235pt>
+File: support_vector_machines-16.png Graphic file (type png)
+<use support_vector_machines-16.png>
+Package pdftex.def Info: support_vector_machines-16.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-16.png> <a1,fr16>
+<support_vector_machines-17.png, id=1794, 805.0075pt x 598.235pt>
+File: support_vector_machines-17.png Graphic file (type png)
+<use support_vector_machines-17.png>
+Package pdftex.def Info: support_vector_machines-17.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-17.png>
+<a1,fr17>
+<support_vector_machines-18.png, id=1803, 805.0075pt x 598.235pt>
+File: support_vector_machines-18.png Graphic file (type png)
+<use support_vector_machines-18.png>
+Package pdftex.def Info: support_vector_machines-18.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-18.png> <a1,fr18>
+<support_vector_machines-19.png, id=1812, 805.0075pt x 598.235pt>
+File: support_vector_machines-19.png Graphic file (type png)
+<use support_vector_machines-19.png>
+Package pdftex.def Info: support_vector_machines-19.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-19.png> <a1,fr19>
+<support_vector_machines-20.png, id=1821, 805.0075pt x 598.235pt>
+File: support_vector_machines-20.png Graphic file (type png)
+<use support_vector_machines-20.png>
+Package pdftex.def Info: support_vector_machines-20.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-20.png> <a1,fr20>
+<support_vector_machines-21.png, id=1830, 805.0075pt x 598.235pt>
+File: support_vector_machines-21.png Graphic file (type png)
+<use support_vector_machines-21.png>
+Package pdftex.def Info: support_vector_machines-21.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-21.png> <a1,fr21>
+<support_vector_machines-22.png, id=1840, 805.0075pt x 598.235pt>
+File: support_vector_machines-22.png Graphic file (type png)
+<use support_vector_machines-22.png>
+Package pdftex.def Info: support_vector_machines-22.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-22.png> <a1,fr22>
+<support_vector_machines-23.png, id=1849, 805.0075pt x 598.235pt>
+File: support_vector_machines-23.png Graphic file (type png)
+<use support_vector_machines-23.png>
+Package pdftex.def Info: support_vector_machines-23.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-23.png> <a1,fr23>
+<support_vector_machines-24.png, id=1858, 805.0075pt x 598.235pt>
+File: support_vector_machines-24.png Graphic file (type png)
+<use support_vector_machines-24.png>
+Package pdftex.def Info: support_vector_machines-24.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-24.png>
+<a1,fr24>
+<support_vector_machines-25.png, id=1867, 805.0075pt x 598.235pt>
+File: support_vector_machines-25.png Graphic file (type png)
+<use support_vector_machines-25.png>
+Package pdftex.def Info: support_vector_machines-25.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-25.png> <a1,fr25>
+<support_vector_machines-26.png, id=1876, 805.0075pt x 598.235pt>
+File: support_vector_machines-26.png Graphic file (type png)
+<use support_vector_machines-26.png>
+Package pdftex.def Info: support_vector_machines-26.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-26.png> <a1,fr26>
+<support_vector_machines-27.png, id=1885, 805.0075pt x 598.235pt>
+File: support_vector_machines-27.png Graphic file (type png)
+<use support_vector_machines-27.png>
+Package pdftex.def Info: support_vector_machines-27.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-27.png> <a1,fr27>
+<support_vector_machines-28.png, id=1894, 805.0075pt x 598.235pt>
+File: support_vector_machines-28.png Graphic file (type png)
+<use support_vector_machines-28.png>
+Package pdftex.def Info: support_vector_machines-28.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-28.png> <a1,fr28>
+<support_vector_machines-29.png, id=1903, 805.0075pt x 598.235pt>
+File: support_vector_machines-29.png Graphic file (type png)
+<use support_vector_machines-29.png>
+Package pdftex.def Info: support_vector_machines-29.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-29.png> <a1,fr29>
+<support_vector_machines-30.png, id=1912, 805.0075pt x 598.235pt>
+File: support_vector_machines-30.png Graphic file (type png)
+<use support_vector_machines-30.png>
+Package pdftex.def Info: support_vector_machines-30.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-30.png> <a1,fr30>
+<support_vector_machines-31.png, id=1921, 805.0075pt x 598.235pt>
+File: support_vector_machines-31.png Graphic file (type png)
+<use support_vector_machines-31.png>
+Package pdftex.def Info: support_vector_machines-31.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-31.png>
+<a1,fr31>
+<support_vector_machines-32.png, id=1930, 805.0075pt x 598.235pt>
+File: support_vector_machines-32.png Graphic file (type png)
+<use support_vector_machines-32.png>
+Package pdftex.def Info: support_vector_machines-32.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-32.png> <a1,fr32>
+<support_vector_machines-33.png, id=1939, 805.0075pt x 598.235pt>
+File: support_vector_machines-33.png Graphic file (type png)
+<use support_vector_machines-33.png>
+Package pdftex.def Info: support_vector_machines-33.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-33.png> <a1,fr33>
+<support_vector_machines-34.png, id=1948, 805.0075pt x 598.235pt>
+File: support_vector_machines-34.png Graphic file (type png)
+<use support_vector_machines-34.png>
+Package pdftex.def Info: support_vector_machines-34.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-34.png> <a1,fr34>
+<support_vector_machines-35.png, id=1957, 805.0075pt x 598.235pt>
+File: support_vector_machines-35.png Graphic file (type png)
+<use support_vector_machines-35.png>
+Package pdftex.def Info: support_vector_machines-35.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-35.png> <a1,fr35>
+<support_vector_machines-36.png, id=1966, 805.0075pt x 598.235pt>
+File: support_vector_machines-36.png Graphic file (type png)
+<use support_vector_machines-36.png>
+Package pdftex.def Info: support_vector_machines-36.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-36.png> <a1,fr36>
+<support_vector_machines-37.png, id=1975, 805.0075pt x 598.235pt>
+File: support_vector_machines-37.png Graphic file (type png)
+<use support_vector_machines-37.png>
+Package pdftex.def Info: support_vector_machines-37.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-37.png> <a1,fr37>
+<support_vector_machines-38.png, id=1984, 805.0075pt x 598.235pt>
+File: support_vector_machines-38.png Graphic file (type png)
+<use support_vector_machines-38.png>
+Package pdftex.def Info: support_vector_machines-38.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-38.png>
+<a1,fr38>
+<support_vector_machines-39.png, id=1993, 805.0075pt x 598.235pt>
+File: support_vector_machines-39.png Graphic file (type png)
+<use support_vector_machines-39.png>
+Package pdftex.def Info: support_vector_machines-39.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-39.png> <a1,fr39>
+<support_vector_machines-40.png, id=2002, 805.0075pt x 598.235pt>
+File: support_vector_machines-40.png Graphic file (type png)
+<use support_vector_machines-40.png>
+Package pdftex.def Info: support_vector_machines-40.png  used on input line 147
+.
+(pdftex.def)             Requested size: 805.00555pt x 598.23354pt.
+ <./support_vector_machines-40.png> <a1,fr40>
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [16
 
- <./knn.png>]
-<deep.png, id=2070, 1577.895pt x 821.0675pt>
-File: deep.png Graphic file (type png)
-<use deep.png>
-Package pdftex.def Info: deep.png  used on input line 163.
-(pdftex.def)             Requested size: 236.67404pt x 123.1548pt.
+]
+<knn.png, id=2106, 472.76625pt x 442.65375pt>
+File: knn.png Graphic file (type png)
+<use knn.png>
+Package pdftex.def Info: knn.png  used on input line 156.
+(pdftex.def)             Requested size: 236.38254pt x 221.32632pt.
+
+Overfull \vbox (17.88573pt too high) detected at line 156
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1689,14 +1693,20 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [17
 
- <./deep.png (PNG copy)>] (./usp.toc)
+ <./knn.png>]
+<deep.png, id=2186, 1577.895pt x 821.0675pt>
+File: deep.png Graphic file (type png)
+<use deep.png>
+Package pdftex.def Info: deep.png  used on input line 174.
+(pdftex.def)             Requested size: 236.67404pt x 123.1548pt.
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [18
 
-]
+ <./deep.png (PNG copy)>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1717,75 +1727,28 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [21
 
-] (./usp.toc)
+]
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [22
 
-]
-<./resu.png, id=2551, 796.9775pt x 597.23125pt>
-File: ./resu.png Graphic file (type png)
-<use ./resu.png>
-Package pdftex.def Info: ./resu.png  used on input line 270.
-(pdftex.def)             Requested size: 239.0951pt x 179.17075pt.
-
+] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [23
 
- <./resu.png>]
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[24
-
 ]
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
+<messi_paper.png, id=2679, 1109.14375pt x 368.37625pt>
+File: messi_paper.png Graphic file (type png)
+<use messi_paper.png>
+Package pdftex.def Info: messi_paper.png  used on input line 272.
+(pdftex.def)             Requested size: 332.7457pt x 110.51372pt.
 
-[25
-
-]
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[26
-
-]
-<./tree.png, id=2860, 435.87843pt x 482.55281pt>
-File: ./tree.png Graphic file (type png)
-<use ./tree.png>
-Package pdftex.def Info: ./tree.png  used on input line 292.
-(pdftex.def)             Requested size: 139.48395pt x 154.42004pt.
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[27
-
- <./tree.png>] (./usp.toc)
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[28
-
-]
-<./roc_curves.png, id=3025, 505.89pt x 505.89pt>
-File: ./roc_curves.png Graphic file (type png)
-<use ./roc_curves.png>
-Package pdftex.def Info: ./roc_curves.png  used on input line 321.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-
-Overfull \hbox (9.50438pt too wide) in paragraph at lines 321--321
+Overfull \hbox (25.45583pt too wide) in paragraph at lines 272--272
  [] 
  []
 
@@ -1794,19 +1757,66 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
+[24
+
+ <./messi_paper.png>]
+<./resu.png, id=2759, 796.9775pt x 597.23125pt>
+File: ./resu.png Graphic file (type png)
+<use ./resu.png>
+Package pdftex.def Info: ./resu.png  used on input line 293.
+(pdftex.def)             Requested size: 239.0951pt x 179.17075pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[25
+
+ <./resu.png>]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[26
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[27
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[28
+
+]
+<./tree.png, id=3076, 435.87843pt x 482.55281pt>
+File: ./tree.png Graphic file (type png)
+<use ./tree.png>
+Package pdftex.def Info: ./tree.png  used on input line 315.
+(pdftex.def)             Requested size: 139.48395pt x 154.42004pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
 [29
 
- <./roc_curves.png>]
-<./treshold.png, id=3103, 505.89pt x 505.89pt>
-File: ./treshold.png Graphic file (type png)
-<use ./treshold.png>
-Package pdftex.def Info: ./treshold.png  used on input line 331.
+ <./tree.png>]
+<./roc_curves.png, id=3156, 505.89pt x 505.89pt>
+File: ./roc_curves.png Graphic file (type png)
+<use ./roc_curves.png>
+Package pdftex.def Info: ./roc_curves.png  used on input line 337.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-<./ncluster.png, id=3104, 505.89pt x 505.89pt>
-File: ./ncluster.png Graphic file (type png)
-<use ./ncluster.png>
-Package pdftex.def Info: ./ncluster.png  used on input line 331.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+Overfull \hbox (9.50438pt too wide) in paragraph at lines 337--337
+ [] 
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1814,14 +1824,25 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [30
 
- <./treshold.png> <./ncluster.png>]
+ <./roc_curves.png>]
+<./treshold.png, id=3235, 505.89pt x 505.89pt>
+File: ./treshold.png Graphic file (type png)
+<use ./treshold.png>
+Package pdftex.def Info: ./treshold.png  used on input line 347.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+<./ncluster.png, id=3236, 505.89pt x 505.89pt>
+File: ./ncluster.png Graphic file (type png)
+<use ./ncluster.png>
+Package pdftex.def Info: ./ncluster.png  used on input line 347.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [31
 
-]
+ <./treshold.png> <./ncluster.png>]
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1857,52 +1878,41 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [36
 
 ]
-<messi_example.png, id=3643, 896.34875pt x 626.34pt>
-File: messi_example.png Graphic file (type png)
-<use messi_example.png>
-Package pdftex.def Info: messi_example.png  used on input line 363.
-(pdftex.def)             Requested size: 268.9067pt x 187.90344pt.
-
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [37
 
- <./messi_example.png>] (./usp.toc)
+]
+<messi_example.png, id=3791, 896.34875pt x 626.34pt>
+File: messi_example.png Graphic file (type png)
+<use messi_example.png>
+Package pdftex.def Info: messi_example.png  used on input line 379.
+(pdftex.def)             Requested size: 268.9067pt x 187.90344pt.
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [38
 
-]
-<a2029_paper.png, id=3810, 1233.60875pt x 490.83376pt>
-File: a2029_paper.png Graphic file (type png)
-<use a2029_paper.png>
-Package pdftex.def Info: a2029_paper.png  used on input line 381.
-(pdftex.def)             Requested size: 308.40143pt x 122.70813pt.
-
-Overfull \hbox (1.11156pt too wide) in paragraph at lines 381--381
- [] 
- []
-
-
+ <./messi_example.png>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [39
 
- <./a2029_paper.png>]
-<A2029-2033-eps-converted-to.pdf, id=3888, 1085.05376pt x 809.0225pt>
-File: A2029-2033-eps-converted-to.pdf Graphic file (type pdf)
-<use A2029-2033-eps-converted-to.pdf>
-Package pdftex.def Info: A2029-2033-eps-converted-to.pdf  used on input line 39
-3.
-(pdftex.def)             Requested size: 271.26277pt x 202.25513pt.
+]
+<a2029_paper.png, id=3961, 1233.60875pt x 490.83376pt>
+File: a2029_paper.png Graphic file (type png)
+<use a2029_paper.png>
+Package pdftex.def Info: a2029_paper.png  used on input line 397.
+(pdftex.def)             Requested size: 308.40143pt x 122.70813pt.
 
-Overfull \vbox (0.91457pt too high) detected at line 393
+Overfull \hbox (1.11156pt too wide) in paragraph at lines 397--397
+ [] 
  []
 
 
@@ -1912,12 +1922,17 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [40
 
- <./A2029-2033-eps-converted-to.pdf>]
-<A1204-eps-converted-to.pdf, id=3968, 1084.05pt x 807.015pt>
-File: A1204-eps-converted-to.pdf Graphic file (type pdf)
-<use A1204-eps-converted-to.pdf>
-Package pdftex.def Info: A1204-eps-converted-to.pdf  used on input line 405.
-(pdftex.def)             Requested size: 271.01184pt x 201.75325pt.
+ <./a2029_paper.png>]
+<A2029-2033-eps-converted-to.pdf, id=4040, 1085.05376pt x 809.0225pt>
+File: A2029-2033-eps-converted-to.pdf Graphic file (type pdf)
+<use A2029-2033-eps-converted-to.pdf>
+Package pdftex.def Info: A2029-2033-eps-converted-to.pdf  used on input line 40
+9.
+(pdftex.def)             Requested size: 271.26277pt x 202.25513pt.
+
+Overfull \vbox (0.91457pt too high) detected at line 409
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1925,42 +1940,37 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [41
 
- <./A1204-eps-converted-to.pdf>] (./usp.toc)
+ <./A2029-2033-eps-converted-to.pdf>]
+<A1204-eps-converted-to.pdf, id=4122, 1084.05pt x 807.015pt>
+File: A1204-eps-converted-to.pdf Graphic file (type pdf)
+<use A1204-eps-converted-to.pdf>
+Package pdftex.def Info: A1204-eps-converted-to.pdf  used on input line 421.
+(pdftex.def)             Requested size: 271.01184pt x 201.75325pt.
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [42
 
-]
-<a267_paper.png, id=4138, 1010.77625pt x 326.21875pt>
-File: a267_paper.png Graphic file (type png)
-<use a267_paper.png>
-Package pdftex.def Info: a267_paper.png  used on input line 420.
-(pdftex.def)             Requested size: 323.455pt x 104.39212pt.
-
-Overfull \hbox (16.16513pt too wide) in paragraph at lines 420--420
- [] 
- []
-
-
+ <./A1204-eps-converted-to.pdf>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [43
 
- <./a267_paper.png>]
-<redshift_angular.pdf, id=4217, 474.14456pt x 429.22571pt>
-File: redshift_angular.pdf Graphic file (type pdf)
-<use redshift_angular.pdf>
-Package pdftex.def Info: redshift_angular.pdf  used on input line 428.
-(pdftex.def)             Requested size: 132.75957pt x 120.18237pt.
-<dstest_a267_1.png, id=4218, 430.7292pt x 315.0972pt>
-File: dstest_a267_1.png Graphic file (type png)
-<use dstest_a267_1.png>
-Package pdftex.def Info: dstest_a267_1.png  used on input line 428.
-(pdftex.def)             Requested size: 159.36731pt x 116.58412pt.
+]
+<a267_paper.png, id=4298, 1010.77625pt x 326.21875pt>
+File: a267_paper.png Graphic file (type png)
+<use a267_paper.png>
+Package pdftex.def Info: a267_paper.png  used on input line 436.
+(pdftex.def)             Requested size: 323.455pt x 104.39212pt.
+
+Overfull \hbox (16.16513pt too wide) in paragraph at lines 436--436
+ [] 
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1968,17 +1978,17 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [44
 
- <./redshift_angular.pdf> <./dstest_a267_1.png>]
-<a267_phasespace.png, id=4339, 421.3341pt x 324.4923pt>
-File: a267_phasespace.png Graphic file (type png)
-<use a267_phasespace.png>
-Package pdftex.def Info: a267_phasespace.png  used on input line 448.
-(pdftex.def)             Requested size: 181.17012pt x 139.52896pt.
-
-Overfull \hbox (38.90634pt too wide) in paragraph at lines 448--448
- [] 
- []
-
+ <./a267_paper.png>]
+<redshift_angular.pdf, id=4378, 474.14456pt x 429.22571pt>
+File: redshift_angular.pdf Graphic file (type pdf)
+<use redshift_angular.pdf>
+Package pdftex.def Info: redshift_angular.pdf  used on input line 444.
+(pdftex.def)             Requested size: 132.75957pt x 120.18237pt.
+<dstest_a267_1.png, id=4379, 430.7292pt x 315.0972pt>
+File: dstest_a267_1.png Graphic file (type png)
+<use dstest_a267_1.png>
+Package pdftex.def Info: dstest_a267_1.png  used on input line 444.
+(pdftex.def)             Requested size: 159.36731pt x 116.58412pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1986,21 +1996,14 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [45
 
- <./a267_phasespace.png>] (./usp.toc)
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
+ <./redshift_angular.pdf> <./dstest_a267_1.png>]
+<a267_phasespace.png, id=4502, 421.3341pt x 324.4923pt>
+File: a267_phasespace.png Graphic file (type png)
+<use a267_phasespace.png>
+Package pdftex.def Info: a267_phasespace.png  used on input line 464.
+(pdftex.def)             Requested size: 181.17012pt x 139.52896pt.
 
-[46
-
-]
-<magnetic_paper.png, id=4507, 906.38625pt x 246.9225pt>
-File: magnetic_paper.png Graphic file (type png)
-<use magnetic_paper.png>
-Package pdftex.def Info: magnetic_paper.png  used on input line 463.
-(pdftex.def)             Requested size: 362.54808pt x 98.76724pt.
-
-Overfull \hbox (55.25821pt too wide) in paragraph at lines 463--463
+Overfull \hbox (38.90634pt too wide) in paragraph at lines 464--464
  [] 
  []
 
@@ -2009,25 +2012,50 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
+[46
+
+ <./a267_phasespace.png>] (./usp.toc)
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
 [47
 
- <./magnetic_paper.png>]
-<AngTay01.pdf, id=4584, 505.89pt x 505.89pt>
-File: AngTay01.pdf Graphic file (type pdf)
-<use AngTay01.pdf>
-Package pdftex.def Info: AngTay01.pdf  used on input line 473.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-<ProTay01.pdf, id=4585, 505.89pt x 505.89pt>
-File: ProTay01.pdf Graphic file (type pdf)
-<use ProTay01.pdf>
-Package pdftex.def Info: ProTay01.pdf  used on input line 473.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+]
+<magnetic_paper.png, id=4673, 906.38625pt x 246.9225pt>
+File: magnetic_paper.png Graphic file (type png)
+<use magnetic_paper.png>
+Package pdftex.def Info: magnetic_paper.png  used on input line 479.
+(pdftex.def)             Requested size: 362.54808pt x 98.76724pt.
+
+Overfull \hbox (55.25821pt too wide) in paragraph at lines 479--479
+ [] 
+ []
+
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [48
+
+ <./magnetic_paper.png>]
+<AngTay01.pdf, id=4753, 505.89pt x 505.89pt>
+File: AngTay01.pdf Graphic file (type pdf)
+<use AngTay01.pdf>
+Package pdftex.def Info: AngTay01.pdf  used on input line 489.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+<ProTay01.pdf, id=4754, 505.89pt x 505.89pt>
+File: ProTay01.pdf Graphic file (type pdf)
+<use ProTay01.pdf>
+Package pdftex.def Info: ProTay01.pdf  used on input line 489.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[49
 
  <./AngTay01.pdf> <./ProTay01.pdf
 
@@ -2036,60 +2064,32 @@ e pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 475.
+(hyperref)                removing `math shift' on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 475.
+(hyperref)                removing `\gamma' on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 475.
+(hyperref)                removing `math shift' on input line 491.
 
 (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[49
-
-]
-<./sz_effect.jpg, id=4783, 963.6pt x 542.025pt>
-File: ./sz_effect.jpg Graphic file (type jpg)
-<use ./sz_effect.jpg>
-Package pdftex.def Info: ./sz_effect.jpg  used on input line 490.
-(pdftex.def)             Requested size: 337.26506pt x 189.71158pt.
-
-Overfull \hbox (29.97519pt too wide) in paragraph at lines 490--490
- [] 
- []
-
-
-Overfull \vbox (13.471pt too high) detected at line 490
- []
-
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
 [50
 
- <./sz_effect.jpg>]
-<gsz.pdf, id=4861, 264.99pt x 191.71625pt>
-File: gsz.pdf Graphic file (type pdf)
-<use gsz.pdf>
-Package pdftex.def Info: gsz.pdf  used on input line 498.
-(pdftex.def)             Requested size: 317.9864pt x 230.05833pt.
-
-Overfull \hbox (10.69653pt too wide) in paragraph at lines 498--498
- [] 
- []
-
-
-Overfull \vbox (13.98029pt too high) detected at line 498
- []
-
+]
+<silk.png, id=4956, 1450.41875pt x 528.97626pt>
+File: silk.png Graphic file (type png)
+<use silk.png>
+Package pdftex.def Info: silk.png  used on input line 515.
+(pdftex.def)             Requested size: 217.55342pt x 79.343pt.
+Missing character: There is no â in font cmss8!
+Missing character: There is no ˆ in font cmss8!
+Missing character: There is no ’ in font cmss8!
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -2097,21 +2097,51 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [51
 
- <./gsz.pdf>] (./usp.toc)
+ <./silk.png>]
+<./sz_effect.jpg, id=5039, 963.6pt x 542.025pt>
+File: ./sz_effect.jpg Graphic file (type jpg)
+<use ./sz_effect.jpg>
+Package pdftex.def Info: ./sz_effect.jpg  used on input line 524.
+(pdftex.def)             Requested size: 337.26506pt x 189.71158pt.
+
+Overfull \hbox (29.97519pt too wide) in paragraph at lines 524--524
+ [] 
+ []
+
+
+Overfull \vbox (13.471pt too high) detected at line 524
+ []
+
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [52
 
-]
+ <./sz_effect.jpg>]
+<gsz.pdf, id=5118, 264.99pt x 191.71625pt>
+File: gsz.pdf Graphic file (type pdf)
+<use gsz.pdf>
+Package pdftex.def Info: gsz.pdf  used on input line 532.
+(pdftex.def)             Requested size: 317.9864pt x 230.05833pt.
+
+Overfull \hbox (10.69653pt too wide) in paragraph at lines 532--532
+ [] 
+ []
+
+
+Overfull \vbox (13.98029pt too high) detected at line 532
+ []
+
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [53
 
-]
+ <./gsz.pdf>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -2119,17 +2149,66 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [54
 
 ]
-<./gracias2.png, id=5188, 534.49687pt x 298.11375pt>
-File: ./gracias2.png Graphic file (type png)
-<use ./gracias2.png>
-Package pdftex.def Info: ./gracias2.png  used on input line 535.
-(pdftex.def)             Requested size: 213.79495pt x 119.24338pt.
-
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [55
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[56
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[57
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[58
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[59
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[60
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[61
+
+]
+<./gracias2.png, id=5849, 534.49687pt x 298.11375pt>
+File: ./gracias2.png Graphic file (type png)
+<use ./gracias2.png>
+Package pdftex.def Info: ./gracias2.png  used on input line 569.
+(pdftex.def)             Requested size: 293.97418pt x 163.96306pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[62
 
  <./gracias2.png>]
 \tf@nav=\write6
@@ -2141,43 +2220,40 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `usp.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
- (./usp.aux
-*************************************************
-* pdfbase warning: "rerun"
-* 
-* Rerun to get internal references right!
-*************************************************
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+ (./usp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `usp.out' has not changed.
-(rerunfilecheck)             Checksum: 6D858FC505B6E21C716E2DBF58C9E07B;804.
+(rerunfilecheck)             Checksum: 5887F58CC1DB9D415C7EAFF463A2C98A;819.
  ) 
 Here is how much of TeX's memory you used:
- 27107 strings out of 492982
- 530616 string characters out of 6134895
- 639227 words of memory out of 5000000
- 29982 multiletter control sequences out of 15000+600000
+ 27139 strings out of 492982
+ 531025 string characters out of 6134895
+ 642122 words of memory out of 5000000
+ 29999 multiletter control sequences out of 15000+600000
  543704 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,10409b,810s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on usp.pdf (55 pages, 4925567 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb>
+Output written on usp.pdf (62 pages, 5164957 bytes).
 PDF statistics:
- 5333 PDF objects out of 6186 (max. 8388607)
- 4745 compressed objects within 48 object streams
- 122 named destinations out of 1000 (max. 500000)
- 1836 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6005 PDF objects out of 6186 (max. 8388607)
+ 5394 compressed objects within 54 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 1851 words of extra memory for PDF output out of 10000 (max. 10000000)
 
