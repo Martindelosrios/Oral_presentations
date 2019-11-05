@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  31 OCT 2019 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  5 NOV 2019 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,19 +1885,13 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [37
 
 ]
-<messi_example.png, id=3791, 896.34875pt x 626.34pt>
-File: messi_example.png Graphic file (type png)
-<use messi_example.png>
-Package pdftex.def Info: messi_example.png  used on input line 379.
-(pdftex.def)             Requested size: 268.9067pt x 187.90344pt.
-
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [38
 
- <./messi_example.png>] (./usp.toc)
+]
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -1905,16 +1899,11 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [39
 
 ]
-<a2029_paper.png, id=3961, 1233.60875pt x 490.83376pt>
-File: a2029_paper.png Graphic file (type png)
-<use a2029_paper.png>
-Package pdftex.def Info: a2029_paper.png  used on input line 397.
-(pdftex.def)             Requested size: 308.40143pt x 122.70813pt.
-
-Overfull \hbox (1.11156pt too wide) in paragraph at lines 397--397
- [] 
- []
-
+<messi_example.png, id=3947, 896.34875pt x 626.34pt>
+File: messi_example.png Graphic file (type png)
+<use messi_example.png>
+Package pdftex.def Info: messi_example.png  used on input line 381.
+(pdftex.def)             Requested size: 268.9067pt x 187.90344pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
@@ -1922,52 +1911,21 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [40
 
- <./a2029_paper.png>]
-<A2029-2033-eps-converted-to.pdf, id=4040, 1085.05376pt x 809.0225pt>
-File: A2029-2033-eps-converted-to.pdf Graphic file (type pdf)
-<use A2029-2033-eps-converted-to.pdf>
-Package pdftex.def Info: A2029-2033-eps-converted-to.pdf  used on input line 40
-9.
-(pdftex.def)             Requested size: 271.26277pt x 202.25513pt.
-
-Overfull \vbox (0.91457pt too high) detected at line 409
- []
-
-
+ <./messi_example.png>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [41
 
- <./A2029-2033-eps-converted-to.pdf>]
-<A1204-eps-converted-to.pdf, id=4122, 1084.05pt x 807.015pt>
-File: A1204-eps-converted-to.pdf Graphic file (type pdf)
-<use A1204-eps-converted-to.pdf>
-Package pdftex.def Info: A1204-eps-converted-to.pdf  used on input line 421.
-(pdftex.def)             Requested size: 271.01184pt x 201.75325pt.
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[42
-
- <./A1204-eps-converted-to.pdf>] (./usp.toc)
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[43
-
 ]
-<a267_paper.png, id=4298, 1010.77625pt x 326.21875pt>
-File: a267_paper.png Graphic file (type png)
-<use a267_paper.png>
-Package pdftex.def Info: a267_paper.png  used on input line 436.
-(pdftex.def)             Requested size: 323.455pt x 104.39212pt.
+<a2029_paper.png, id=4118, 1233.60875pt x 490.83376pt>
+File: a2029_paper.png Graphic file (type png)
+<use a2029_paper.png>
+Package pdftex.def Info: a2029_paper.png  used on input line 399.
+(pdftex.def)             Requested size: 308.40143pt x 122.70813pt.
 
-Overfull \hbox (16.16513pt too wide) in paragraph at lines 436--436
+Overfull \hbox (1.11156pt too wide) in paragraph at lines 399--399
  [] 
  []
 
@@ -1976,34 +1934,54 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
+[42
+
+ <./a2029_paper.png>]
+<A2029-2033-eps-converted-to.pdf, id=4198, 1085.05376pt x 809.0225pt>
+File: A2029-2033-eps-converted-to.pdf Graphic file (type pdf)
+<use A2029-2033-eps-converted-to.pdf>
+Package pdftex.def Info: A2029-2033-eps-converted-to.pdf  used on input line 41
+1.
+(pdftex.def)             Requested size: 271.26277pt x 202.25513pt.
+
+Overfull \vbox (0.91457pt too high) detected at line 411
+ []
+
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[43
+
+ <./A2029-2033-eps-converted-to.pdf>]
+<A1204-eps-converted-to.pdf, id=4281, 1084.05pt x 807.015pt>
+File: A1204-eps-converted-to.pdf Graphic file (type pdf)
+<use A1204-eps-converted-to.pdf>
+Package pdftex.def Info: A1204-eps-converted-to.pdf  used on input line 423.
+(pdftex.def)             Requested size: 271.01184pt x 201.75325pt.
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
 [44
 
- <./a267_paper.png>]
-<redshift_angular.pdf, id=4378, 474.14456pt x 429.22571pt>
-File: redshift_angular.pdf Graphic file (type pdf)
-<use redshift_angular.pdf>
-Package pdftex.def Info: redshift_angular.pdf  used on input line 444.
-(pdftex.def)             Requested size: 132.75957pt x 120.18237pt.
-<dstest_a267_1.png, id=4379, 430.7292pt x 315.0972pt>
-File: dstest_a267_1.png Graphic file (type png)
-<use dstest_a267_1.png>
-Package pdftex.def Info: dstest_a267_1.png  used on input line 444.
-(pdftex.def)             Requested size: 159.36731pt x 116.58412pt.
-
+ <./A1204-eps-converted-to.pdf>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [45
 
- <./redshift_angular.pdf> <./dstest_a267_1.png>]
-<a267_phasespace.png, id=4502, 421.3341pt x 324.4923pt>
-File: a267_phasespace.png Graphic file (type png)
-<use a267_phasespace.png>
-Package pdftex.def Info: a267_phasespace.png  used on input line 464.
-(pdftex.def)             Requested size: 181.17012pt x 139.52896pt.
+]
+<a267_paper.png, id=4457, 1010.77625pt x 326.21875pt>
+File: a267_paper.png Graphic file (type png)
+<use a267_paper.png>
+Package pdftex.def Info: a267_paper.png  used on input line 438.
+(pdftex.def)             Requested size: 323.455pt x 104.39212pt.
 
-Overfull \hbox (38.90634pt too wide) in paragraph at lines 464--464
+Overfull \hbox (16.16513pt too wide) in paragraph at lines 438--438
  [] 
  []
 
@@ -2014,21 +1992,32 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [46
 
- <./a267_phasespace.png>] (./usp.toc)
+ <./a267_paper.png>]
+<redshift_angular.pdf, id=4537, 474.14456pt x 429.22571pt>
+File: redshift_angular.pdf Graphic file (type pdf)
+<use redshift_angular.pdf>
+Package pdftex.def Info: redshift_angular.pdf  used on input line 446.
+(pdftex.def)             Requested size: 132.75957pt x 120.18237pt.
+<dstest_a267_1.png, id=4538, 430.7292pt x 315.0972pt>
+File: dstest_a267_1.png Graphic file (type png)
+<use dstest_a267_1.png>
+Package pdftex.def Info: dstest_a267_1.png  used on input line 446.
+(pdftex.def)             Requested size: 159.36731pt x 116.58412pt.
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [47
 
-]
-<magnetic_paper.png, id=4673, 906.38625pt x 246.9225pt>
-File: magnetic_paper.png Graphic file (type png)
-<use magnetic_paper.png>
-Package pdftex.def Info: magnetic_paper.png  used on input line 479.
-(pdftex.def)             Requested size: 362.54808pt x 98.76724pt.
+ <./redshift_angular.pdf> <./dstest_a267_1.png>]
+<a267_phasespace.png, id=4661, 421.3341pt x 324.4923pt>
+File: a267_phasespace.png Graphic file (type png)
+<use a267_phasespace.png>
+Package pdftex.def Info: a267_phasespace.png  used on input line 466.
+(pdftex.def)             Requested size: 181.17012pt x 139.52896pt.
 
-Overfull \hbox (55.25821pt too wide) in paragraph at lines 479--479
+Overfull \hbox (38.90634pt too wide) in paragraph at lines 466--466
  [] 
  []
 
@@ -2039,23 +2028,48 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 
 [48
 
+ <./a267_phasespace.png>] (./usp.toc)
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[49
+
+]
+<magnetic_paper.png, id=4835, 906.38625pt x 246.9225pt>
+File: magnetic_paper.png Graphic file (type png)
+<use magnetic_paper.png>
+Package pdftex.def Info: magnetic_paper.png  used on input line 481.
+(pdftex.def)             Requested size: 362.54808pt x 98.76724pt.
+
+Overfull \hbox (55.25821pt too wide) in paragraph at lines 481--481
+ [] 
+ []
+
+
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[50
+
  <./magnetic_paper.png>]
-<AngTay01.pdf, id=4753, 505.89pt x 505.89pt>
+<AngTay01.pdf, id=4915, 505.89pt x 505.89pt>
 File: AngTay01.pdf Graphic file (type pdf)
 <use AngTay01.pdf>
-Package pdftex.def Info: AngTay01.pdf  used on input line 489.
+Package pdftex.def Info: AngTay01.pdf  used on input line 491.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-<ProTay01.pdf, id=4754, 505.89pt x 505.89pt>
+<ProTay01.pdf, id=4916, 505.89pt x 505.89pt>
 File: ProTay01.pdf Graphic file (type pdf)
 <use ProTay01.pdf>
-Package pdftex.def Info: ProTay01.pdf  used on input line 489.
+Package pdftex.def Info: ProTay01.pdf  used on input line 491.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[49
+[51
 
  <./AngTay01.pdf> <./ProTay01.pdf
 
@@ -2064,29 +2078,29 @@ e pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 491.
+(hyperref)                removing `math shift' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 491.
+(hyperref)                removing `\gamma' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 491.
+(hyperref)                removing `math shift' on input line 493.
 
 (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[50
+[52
 
 ]
-<silk.png, id=4956, 1450.41875pt x 528.97626pt>
+<silk.png, id=5117, 1450.41875pt x 528.97626pt>
 File: silk.png Graphic file (type png)
 <use silk.png>
-Package pdftex.def Info: silk.png  used on input line 515.
-(pdftex.def)             Requested size: 217.55342pt x 79.343pt.
+Package pdftex.def Info: silk.png  used on input line 517.
+(pdftex.def)             Requested size: 261.0641pt x 95.21161pt.
 Missing character: There is no â in font cmss8!
 Missing character: There is no ˆ in font cmss8!
 Missing character: There is no ’ in font cmss8!
@@ -2095,67 +2109,53 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[51
-
- <./silk.png>]
-<./sz_effect.jpg, id=5039, 963.6pt x 542.025pt>
-File: ./sz_effect.jpg Graphic file (type jpg)
-<use ./sz_effect.jpg>
-Package pdftex.def Info: ./sz_effect.jpg  used on input line 524.
-(pdftex.def)             Requested size: 337.26506pt x 189.71158pt.
-
-Overfull \hbox (29.97519pt too wide) in paragraph at lines 524--524
- [] 
- []
-
-
-Overfull \vbox (13.471pt too high) detected at line 524
- []
-
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
-[52
-
- <./sz_effect.jpg>]
-<gsz.pdf, id=5118, 264.99pt x 191.71625pt>
-File: gsz.pdf Graphic file (type pdf)
-<use gsz.pdf>
-Package pdftex.def Info: gsz.pdf  used on input line 532.
-(pdftex.def)             Requested size: 317.9864pt x 230.05833pt.
-
-Overfull \hbox (10.69653pt too wide) in paragraph at lines 532--532
- [] 
- []
-
-
-Overfull \vbox (13.98029pt too high) detected at line 532
- []
-
-
-Overfull \hbox (135.30057pt too wide) has occurred while \output is active
- [][][][] 
- []
-
 [53
 
- <./gsz.pdf>] (./usp.toc)
+ <./silk.png>]
+<./sz_effect.jpg, id=5200, 963.6pt x 542.025pt>
+File: ./sz_effect.jpg Graphic file (type jpg)
+<use ./sz_effect.jpg>
+Package pdftex.def Info: ./sz_effect.jpg  used on input line 526.
+(pdftex.def)             Requested size: 337.26506pt x 189.71158pt.
+
+Overfull \hbox (29.97519pt too wide) in paragraph at lines 526--526
+ [] 
+ []
+
+
+Overfull \vbox (13.471pt too high) detected at line 526
+ []
+
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [54
 
-]
+ <./sz_effect.jpg>]
+<gsz.pdf, id=5280, 264.99pt x 191.71625pt>
+File: gsz.pdf Graphic file (type pdf)
+<use gsz.pdf>
+Package pdftex.def Info: gsz.pdf  used on input line 534.
+(pdftex.def)             Requested size: 317.9864pt x 230.05833pt.
+
+Overfull \hbox (10.69653pt too wide) in paragraph at lines 534--534
+ [] 
+ []
+
+
+Overfull \vbox (13.98029pt too high) detected at line 534
+ []
+
+
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
 [55
 
-]
+ <./gsz.pdf>] (./usp.toc)
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
@@ -2198,17 +2198,31 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 [61
 
 ]
-<./gracias2.png, id=5849, 534.49687pt x 298.11375pt>
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[62
+
+]
+Overfull \hbox (135.30057pt too wide) has occurred while \output is active
+ [][][][] 
+ []
+
+[63
+
+]
+<./gracias2.png, id=6011, 534.49687pt x 298.11375pt>
 File: ./gracias2.png Graphic file (type png)
 <use ./gracias2.png>
-Package pdftex.def Info: ./gracias2.png  used on input line 569.
+Package pdftex.def Info: ./gracias2.png  used on input line 571.
 (pdftex.def)             Requested size: 293.97418pt x 163.96306pt.
 
 Overfull \hbox (135.30057pt too wide) has occurred while \output is active
  [][][][] 
  []
 
-[62
+[64
 
  <./gracias2.png>]
 \tf@nav=\write6
@@ -2220,40 +2234,68 @@ Overfull \hbox (135.30057pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `usp.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
- (./usp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
-Package rerunfilecheck Info: File `usp.out' has not changed.
-(rerunfilecheck)             Checksum: 5887F58CC1DB9D415C7EAFF463A2C98A;819.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 572.
+ (./usp.aux
+*************************************************
+* pdfbase warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
+
+
+Package rerunfilecheck Warning: File `usp.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `usp.out':
+(rerunfilecheck)             Before: 00D041F12D129C56BAC474D0C9867C42;819
+(rerunfilecheck)             After:  11FA2802C26AB669E8B72FD759DAEF3B;819.
  ) 
 Here is how much of TeX's memory you used:
- 27139 strings out of 492982
- 531025 string characters out of 6134895
+ 27148 strings out of 492982
+ 531140 string characters out of 6134895
  642122 words of memory out of 5000000
  29999 multiletter control sequences out of 15000+600000
  543704 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,10409b,810s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/symbol/usyr.pfb>
-Output written on usp.pdf (62 pages, 5164957 bytes).
+pdfTeX warning (dest): name{Outline0.2.6.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.5.48} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.4.44} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.3.43} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.2.40} has been referenced but does not e
+xist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb>
+Output written on usp.pdf (64 pages, 5173659 bytes).
 PDF statistics:
- 6005 PDF objects out of 6186 (max. 8388607)
- 5394 compressed objects within 54 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 6171 PDF objects out of 6186 (max. 8388607)
+ 5556 compressed objects within 56 object streams
+ 145 named destinations out of 1000 (max. 500000)
  1851 words of extra memory for PDF output out of 10000 (max. 10000000)
 

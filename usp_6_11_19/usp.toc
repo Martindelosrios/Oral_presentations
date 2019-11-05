@@ -3,9 +3,9 @@
 \beamer@subsectionintoc {1}{2}{Machine Learning in Astronomy.}{19}{0}{1}
 \beamer@sectionintoc {2}{The MeSsI Algorithm}{23}{0}{2}
 \beamer@subsectionintoc {2}{1}{Machine learning algorithm applied for identification of substructures.}{30}{0}{2}
-\beamer@subsectionintoc {2}{2}{A2029/2033 \& A1204.}{39}{0}{2}
-\beamer@subsectionintoc {2}{3}{A1204.}{42}{0}{2}
-\beamer@subsectionintoc {2}{4}{A267.}{43}{0}{2}
-\beamer@subsectionintoc {2}{5}{Statistical analysis of the magnetic fields in merging clusters.}{47}{0}{2}
-\beamer@subsectionintoc {2}{6}{DM-$\gamma $ interactions.}{50}{0}{2}
-\beamer@sectionintoc {3}{Future Work}{54}{0}{3}
+\beamer@subsectionintoc {2}{2}{A2029/2033 \& A1204.}{41}{0}{2}
+\beamer@subsectionintoc {2}{3}{A1204.}{44}{0}{2}
+\beamer@subsectionintoc {2}{4}{A267.}{45}{0}{2}
+\beamer@subsectionintoc {2}{5}{Statistical analysis of the magnetic fields in merging clusters.}{49}{0}{2}
+\beamer@subsectionintoc {2}{6}{DM-$\gamma $ interactions.}{52}{0}{2}
+\beamer@sectionintoc {3}{Future Work}{56}{0}{3}
